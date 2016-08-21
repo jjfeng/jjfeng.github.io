@@ -35,5 +35,11 @@ $on-laptop:        800px;
 //     }
 // }
 
+.post .date{
+    color:#666666;
+    font-style:italic;
+}
+
+
 // Import partials from the `minima` theme.
 @import "minima";
