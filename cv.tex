@@ -9,6 +9,10 @@
 \documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
+\usepackage{multibib}
+\newcites{preprint}{Preprints}
+\newcites{paper}{Papers}
+
 \moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
 \moderncvcolor{purple}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
@@ -92,9 +96,14 @@ For manuscript:
 \cvitem{2015--2017}{Big Data for Genomics and Neuroscience Training Grant}
 
 \section{Publications}
-\nocite{*}
-\bibliographystyle{plainyrrev}
-\bibliography{publications_underlined}
+\nocitepaper{*}
+\bibliographystylepaper{plainyrrev}
+\bibliographypaper{publications_underlined}
+
+\section{Pre-prints}
+\nocitepreprint{*}
+\bibliographystylepreprint{plainyrrev}
+\bibliographypreprint{publications_preprint_underlined}
 
 \section{Software}
 \cvitem{GapML}{Python package for analyzing cell-lineage tracing data from GESTALT

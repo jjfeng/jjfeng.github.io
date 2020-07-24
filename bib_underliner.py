@@ -1,4 +1,4 @@
-files_to_convert = ["publications.bib"]
+files_to_convert = ["publications.bib", "publications_preprint.bib"]
 
 for file_name in files_to_convert:
     new_file = file_name.replace(".bib", "_underlined.bib")
