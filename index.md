@@ -12,6 +12,7 @@ Before that, I studied computer science at Stanford and was a software engineer 
 
 [CV](cv.pdf) / [GitHub](https://github.com/jjfeng) / [Twitter](https://twitter.com/Jean_J_Feng)
 
+Email:
 <script type="text/javascript" language="javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
