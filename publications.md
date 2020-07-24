@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-### Preprints
+## Preprints
 **Ensembled sparse-input hierarchical networks for high-dimensional datasets**<br />
 Feng, and Simon<br />
 [arXiv](http://arxiv.org/abs/2005.04834)
@@ -12,13 +12,13 @@ Feng, and Simon<br />
 Feng, Emerson, and Simon<br />
 [arXiv](http://arxiv.org/abs/1912.12413)
 
-### 2020
+## 2020
 **An analysis of the cost of hyper-parameter selection via split-sample validation, with applications to penalized regression**<br />
 Feng, and Simon<br />
 Statistica Sinica,2020<br />
 [paper](http://www3.stat.sinica.edu.tw/ss_newpaper/SS-2017-0310_na.pdf)
 
-### 2019
+## 2019
 **Deep generative models for T cell receptor protein sequences**<br />
 Davidsen, Olson, DeWitt, Feng, Harkins, Bradley, and Matsen<br />
 Elife,2019<br />
@@ -44,7 +44,7 @@ Feng, and Simon<br />
 arXiv,2019<br />
 [paper](http://arxiv.org/abs/1711.07592)
 
-### 2018
+## 2018
 **Gradient-based Regularization Parameter Selection for Problems With Nonsmooth Penalty Functions**<br />
 Feng, and Simon<br />
 J. Comput. Graph. Stat.,2018<br />
