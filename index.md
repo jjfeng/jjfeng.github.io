@@ -16,3 +16,6 @@ Before that, I studied computer science at Stanford and was a software engineer 
 
 [Twitter](https://twitter.com/Jean_J_Feng)
 
+## Tutorials and Short Courses
+
+- August 2020: I will be teaching a [short course](https://www.publichealth.columbia.edu/research/precision-prevention/machine-learning-boot-camp-analyzing-biomedical-and-health-data) on machine learning for biomedical and health data with [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Cody Chiuzan](https://www.publichealth.columbia.edu/people/our-faculty/cc3780)
