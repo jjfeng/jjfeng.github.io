@@ -4,7 +4,7 @@ title: Home
 ---
 
 
-<img align="right" src="headshot.png">
+<img align="right" src="headshot.png" margin="20px" height="280px">
 
 I am an incoming Assistant Professor In-Residence in the Department of Biostatistics and Epidemiology at the University of California, San Francisco.
 My research interests include the interpretability and reliability of machine learning methods for biomedical applications, particularly those involving black-box models.
