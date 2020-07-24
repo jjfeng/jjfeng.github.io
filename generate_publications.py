@@ -3,6 +3,11 @@ import bibtexparser
 def print_entries(entry_list):
     return "\n\n".join(entry_list)
 
+def convert_journal(journal):
+    if journal == "ICML" or journal == "International Conference on Machine Learning":
+        return "International Conference on Machine Learning (ICML)"
+    return journal
+
 OUTFILE = "publications.md"
 
 with open('publications.bib', 'r') as bibtex_file:
@@ -21,6 +26,7 @@ for entry in bib_database.entries:
     last_names = []
     for author in authors:
         last_name = author.split(", ")[0]
+        last_name = "*%s*" % last_name if author == "Feng, Jean" else last_name
         last_names.append(last_name)
 
     if len(last_names) > 1:
@@ -36,10 +42,10 @@ for entry in bib_database.entries:
         pub_str = "**%s**<br />\n%s<br />\n[\[%s\]](%s)" % (title, author_str, journal, url)
         parsed_entries["preprints"].append(pub_str)
     else:
-        journal = entry["journal"]
+        journal = convert_journal(entry["journal"])
         year = int(entry["year"])
         years.add(year)
-        pub_str = "**%s**<br />\n%s<br />\n%s, %d<br />\n[\[paper\]](%s)" % (title, author_str, journal, year, url)
+        pub_str = "**%s**<br />\n%s<br />\n*%s*, %d<br />\n[\[paper\]](%s)" % (title, author_str, journal, year, url)
         if year not in parsed_entries:
             parsed_entries[year] = []
         parsed_entries[year].append(pub_str)
