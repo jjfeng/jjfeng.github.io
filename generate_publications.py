@@ -24,7 +24,7 @@ for entry in bib_database.entries:
         last_names.append(last_name)
 
     if len(last_names) > 1:
-        author_str = ", ".join(last_names[:-1]) + ", and " + last_names[-1]
+        author_str = ", ".join(last_names[:-1]) + " and " + last_names[-1]
     else:
         author_str = last_names[0]
 
@@ -33,13 +33,13 @@ for entry in bib_database.entries:
 
     if is_preprint:
         journal = "bioRxiv" if ("journal" in entry and entry["journal"] == "bioRxiv") else "arXiv"
-        pub_str = "**%s**<br />\n%s<br />\n[%s](%s)" % (title, author_str, journal, url)
+        pub_str = "**%s**<br />\n%s<br />\n[\[%s\]](%s)" % (title, author_str, journal, url)
         parsed_entries["preprints"].append(pub_str)
     else:
         journal = entry["journal"]
         year = int(entry["year"])
         years.add(year)
-        pub_str = "**%s**<br />\n%s<br />\n%s, %d<br />\n[paper](%s)" % (title, author_str, journal, year, url)
+        pub_str = "**%s**<br />\n%s<br />\n%s, %d<br />\n[\[paper\]](%s)" % (title, author_str, journal, year, url)
         if year not in parsed_entries:
             parsed_entries[year] = []
         parsed_entries[year].append(pub_str)
