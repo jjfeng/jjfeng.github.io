@@ -1,0 +1,152 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{purple}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{}{Jean Feng}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+%\address{1205 Half N 46th St}{Seattle, WA}{98103}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\email{jean.feng@ucsf.edu}                               % optional, remove / comment the line if not wanted
+%\homepage{www.jeanfeng.com}                         % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+\social[github]{jjfeng}                              % optional, remove / comment the line if not wanted
+\extrainfo{Last updated March 4, 2020}                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{Sept 2015-- June 2020}{PhD, Biostatistics}{University of Washington}{Seattle, CA}{}{Advisors: Noah Simon, Frederick Albert Matsen IV}
+\cventry{2012--2013}{MS, Computer Science}{Stanford University}{Stanford, CA}{}{}
+\cventry{2009--2013}{BS, Computer Science}{Stanford University}{Stanford, CA}{}{}
+
+\section{Presentations}
+\subsection{Contributed Oral Presentations}
+\cvitem{2019}{\textit{Uncertainty-Aware Black-Box Predictors with Coverage Guarantees}, Joint Statistical Meetings}
+
+\subsection{Invited Oral Presentations and Seminars}
+\cvitem{2020}{\textit{Efficient nonparametric statistical inference on population feature importance using Shapley values}, International Conference on Machine Learning}
+\cvitem{2020}{\textit{Training Procedures and Regulatory Policies for Safe Machine Learning Models in Healthcare}, University of California, San Francisco}
+\cvitem{2020}{\textit{Training Procedures and Regulatory Policies for Safe Machine Learning Models in Healthcare}, The University of Texas, MD Anderson Cancer Center}
+\cvitem{2020}{\textit{Training Procedures and Regulatory Policies for Safe Machine Learning Models in Healthcare}, University of California, Irvine}
+\cvitem{2020}{\textit{Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of Bio-creep}, International Conference on Health Policy Statistics}
+\cvitem{2019}{\textit{Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification}, Western North American Region (WNAR) Annual Meeting}
+	\cvitem{2018}{\textit{Nonparametric variable importance using an augmented neural network with multi-task learning}, International Conference on Machine Learning}
+\cvitem{2018}{\textit{Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification}, University of Washington Biostatistics Colloquium}
+\cvitem{2018}{\textit{Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification}, Joint Statistical Meetings}
+\cvitem{2017}{\textit{Sparse-Input Neural Networks for High-dimensional Nonparametric Regression}, ICML Workshop on Principled Approaches to Deep Learning}
+\cvitem{2011}{\textit{Haptic Belt with Pedestrian Detection}, Neural Information Processing Systems}
+
+\section{Awards}
+\cvitem{2020}{University of Washington Thomas R. Fleming Excellence in Biostatistics Award}
+
+\cvitem{2020}{International Conference on Health Policy Statistics, Student Travel Award
+\newline
+For manuscript:
+\textit{Approval policies for modifications to Machine Learning-Based Software as a Medical Device}
+}
+%\cvitem{2019}{University of Washington Graduate School Conference Travel Award}
+\cvitem{2018}{Joint Statistical Meetings Section on Statistical Learning and Data Science, Student Paper Award
+\newline
+For manuscript:
+\textit{Sparse-input neural networks for high-dimensional nonparametric regression and classification}
+}
+\cvitem{2018}{University of Washington Biostatistics Donovan J. Thompson Award for Best Combined Performance on Ph.D. Theory and Applied Qualifying Examinations}
+\cvitem{2015--2017}{Big Data for Genomics and Neuroscience Training Grant}
+
+\section{Publications}
+\nocite{*}
+\bibliographystyle{plainyrrev}
+\bibliography{publications_underlined}
+
+\section{Software}
+\cvitem{GapML}{Python package for analyzing cell-lineage tracing data from GESTALT
+\newline
+\url{https://github.com/matsengrp/gestaltamania}
+}
+
+\cvitem{SPINN}{Python package for estimating sparse-input neural networks
+	\newline
+\url{http://github.com/jjfeng/spinn}
+}
+
+\cvitem{samm}{Python package for estimating somatic hypermutation rates of nucleotide motifs
+	\newline
+	\url{http://github.com/matsengrp/samm}}
+
+
+\section{Work Experience}
+\cventry{2019}{Research Intern}{Insitro}{South San Francisco, CA}{}{Developed statistical models of genomic data.}
+\cventry{2012--2015}{Software engineer}{Coursera}{Mountain View, CA}{}{Built the professional certificate program and payment system. Technical lead on projects with 3-5 people. Mentored interns and junior engineers.}
+
+\section{Teaching}
+\cvitem{2018}{Teaching Assistant, Biostat 524: Design of Medical Studies, University of Washington}
+\cvitem{2017}{Guest lecture, Biostat 561: Computational Skills for Biostatistics I, University of Washington}
+\cvitem{2016--2017}{Teaching Assistant, Unsupervised Methods for Statistical Machine Learning, University of Washington Summer Institute in Statistics for Big Data}
+\cvitem{2016}{Teaching Assistant, Supervised Methods for Statistical Machine Learning, University of Washington Summer Institute in Statistics for Big Data}
+\cvitem{2011}{Section Leader, CS106A: Programming Methodology, Stanford University}
+
+\section{Service}
+\textbf{Referee Service}
+\begin{itemize}
+        \item International Conference on Machine Learning
+	\item Journal of Computational and Graphical Statistics
+	\item Annals of Statistics
+	\item Statistics in Medicine
+	\item Neural Networks
+\end{itemize}
+
+\textbf{Session Chair}
+\begin{itemize}
+\item Joint Statistical Meetings
+\item Western North American Region (WNAR) Annual Meeting
+\end{itemize}
+
+\textbf{University Service}
+\begin{itemize}
+	\item Student, Faculty, Staff Committee, 2016--2019
+	\item Department Slack manager 2016--2020
+	\item Graduate Program Advising Advisory Group 2020
+\end{itemize}
+
+\end{document}
+
+
+%% end of file `template.tex'.
