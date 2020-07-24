@@ -12,6 +12,32 @@ Before that, I studied computer science at Stanford and was a software engineer 
 
 [CV](cv.pdf) / [GitHub](https://github.com/jjfeng) / [Twitter](https://twitter.com/Jean_J_Feng)
 
+<script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature coded by Andrew Moulden
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "chGo.thop@wgUt.hOw"
+  key = "gHd4waxXhlYItNrmPkp7OQsG52j86EySC1W0ni9bUqzJcFRBuMVDeKoTfvAL3Z"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>Sorry, you need Javascript on to email me.</noscript>
+
+
 ## Tutorials and Short Courses
 
 - August 2020: I will be teaching a [short course](https://www.publichealth.columbia.edu/research/precision-prevention/machine-learning-boot-camp-analyzing-biomedical-and-health-data) on machine learning for biomedical and health data with [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Cody Chiuzan](https://www.publichealth.columbia.edu/people/our-faculty/cc3780).
