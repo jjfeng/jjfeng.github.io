@@ -30,6 +30,11 @@ Feng and Simon<br />
 Statistica Sinica, 2020<br />
 [\[paper\]](http://www3.stat.sinica.edu.tw/ss_newpaper/SS-2017-0310_na.pdf)
 
+**Efficient nonparametric statistical inference on population feature importance using Shapley values**<br />
+Williamson and Feng<br />
+International Conference on Machine Learning, 2020<br />
+[\[paper\]](https://proceedings.icml.cc/static/paper_files/icml/2020/3042-Paper.pdf)
+
 ## 2019
 **Deep generative models for T cell receptor protein sequences**<br />
 Davidsen, Olson, DeWitt, Feng, Harkins, Bradley and Matsen<br />
