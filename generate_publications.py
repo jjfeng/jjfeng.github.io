@@ -1,5 +1,12 @@
 import bibtexparser
 
+SOFTWARE_DICT = {
+    "ensembled sparse-input hierarchical networks for high-dimensional datasets": "https://github.com/jjfeng/easier_net",
+    "estimation of cell lineage trees by maximum-likelihood phylogenetics": "https://github.com/matsengrp/gapml",
+    "sparse-input neural networks for high-dimensional nonparametric regression and classification": "https://github.com/jjfeng/spinn",
+    "survival analysis of dna mutation motifs with penalized proportional hazards": "https://github.com/matsengrp/samm",
+}
+
 def print_entries(entry_list):
     return "\n\n".join(entry_list)
 
@@ -8,15 +15,19 @@ def convert_journal(journal):
         return "International Conference on Machine Learning (ICML)"
     return journal
 
+BIBFILES = ["publications_preprint.bib", "publications.bib"]
 OUTFILE = "publications.md"
 
-with open('publications.bib', 'r') as bibtex_file:
-    bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(bibtex_file)
+bib_entries = []
+for BIBFILE in BIBFILES:
+    with open(BIBFILE, 'r') as bibtex_file:
+        bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(bibtex_file)
+    bib_entries += bib_database.entries
 
 parsed_entries = {"preprints": []}
 years = set()
 # Parse entries
-for entry in bib_database.entries:
+for entry in bib_entries:
     for key in entry.keys():
         entry[key] = entry[key].replace("\n", " ")
     print(entry)
@@ -39,13 +50,25 @@ for entry in bib_database.entries:
 
     if is_preprint:
         journal = "bioRxiv" if ("journal" in entry and entry["journal"] == "bioRxiv") else "arXiv"
-        pub_str = "**%s**<br />\n%s<br />\n[\[%s\]](%s)" % (title, author_str, journal, url)
+        if title.lower() in SOFTWARE_DICT:
+            print("FOUND")
+            software = SOFTWARE_DICT[title.lower()]
+            pub_str = "**%s**<br />\n%s<br />\n[\[%s\]](%s)[\[code\]](%s)" % (title, author_str, journal, url, software)
+        else:
+            print("NOT FOUND", title)
+            pub_str = "**%s**<br />\n%s<br />\n[\[%s\]](%s)" % (title, author_str, journal, url)
         parsed_entries["preprints"].append(pub_str)
     else:
         journal = convert_journal(entry["journal"])
         year = int(entry["year"])
         years.add(year)
-        pub_str = "**%s**<br />\n%s<br />\n*%s*, %d<br />\n[\[paper\]](%s)" % (title, author_str, journal, year, url)
+        if title.lower() in SOFTWARE_DICT:
+            print("FOUND")
+            software = SOFTWARE_DICT[title.lower()]
+            pub_str = "**%s**<br />\n%s<br />\n*%s*, %d<br />\n[\[paper\]](%s)[\[code\]](%s)" % (title, author_str, journal, year, url, software)
+        else:
+            print("NOT FOUND", title)
+            pub_str = "**%s**<br />\n%s<br />\n*%s*, %d<br />\n[\[paper\]](%s)" % (title, author_str, journal, year, url)
         if year not in parsed_entries:
             parsed_entries[year] = []
         parsed_entries[year].append(pub_str)

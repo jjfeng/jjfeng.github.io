@@ -4,7 +4,25 @@ title: Publications
 ---
 
 ## Preprints
+**Ensembled sparse-input hierarchical networks for high-dimensional datasets**<br />
+*Feng* and Simon<br />
+[\[arXiv\]](http://arxiv.org/abs/2005.04834)[\[code\]](https://github.com/jjfeng/easier_net)
 
+**Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />
+*Feng*, Emerson and Simon<br />
+[\[arXiv\]](http://arxiv.org/abs/1912.12413)
+
+**Estimation of cell lineage trees by maximum-likelihood phylogenetics**<br />
+*Feng*, DeWitt, McKenna, Simon, Willis and Matsen<br />
+[\[bioRxiv\]](https://www.biorxiv.org/content/10.1101/595215v1.full)[\[code\]](https://github.com/matsengrp/gapml)
+
+**Selective prediction-set models with coverage guarantees**<br />
+*Feng*, Sondhi, Perry and Simon<br />
+[\[arXiv\]](http://arxiv.org/abs/1906.05473)
+
+**Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification**<br />
+*Feng* and Simon<br />
+[\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
 ## 2020
 **Efficient nonparametric statistical inference on population feature importance using Shapley values**<br />
@@ -26,7 +44,7 @@ Davidsen, Olson, DeWitt, *Feng*, Harkins, Bradley and Matsen<br />
 **Survival analysis of DNA mutation motifs with penalized proportional hazards**<br />
 *Feng*, Shaw, Minin, Simon and Matsen<br />
 *Ann. Appl. Stat.*, 2019<br />
-[\[paper\]](https://projecteuclid.org/euclid.aoas/1560758446)
+[\[paper\]](https://projecteuclid.org/euclid.aoas/1560758446)[\[code\]](https://github.com/matsengrp/samm)
 
 ## 2018
 **Gradient-based Regularization Parameter Selection for Problems With Nonsmooth Penalty Functions**<br />
