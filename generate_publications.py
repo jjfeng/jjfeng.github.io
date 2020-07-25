@@ -8,6 +8,7 @@ SOFTWARE_DICT = {
     "efficient nonparametric statistical inference on population feature importance using shapley values": "https://github.com/bdwilliamson/spvim_supplementary",
     "nonparametric variable importance using an augmented neural network with multi-task learning": "https://github.com/jjfeng/nnet_var_import",
     "gradient-based regularization parameter selection for problems with nonsmooth penalty functions": "https://github.com/jjfeng/nonsmooth-joint-opt",
+    "deep generative models for t cell receptor protein sequences": "https://github.com/matsengrp/vampire/",
 }
 
 def print_entries(entry_list):

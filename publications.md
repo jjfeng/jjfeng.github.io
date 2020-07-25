@@ -39,7 +39,7 @@ Williamson and *Feng*<br />
 **Deep generative models for T cell receptor protein sequences**<br />
 Davidsen, Olson, DeWitt, *Feng*, Harkins, Bradley and Matsen<br />
 *Elife*, 2019<br />
-[\[paper\]](http://dx.doi.org/10.7554/eLife.46935)
+[\[paper\]](http://dx.doi.org/10.7554/eLife.46935)[\[code\]](https://github.com/matsengrp/vampire/)
 
 **Survival analysis of DNA mutation motifs with penalized proportional hazards**<br />
 *Feng*, Shaw, Minin, Simon and Matsen<br />
