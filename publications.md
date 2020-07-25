@@ -28,7 +28,7 @@ title: Publications
 **Efficient nonparametric statistical inference on population feature importance using Shapley values**<br />
 Williamson and *Feng*<br />
 *International Conference on Machine Learning (ICML)*, 2020<br />
-[\[paper\]](https://proceedings.icml.cc/static/paper_files/icml/2020/3042-Paper.pdf)
+[\[paper\]](https://proceedings.icml.cc/static/paper_files/icml/2020/3042-Paper.pdf)[\[code\]](https://github.com/bdwilliamson/spvim_supplementary)
 
 **An analysis of the cost of hyper-parameter selection via split-sample validation, with applications to penalized regression**<br />
 *Feng* and Simon<br />
@@ -55,4 +55,4 @@ Davidsen, Olson, DeWitt, *Feng*, Harkins, Bradley and Matsen<br />
 **Nonparametric variable importance using an augmented neural network with multi-task learning**<br />
 *Feng*, Williamson, Simon and Carone<br />
 *International Conference on Machine Learning (ICML)*, 2018<br />
-[\[paper\]](http://proceedings.mlr.press/v80/feng18a.html)
+[\[paper\]](http://proceedings.mlr.press/v80/feng18a.html)[\[code\]](https://github.com/jjfeng/nnet_var_import)
