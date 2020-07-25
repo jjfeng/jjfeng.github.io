@@ -50,7 +50,7 @@ Davidsen, Olson, DeWitt, *Feng*, Harkins, Bradley and Matsen<br />
 **Gradient-based Regularization Parameter Selection for Problems With Nonsmooth Penalty Functions**<br />
 *Feng* and Simon<br />
 *J. Comput. Graph. Stat.*, 2018<br />
-[\[paper\]](https://doi.org/10.1080/10618600.2017.1390470)
+[\[paper\]](https://doi.org/10.1080/10618600.2017.1390470)[\[code\]](https://github.com/jjfeng/nonsmooth-joint-opt)
 
 **Nonparametric variable importance using an augmented neural network with multi-task learning**<br />
 *Feng*, Williamson, Simon and Carone<br />

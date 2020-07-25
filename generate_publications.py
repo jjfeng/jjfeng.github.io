@@ -5,6 +5,9 @@ SOFTWARE_DICT = {
     "estimation of cell lineage trees by maximum-likelihood phylogenetics": "https://github.com/matsengrp/gapml",
     "sparse-input neural networks for high-dimensional nonparametric regression and classification": "https://github.com/jjfeng/spinn",
     "survival analysis of dna mutation motifs with penalized proportional hazards": "https://github.com/matsengrp/samm",
+    "efficient nonparametric statistical inference on population feature importance using shapley values": "https://github.com/bdwilliamson/spvim_supplementary",
+    "nonparametric variable importance using an augmented neural network with multi-task learning": "https://github.com/jjfeng/nnet_var_import",
+    "gradient-based regularization parameter selection for problems with nonsmooth penalty functions": "https://github.com/jjfeng/nonsmooth-joint-opt",
 }
 
 def print_entries(entry_list):
