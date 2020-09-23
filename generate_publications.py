@@ -64,15 +64,19 @@ for entry in bib_entries:
         parsed_entries["preprints"].append(pub_str)
     else:
         journal = convert_journal(entry["journal"])
-        year = int(entry["year"])
-        years.add(year)
-        if title.lower() in SOFTWARE_DICT:
-            print("FOUND")
-            software = SOFTWARE_DICT[title.lower()]
-            pub_str = "**%s**<br />\n%s<br />\n*%s*, %d<br />\n[\[paper\]](%s)[\[code\]](%s)" % (title, author_str, journal, year, url, software)
+        year = None if ("note" in entry and entry["note"] == "In press") else int(entry["year"])
+        print("year is none", year)
+        if year is not None:
+            years.add(year)
+            if title.lower() in SOFTWARE_DICT:
+                print("FOUND")
+                software = SOFTWARE_DICT[title.lower()]
+                pub_str = "**%s**<br />\n%s<br />\n*%s*, %d<br />\n[\[paper\]](%s)[\[code\]](%s)" % (title, author_str, journal, year, url, software)
+            else:
+                print("NOT FOUND", title)
+                pub_str = "**%s**<br />\n%s<br />\n*%s*, %d<br />\n[\[paper\]](%s)" % (title, author_str, journal, year, url)
         else:
-            print("NOT FOUND", title)
-            pub_str = "**%s**<br />\n%s<br />\n*%s*, %d<br />\n[\[paper\]](%s)" % (title, author_str, journal, year, url)
+            pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)" % (title, author_str, journal, url)
         if year not in parsed_entries:
             parsed_entries[year] = []
         parsed_entries[year].append(pub_str)
@@ -86,6 +90,8 @@ title: Publications
 """]
 output_lines.append("## Preprints\n")
 output_lines.append(print_entries(parsed_entries["preprints"]))
+output_lines.append("\n\n## In press\n")
+output_lines.append(print_entries(parsed_entries[None]))
 for year in sorted(years, reverse=True):
     output_lines.append("\n\n## %d\n" % year)
     output_lines.append(print_entries(parsed_entries[year]))

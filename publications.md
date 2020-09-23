@@ -14,7 +14,9 @@ title: Publications
 
 **Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification**<br />
 *Feng* and Simon<br />
-[\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)## In press
+[\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
+
+## In press
 **Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />
 *Feng*, Emerson and Simon<br />
 *Biometrics*, In press<br />
