@@ -20,7 +20,7 @@ title: Publications
 **Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />
 *Feng*, Emerson and Simon<br />
 *Biometrics*, In press<br />
-[\[paper\]](http://arxiv.org/abs/1912.12413)
+[\[paper\]](https://doi.org/10.1111/biom.13379)
 
 **Estimation of cell lineage trees by maximum-likelihood phylogenetics**<br />
 *Feng*, DeWitt, McKenna, Simon, Willis and Matsen<br />
