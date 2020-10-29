@@ -43,5 +43,5 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 
 ## Tutorials and Short Courses
 
-- Nov 2020: I'll be teaching a [short course](https://www.biostat.washington.edu/news/calendar/symposium) on supervised statistical learning with [Ali Shojaie](http://faculty.washington.edu/ashojaie/) at the 6th Seattle Symposium in Biostatistics.
+- Nov 2020: I'll be teaching a [short course](https://www.biostat.washington.edu/news/calendar/symposium) on supervised statistical learning with [Ali Shojaie](http://faculty.washington.edu/ashojaie/) on November 15th at the 6th Seattle Symposium in Biostatistics.
 - August 2020: I taught a [short course](https://www.publichealth.columbia.edu/research/precision-prevention/machine-learning-boot-camp-analyzing-biomedical-and-health-data) on machine learning for biomedical and health data with [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Cody Chiuzan](https://www.publichealth.columbia.edu/people/our-faculty/cc3780).
