@@ -40,6 +40,8 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 //-->
 </script><noscript>Sorry, you need Javascript on to email me.</noscript>
 
+## News
+- [Romain Pirracchio](https://www.romainpirracchio.org/) and I have received a grant from the [UCSF-Stanford CERSI program](https://pharm.ucsf.edu/cersi) for our proposal "Safe algorithmic change protocols for modifications to AI/ML-based Software as a Medical Device". This grant will be done in close collaboration with Berkman Sahiner and Alexej Gossmann from the US FDA.
 
 ## Tutorials and Short Courses
 
