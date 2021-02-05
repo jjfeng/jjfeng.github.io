@@ -16,6 +16,10 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
+**Learning how to approve updates to machine learning algorithms in non-stationary settings**<br />
+*Feng*<br />
+[\[arXiv\]](http://arxiv.org/abs/2012.07278)
+
 ## In press
 **Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />
 *Feng*, Emerson and Simon<br />
