@@ -20,16 +20,11 @@ title: Publications
 *Feng*<br />
 [\[arXiv\]](http://arxiv.org/abs/2012.07278)
 
-## In press
-**Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />
-*Feng*, Emerson and Simon<br />
-*Biometrics*, In press<br />
-[\[paper\]](https://doi.org/10.1111/biom.13379)
-
+## 2021
 **Estimation of cell lineage trees by maximum-likelihood phylogenetics**<br />
 *Feng*, DeWitt, McKenna, Simon, Willis and Matsen<br />
-*Annals of Applied Statistics*, In press<br />
-[\[paper\]](https://www.biorxiv.org/content/10.1101/595215v1.full)
+*Annals of Applied Statistics*, 2021<br />
+[\[paper\]](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-15/issue-1/Estimation-of-cell-lineage-trees-by-maximum-likelihood-phylogenetics/10.1214/20-AOAS1400.short)[\[code\]](https://github.com/matsengrp/gapml)
 
 ## 2020
 **Efficient nonparametric statistical inference on population feature importance using Shapley values**<br />
@@ -41,6 +36,11 @@ Williamson and *Feng*<br />
 *Feng* and Simon<br />
 *Statistica Sinica*, 2020<br />
 [\[paper\]](http://www3.stat.sinica.edu.tw/ss_newpaper/SS-2017-0310_na.pdf)
+
+**Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />
+*Feng*, Emerson and Simon<br />
+*Biometrics*, 2020<br />
+[\[paper\]](https://doi.org/10.1111/biom.13379)
 
 ## 2019
 **Deep generative models for T cell receptor protein sequences**<br />

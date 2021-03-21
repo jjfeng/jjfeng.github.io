@@ -90,8 +90,9 @@ title: Publications
 """]
 output_lines.append("## Preprints\n")
 output_lines.append(print_entries(parsed_entries["preprints"]))
-output_lines.append("\n\n## In press\n")
-output_lines.append(print_entries(parsed_entries[None]))
+if None in parsed_entries:
+    output_lines.append("\n\n## In press\n")
+    output_lines.append(print_entries(parsed_entries[None]))
 for year in sorted(years, reverse=True):
     output_lines.append("\n\n## %d\n" % year)
     output_lines.append(print_entries(parsed_entries[year]))
