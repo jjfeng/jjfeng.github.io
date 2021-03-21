@@ -16,9 +16,11 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
+## In press
 **Learning how to approve updates to machine learning algorithms in non-stationary settings**<br />
 *Feng*<br />
-[\[arXiv\]](http://arxiv.org/abs/2012.07278)
+*ACM Conference in Healthcare, Inference, and Learning*, In press<br />
+[\[paper\]](http://arxiv.org/abs/2012.07278)
 
 ## 2021
 **Estimation of cell lineage trees by maximum-likelihood phylogenetics**<br />
