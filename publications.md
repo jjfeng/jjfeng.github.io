@@ -16,17 +16,16 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
-## In press
-**Learning how to approve updates to machine learning algorithms in non-stationary settings**<br />
-*Feng*<br />
-*ACM Conference in Healthcare, Inference, and Learning*, In press<br />
-[\[paper\]](http://arxiv.org/abs/2012.07278)
-
 ## 2021
 **Estimation of cell lineage trees by maximum-likelihood phylogenetics**<br />
 *Feng*, DeWitt, McKenna, Simon, Willis and Matsen<br />
 *Annals of Applied Statistics*, 2021<br />
 [\[paper\]](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-15/issue-1/Estimation-of-cell-lineage-trees-by-maximum-likelihood-phylogenetics/10.1214/20-AOAS1400.short)[\[code\]](https://github.com/matsengrp/gapml)
+
+**Learning how to approve updates to machine learning algorithms in non-stationary settings**<br />
+*Feng*<br />
+*ACM Conference in Healthcare, Inference, and Learning*, 2021<br />
+[\[paper\]](http://arxiv.org/abs/2012.07278)
 
 ## 2020
 **Efficient nonparametric statistical inference on population feature importance using Shapley values**<br />
