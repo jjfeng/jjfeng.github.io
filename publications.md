@@ -25,7 +25,7 @@ title: Publications
 **Learning to safely approve updates to machine learning algorithms**<br />
 *Feng*<br />
 *Proceedings of the Conference on Health, Inference, and Learning*, 2021<br />
-[\[paper\]](https://doi.org/10.1145/3450439.3451864)
+[\[paper\]](https://doi.org/10.1145/3450439.3451864)[\[code\]](https://github.com/jjfeng/aACP_time_trends)
 
 ## 2020
 **Efficient nonparametric statistical inference on population feature importance using Shapley values**<br />
