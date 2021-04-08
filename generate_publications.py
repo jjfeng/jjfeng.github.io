@@ -10,6 +10,7 @@ SOFTWARE_DICT = {
     "gradient-based regularization parameter selection for problems with nonsmooth penalty functions": "https://github.com/jjfeng/nonsmooth-joint-opt",
     "deep generative models for t cell receptor protein sequences": "https://github.com/matsengrp/vampire/",
     "learning to safely approve updates to machine learning algorithms": "https://github.com/jjfeng/aACP_time_trends",
+    "approval policies for modifications to machine learning-based software as a medical device: a study of bio-creep": "https://github.com/jjfeng/aACP",
 }
 
 def print_entries(entry_list):
