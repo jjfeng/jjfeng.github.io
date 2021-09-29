@@ -41,6 +41,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 </script><noscript>Sorry, you need Javascript on to email me.</noscript>
 
 ## News
+- I gave a talk as part of the ASA Statistical Learning and Data Science webinar series on deep learning! Check out the slides [here](https://www.jeanfeng.com/easier_slds.pdf).
 - Our work on [online recalibration and revision of clinical prediction models](https://ww2.amstat.org/meetings/biop/2021/onlineprogram/AbstractDetails.cfm?AbstractID=302405) was presented at BIOP 2021.
 - [Romain Pirracchio](https://www.romainpirracchio.org/) and I have received a grant from the [UCSF-Stanford CERSI program](https://pharm.ucsf.edu/cersi) for our proposal "Safe algorithmic change protocols for modifications to AI/ML-based Software as a Medical Device". This grant will be done in close collaboration with Berkman Sahiner and Alexej Gossmann from the US FDA.
 
