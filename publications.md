@@ -16,6 +16,10 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
+**Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
+*Feng*, Gossmann, Sahiner and Pirracchio<br />
+[\[arXiv\]](http://arxiv.org/abs/2110.06866)[\[code\]](https://github.com/jjfeng/bayesian_model_revision)
+
 ## 2021
 **Estimation of cell lineage trees by maximum-likelihood phylogenetics**<br />
 *Feng*, DeWitt, McKenna, Simon, Willis and Matsen<br />
