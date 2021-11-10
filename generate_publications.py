@@ -12,6 +12,7 @@ SOFTWARE_DICT = {
     "learning to safely approve updates to machine learning algorithms": "https://github.com/jjfeng/aACP_time_trends",
     "approval policies for modifications to machine learning-based software as a medical device: a study of bio-creep": "https://github.com/jjfeng/aACP",
     "bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees": "https://github.com/jjfeng/bayesian_model_revision",
+    "selective prediction-set models with coverage guarantees": "https://github.com/jjfeng/pc_SPS",
 }
 
 def print_entries(entry_list):
@@ -79,7 +80,12 @@ for entry in bib_entries:
                 print("NOT FOUND", title)
                 pub_str = "**%s**<br />\n%s<br />\n*%s*, %d<br />\n[\[paper\]](%s)" % (title, author_str, journal, year, url)
         else:
-            pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)" % (title, author_str, journal, url)
+            if title.lower() in SOFTWARE_DICT:
+                print("FOUND")
+                software = SOFTWARE_DICT[title.lower()]
+                pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)[\[code\]](%s)" % (title, author_str, journal, url, software)
+            else:
+                pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)" % (title, author_str, journal, url)
         if year not in parsed_entries:
             parsed_entries[year] = []
         parsed_entries[year].append(pub_str)

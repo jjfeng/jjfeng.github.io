@@ -20,7 +20,7 @@ title: Publications
 **Selective prediction-set models with coverage guarantees**<br />
 *Feng*, Sondhi, Perry and Simon<br />
 *Biometrics*, In press<br />
-[\[paper\]](http://arxiv.org/abs/1906.05473)
+[\[paper\]](http://arxiv.org/abs/1906.05473)[\[code\]](https://github.com/jjfeng/pc_SPS)
 
 ## 2021
 **Estimation of cell lineage trees by maximum-likelihood phylogenetics**<br />
