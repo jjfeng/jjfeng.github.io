@@ -13,11 +13,6 @@ title: Publications
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
 ## In press
-**Selective prediction-set models with coverage guarantees**<br />
-*Feng*, Sondhi, Perry and Simon<br />
-*Biometrics*, In press<br />
-[\[paper\]](http://arxiv.org/abs/1906.05473)[\[code\]](https://github.com/jjfeng/pc_SPS)
-
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
 *Journal of the American Medical Informatics Association*, In press<br />
@@ -33,6 +28,11 @@ title: Publications
 *Feng*<br />
 *Proceedings of the Conference on Health, Inference, and Learning*, 2021<br />
 [\[paper\]](https://doi.org/10.1145/3450439.3451864)[\[code\]](https://github.com/jjfeng/aACP_time_trends)
+
+**Selective prediction-set models with coverage guarantees**<br />
+*Feng*, Sondhi, Perry and Simon<br />
+*Biometrics*, 2021<br />
+[\[paper\]](http://doi.org/10.1111/biom.13612)[\[code\]](https://github.com/jjfeng/pc_SPS)
 
 ## 2020
 **Efficient nonparametric statistical inference on population feature importance using Shapley values**<br />
