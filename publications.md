@@ -4,13 +4,15 @@ title: Publications
 ---
 
 ## Preprints
-**Ensembled sparse-input hierarchical networks for high-dimensional datasets**<br />
-*Feng* and Simon<br />
-[\[arXiv\]](http://arxiv.org/abs/2005.04834)[\[code\]](https://github.com/jjfeng/easier_net)
-
 **Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification**<br />
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
+
+## In press
+**Ensembled sparse-input hierarchical networks for high-dimensional datasets**<br />
+*Feng* and Simon<br />
+*Statistical Analysis and Data Mining*, In press<br />
+[\[paper\]](http://arxiv.org/abs/2005.04834)[\[code\]](https://github.com/jjfeng/easier_net)
 
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
