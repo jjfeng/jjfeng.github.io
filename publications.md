@@ -20,6 +20,11 @@ title: Publications
 *Journal of the American Medical Informatics Association*, 2022<br />
 [\[paper\]](https://doi.org/10.1093/jamia/ocab280)[\[code\]](https://github.com/jjfeng/bayesian_model_revision)
 
+**Overcoming barriers in the design and implementation of clinical trials for Acute Kidney Injury: a report from the 2020 Kidney Disease Clinical Trialists meeting**<br />
+Lazzareschi, Mehta, Dember, Bernholz, Turan, Sharma, Kheterpal, Parikh, Ali, Schulman, Ryan, *Feng*, Simon, Pirracchio, Rossignol and Legrand<br />
+*Nephrol. Dial. Transplant*, 2022<br />
+[\[paper\]](http://dx.doi.org/10.1093/ndt/gfac003)
+
 ## 2021
 **Estimation of cell lineage trees by maximum-likelihood phylogenetics**<br />
 *Feng*, DeWitt, McKenna, Simon, Willis and Matsen<br />
