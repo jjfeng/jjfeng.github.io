@@ -8,17 +8,16 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
-## In press
-**Ensembled sparse-input hierarchical networks for high-dimensional datasets**<br />
-*Feng* and Simon<br />
-*Statistical Analysis and Data Mining*, In press<br />
-[\[paper\]](http://arxiv.org/abs/2005.04834)[\[code\]](https://github.com/jjfeng/easier_net)
-
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
 *Journal of the American Medical Informatics Association*, 2022<br />
 [\[paper\]](https://doi.org/10.1093/jamia/ocab280)[\[code\]](https://github.com/jjfeng/bayesian_model_revision)
+
+**Ensembled sparse-input hierarchical networks for high-dimensional datasets**<br />
+*Feng* and Simon<br />
+*Statistical Analysis and Data Mining*, 2022<br />
+[\[paper\]](http://doi.org/10.1002/sam.11579)[\[code\]](https://github.com/jjfeng/easier_net)
 
 **Overcoming barriers in the design and implementation of clinical trials for Acute Kidney Injury: a report from the 2020 Kidney Disease Clinical Trialists meeting**<br />
 Lazzareschi, Mehta, Dember, Bernholz, Turan, Sharma, Kheterpal, Parikh, Ali, Schulman, Ryan, *Feng*, Simon, Pirracchio, Rossignol and Legrand<br />
