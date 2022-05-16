@@ -8,6 +8,10 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
+**Sequential algorithmic modification with test data reuse**<br />
+*Feng*, Pennello, Petrick, Sahiner, Pirracchio and Gossmann<br />
+[\[arXiv\]](http://arxiv.org/abs/2203.11377)
+
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
