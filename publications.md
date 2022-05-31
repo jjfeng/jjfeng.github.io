@@ -28,6 +28,11 @@ Lazzareschi, Mehta, Dember, Bernholz, Turan, Sharma, Kheterpal, Parikh, Ali, Sch
 *Nephrol. Dial. Transplant*, 2022<br />
 [\[paper\]](http://dx.doi.org/10.1093/ndt/gfac003)
 
+**Clinical artificial intelligence quality improvement: towards continual monitoring and updating of AI algorithms in healthcare**<br />
+*Feng*, Phillips, Malenica, Bishara, Hubbard, Celi and Pirracchio<br />
+*npj Digital Medicine*, 2022<br />
+[\[paper\]](https://www.nature.com/articles/s41746-022-00611-y)
+
 ## 2021
 **Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />
 *Feng*, Emerson and Simon<br />
