@@ -41,6 +41,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 </script><noscript>Sorry, you need Javascript on to email me.</noscript>
 
 ## News
+- **May 2022**: Our paper "Clinical Artificial Intelligence Quality Improvement: Towards Continual Monitoring and Updating of AI Algorithms in Healthcare" is published in Nature Digital Medicine! Check it out [here](https://www.nature.com/articles/s41746-022-00611-y).
 - **Apr 2022**: I gave a talk at the Biometrics Journal Club on the statistical considerations when regulating ML-based medical devices that evolve over time. The talk is based on our 2021 Biometrics paper ["Approval policies for modifications to machine learning-based software as a medical device: A study of bio-creep"](https://doi.org/10.1111/biom.13379). Slides are [here](https://www.jeanfeng.com/biometrics_talk.pdf).
 - **Oct 2021**: [Romain Pirracchio](https://www.romainpirracchio.org/) and I have received a grant to extend our original [UCSF-Stanford CERSI](https://pharm.ucsf.edu/cersi) proposal "Safe algorithmic change protocols for modifications to AI/ML-based Software as a Medical Device". This new project will look at the impacts of integrating real-world data. We're excited to continue working with our CDRH collaborators Berkman Sahiner and Alexej Gossmann!
 - **Sep 2021**: Our work on [online recalibration and revision of clinical prediction models](https://ww2.amstat.org/meetings/biop/2021/onlineprogram/AbstractDetails.cfm?AbstractID=302405) was presented at BIOP 2021.
