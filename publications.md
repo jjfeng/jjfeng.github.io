@@ -33,6 +33,11 @@ Lazzareschi, Mehta, Dember, Bernholz, Turan, Sharma, Kheterpal, Parikh, Ali, Sch
 *npj Digital Medicine*, 2022<br />
 [\[paper\]](https://www.nature.com/articles/s41746-022-00611-y)
 
+**Prostate cancer therapy personalization via multi-modal deep learning on randomized phase III clinical trials**<br />
+Esteva, *Feng*, van der Wal, Huang, Simko, DeVries, Chen, Schaeffer, Morgan, Sun, Ghorbani, Naik, Nathawani, Socher, Michalski, Roach, Pisansky, Monson, Naz, Wallace, Ferguson, Bahary, Zou, Lungren, Yeung, Ross, Sandler, Tran, Spratt, Pugh, Feng and Mohamad<br />
+*npj Digital Medicine*, 2022<br />
+[\[paper\]](https://www.nature.com/articles/s41746-022-00613-w)
+
 ## 2021
 **Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />
 *Feng*, Emerson and Simon<br />
