@@ -50,6 +50,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 
 ## Tutorials and Short Courses
 
+- **June 2022**: I co-taught the [Columbia ML bootcamp](https://www.publichealth.columbia.edu/research/precision-prevention/machine-learning-boot-camp-analyzing-biomedical-and-health-data) with [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Cody Chiuzan](https://www.publichealth.columbia.edu/people/our-faculty/cc3780) for the third time!
 - **Aug 2021**: I joined forces again with [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Cody Chiuzan](https://www.publichealth.columbia.edu/people/our-faculty/cc3780) to teach a [short course](https://www.publichealth.columbia.edu/research/precision-prevention/machine-learning-boot-camp-analyzing-biomedical-and-health-data) on machine learning for biomedical and health data.
 - **Nov 2020**: I taught a [short course](https://www.biostat.washington.edu/news/calendar/symposium) on supervised statistical learning with [Ali Shojaie](http://faculty.washington.edu/ashojaie/) on November 15th at the 6th Seattle Symposium in Biostatistics. ([Slides](teaching/Seattle_Symposium_ShortCourse2020_ML.pdf))
 - **Aug 2020**: I taught a [short course](https://www.publichealth.columbia.edu/research/precision-prevention/machine-learning-boot-camp-analyzing-biomedical-and-health-data) on machine learning for biomedical and health data with [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Cody Chiuzan](https://www.publichealth.columbia.edu/people/our-faculty/cc3780).
