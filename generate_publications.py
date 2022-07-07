@@ -1,7 +1,7 @@
 import bibtexparser
 
 SOFTWARE_DICT = {
-    "ensembled sparse-input hierarchical networks for high-dimensional datasets": "https://github.com/jjfeng/easier_net",
+    "ensembled sparse-input hierarchical networks for high-dimensional datasets": "https://pypi.org/project/EASIER-net/",
     "estimation of cell lineage trees by maximum-likelihood phylogenetics": "https://github.com/matsengrp/gapml",
     "sparse-input neural networks for high-dimensional nonparametric regression and classification": "https://github.com/jjfeng/spinn",
     "survival analysis of dna mutation motifs with penalized proportional hazards": "https://github.com/matsengrp/samm",

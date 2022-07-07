@@ -21,7 +21,7 @@ title: Publications
 **Ensembled sparse-input hierarchical networks for high-dimensional datasets**<br />
 *Feng* and Simon<br />
 *Statistical Analysis and Data Mining*, 2022<br />
-[\[paper\]](http://doi.org/10.1002/sam.11579)[\[code\]](https://github.com/jjfeng/easier_net)
+[\[paper\]](http://doi.org/10.1002/sam.11579)[\[code\]](https://pypi.org/project/EASIER-net/)
 
 **Overcoming barriers in the design and implementation of clinical trials for Acute Kidney Injury: a report from the 2020 Kidney Disease Clinical Trialists meeting**<br />
 Lazzareschi, Mehta, Dember, Bernholz, Turan, Sharma, Kheterpal, Parikh, Ali, Schulman, Ryan, *Feng*, Simon, Pirracchio, Rossignol and Legrand<br />
