@@ -8,10 +8,6 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
-**Sequential algorithmic modification with test data reuse**<br />
-*Feng*, Pennello, Petrick, Sahiner, Pirracchio and Gossmann<br />
-[\[arXiv\]](http://arxiv.org/abs/2203.11377)
-
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
@@ -37,6 +33,11 @@ Lazzareschi, Mehta, Dember, Bernholz, Turan, Sharma, Kheterpal, Parikh, Ali, Sch
 Esteva, *Feng*, van der Wal, Huang, Simko, DeVries, Chen, Schaeffer, Morgan, Sun, Ghorbani, Naik, Nathawani, Socher, Michalski, Roach, Pisansky, Monson, Naz, Wallace, Ferguson, Bahary, Zou, Lungren, Yeung, Ross, Sandler, Tran, Spratt, Pugh, Feng and Mohamad<br />
 *npj Digital Medicine*, 2022<br />
 [\[paper\]](https://www.nature.com/articles/s41746-022-00613-w)
+
+**Sequential algorithmic modification with test data reuse**<br />
+*Feng*, Pennello, Petrick, Sahiner, Pirracchio and Gossmann<br />
+*Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence*, 2022<br />
+[\[paper\]](https://openreview.net/forum?id=rKb8gLLs5g5)[\[code\]](https://github.com/jjfeng/adaptive_SRGP)
 
 ## 2021
 **Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />

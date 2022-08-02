@@ -13,6 +13,7 @@ SOFTWARE_DICT = {
     "approval policies for modifications to machine learning-based software as a medical device: a study of bio-creep": "https://github.com/jjfeng/aACP",
     "bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees": "https://github.com/jjfeng/bayesian_model_revision",
     "selective prediction-set models with coverage guarantees": "https://github.com/jjfeng/pc_SPS",
+    "sequential algorithmic modification with test data reuse": "https://github.com/jjfeng/adaptive_SRGP",
 }
 
 def print_entries(entry_list):
