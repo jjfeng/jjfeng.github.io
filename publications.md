@@ -37,7 +37,7 @@ Esteva, *Feng*, van der Wal, Huang, Simko, DeVries, Chen, Schaeffer, Morgan, Sun
 **Sequential algorithmic modification with test data reuse**<br />
 *Feng*, Pennello, Petrick, Sahiner, Pirracchio and Gossmann<br />
 *Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence*, 2022<br />
-[\[paper\]](https://openreview.net/forum?id=rKb8gLLs5g5)[\[code\]](https://github.com/jjfeng/adaptive_SRGP)[\[poster\]]adaptive_SRGP.pdf
+[\[paper\]](https://openreview.net/forum?id=rKb8gLLs5g5)[\[code\]](https://github.com/jjfeng/adaptive_SRGP)[\[poster\]](adaptive_SRGP.pdf)
 
 ## 2021
 **Approval policies for modifications to Machine Learning-Based Software as a Medical Device: A study of bio-creep**<br />

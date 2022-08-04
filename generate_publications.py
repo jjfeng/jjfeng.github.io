@@ -91,7 +91,7 @@ for entry in bib_entries:
             else:
                 pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)" % (title, author_str, journal, url)
         if title.lower() in POSTER_DICT:
-            pub_str += "[\[poster\]]%s" % POSTER_DICT[title.lower()]
+            pub_str += "[\[poster\]](%s)" % POSTER_DICT[title.lower()]
         if year not in parsed_entries:
             parsed_entries[year] = []
         parsed_entries[year].append(pub_str)
