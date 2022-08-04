@@ -15,6 +15,9 @@ SOFTWARE_DICT = {
     "selective prediction-set models with coverage guarantees": "https://github.com/jjfeng/pc_SPS",
     "sequential algorithmic modification with test data reuse": "https://github.com/jjfeng/adaptive_SRGP",
 }
+POSTER_DICT = {
+    "sequential algorithmic modification with test data reuse": "adaptive_SRGP.pdf",
+}
 
 def print_entries(entry_list):
     return "\n\n".join(entry_list)
@@ -87,6 +90,8 @@ for entry in bib_entries:
                 pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)[\[code\]](%s)" % (title, author_str, journal, url, software)
             else:
                 pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)" % (title, author_str, journal, url)
+        if title.lower() in POSTER_DICT:
+            pub_str += "[\[poster\]]%s" % POSTER_DICT[title.lower()]
         if year not in parsed_entries:
             parsed_entries[year] = []
         parsed_entries[year].append(pub_str)
