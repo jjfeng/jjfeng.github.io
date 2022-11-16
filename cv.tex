@@ -12,6 +12,7 @@
 \usepackage{multibib}
 \newcites{preprint}{Preprints}
 \newcites{paper}{Papers}
+\newcites{abstracts}{Abstracts}
 
 \moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
 \moderncvcolor{purple}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
@@ -76,6 +77,10 @@
 \bibliographystylepreprint{plainyrrev}
 \bibliographypreprint{publications_preprint_underlined}
 
+\section{Abstracts}
+\nociteabstracts{*}
+\bibliographystyleabstracts{plainyrrev}
+\bibliographyabstracts{abstracts_underlined}
 
 \section{Funding History}
 \cvitem{2020-2023}{
@@ -83,7 +88,11 @@
 	``Safe algorithmic change protocols for modifications to AI/ML-based Software as a Medical Device.''\newline
 	\$170,000 in direct costs
 }
-
+\cvitem{2023-2026}{
+	Patient-Centered Outcomes Research Institute; Role: PI\newline
+	``Diagnostic tools for quality improvement of machine learning-based clinical decision support systems.''\newline
+	\$750,000 in direct costs
+}
 
 \section{Presentations}
 
