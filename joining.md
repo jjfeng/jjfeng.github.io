@@ -34,8 +34,8 @@ If you are interested in this position, please submit the following materials:
 * A CV summarizing your education and work experience so far.
 * The names and email addresses of three references.
 * One representative publication.
-* A code sample showing work that you are proud of. This has to be nontrivial, but doesn’t have to be long. Ideally it would be publicly accessible, e.g. on GitHub, but if that’s not possible an emailed attachment is fine too.
-* Contact information for three references
+* A code sample
+
 
 Please send these materials to [PI's email] if you're interested.
 
