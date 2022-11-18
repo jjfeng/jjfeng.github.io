@@ -18,7 +18,7 @@ This collaborative project includes team members with wide-ranging expertise:
 * [Julian Hong](https://honglab.ucsf.edu/), a radiation oncologist who developed the SHIELD-RT algorithm for predicting acute care needs in radiation therapy patients and conducted [one of the first RCTs for ML-guided care](https://ascopubs.org/doi/full/10.1200/JCO.20.01688)
 * [Romain Pirracchio](https://www.romainpirracchio.org/), an anesthesiologist and biostatistician who has written a textbook on statistical modeling for ICU data
 * [Mi-ok Kim](https://profiles.ucsf.edu/mi-ok.kim), a mathematical statistician who has developed new methods for causal inference, adaptive clinical trials, and longitudinal data
-* [Alexej Gossmann](https://www.alexejgossmann.com/), a mathematical statistician at the FDA whose developed methods for analyzing biomedical imaging data
+* [Alexej Gossmann](https://www.alexejgossmann.com/), a mathematical statistician at the FDA who, among other things, develops methods for  biomedical imaging data
 
 ## Qualifications:
 The position requires a PhD degree or equivalent in statistics, computer science, or another relevant field.
