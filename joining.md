@@ -22,8 +22,6 @@ This collaborative project includes team members with wide-ranging expertise:
 
 ## Qualifications:
 The position requires a PhD degree or equivalent in statistics, computer science, or another relevant field.
-
-### Skills:
 We are looking for someone who:
 * has experience doing methods development
 * can perform independent research
