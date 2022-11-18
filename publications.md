@@ -8,6 +8,10 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
+**Monitoring machine learning (ML)-based risk prediction algorithms in the presence of confounding medical interventions**<br />
+*Feng*, Gossmann, Pennello, Petrick, Sahiner and Pirracchio<br />
+[\[arXiv\]](http://arxiv.org/abs/2211.09781)[\[code\]](https://github.com/jjfeng/monitoring_ML_CMI)
+
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />

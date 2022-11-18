@@ -1,6 +1,7 @@
 import bibtexparser
 
 SOFTWARE_DICT = {
+    "monitoring machine learning (ml)-based risk prediction algorithms in the presence of confounding medical interventions": "https://github.com/jjfeng/monitoring_ML_CMI",
     "ensembled sparse-input hierarchical networks for high-dimensional datasets": "https://pypi.org/project/EASIER-net/",
     "estimation of cell lineage trees by maximum-likelihood phylogenetics": "https://github.com/matsengrp/gapml",
     "sparse-input neural networks for high-dimensional nonparametric regression and classification": "https://github.com/jjfeng/spinn",
