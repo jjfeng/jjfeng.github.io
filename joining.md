@@ -23,17 +23,12 @@ This collaborative project includes team members with wide-ranging expertise:
 ## Qualifications:
 The position requires a PhD degree or equivalent in statistics, computer science, or another relevant field.
 
-### Essential skills:
-We are looking for someone who has:
-* experience doing methods development
-* clear ability to perform independent research
-* the ability to work and collaborate with a team
-
-### Additional helpful skills
-Ideally the candidate would have:
-* experience with PyTorch or TensorFlow
-* experience with a modern git-based workflow
-* experience developing in a Linux environment
+### Skills:
+We are looking for someone who:
+* has experience doing methods development
+* can perform independent research
+* can work and collaborate with a team
+* has experience developing in a Linux environment, using git-based workflows, and writing in Python
 
 ## Applying
 If you are interested in this position, please submit the following materials:
