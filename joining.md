@@ -12,8 +12,8 @@ ML algorithms have become important tools for leveraging healthcare data to impr
 Nevertheless, concerns regarding the reliability of these algorithms remain a barrier to their widespread adoption, as these algorithms may perform poorly in certain populations and/or decay in performance over time.
 The aim of this project is to develop tools that explain what the main causes for a performance gap.
 We'll be drawing on various techniques, including causal inference, semi-parametric inference, and feature attribution methods.
-We'll also be integrating these tools with sequential monitoring procedures to develop ML monitoring systems that both detect and explain performance drift over time.
-We've planned for a number of exciting real-world case studies that  involve analyzing EHR data from UCSF, ZSFG, and Duke University.
+We'll also be integrating these tools with sequential monitoring procedures to develop systems that both detect and explain performance drift over time.
+To test out these systems, we will be analyzing clinical ML algorithms that are slated for real-world deployment across EHR systems from three institutions: UCSF, ZSFG, and Duke University.
 Upon project completion, we will distribute these tools as open-source software packages for use by ML developers as well as hospital IT/data science teams.
 
 This collaborative project includes team members with wide-ranging expertise:
