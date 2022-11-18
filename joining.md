@@ -14,7 +14,7 @@ The aim of this project is to develop tools that explain what the main causes fo
 We'll be drawing on various techniques, including causal inference, semi-parametric inference, and feature attribution methods.
 We'll also be integrating these tools with sequential monitoring procedures to develop systems that both detect and explain performance drift over time.
 To test out these systems, we will be analyzing clinical ML algorithms that are slated for real-world deployment across EHR systems from three institutions: UCSF, ZSFG, and Duke University.
-Ultimately, we plan to distribute these tools as open-source software packages for use by ML developers as well as hospital IT/data science teams.
+At the end of the project, these tools will be distributed as an open-source software package for use by ML developers as well as hospital IT/data science teams.
 
 This collaborative project includes team members with wide-ranging expertise:
 * [Julian Hong](https://honglab.ucsf.edu/), a radiation oncologist who developed the SHIELD-RT algorithm for predicting acute care needs in radiation therapy patients and conducted [one of the first RCTs for ML-guided care](https://ascopubs.org/doi/full/10.1200/JCO.20.01688)
