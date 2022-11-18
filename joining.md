@@ -5,9 +5,11 @@ title: Joining
 
 We're looking for a post-doc! See a description of the position below.
 
+-------
+
 ## The project:
 Machine learning (ML) algorithms have become important tools for leveraging healthcare data to improve patient outcomes and streamline hospital processes.
-Nevertheless, concerns regarding the reliability of these algorithms remain a barrier to their widespread adoption, as these algortihms may perform poorly in certain populations and/or decay in performance over time.
+Nevertheless, concerns regarding the reliability of these algorithms remain a barrier to their widespread adoption, as these algorithms may perform poorly in certain populations and/or decay in performance over time.
 The aim of this project is to develop tools that explain what the main causes for a performance gap.
 We'll be drawing on various techniques, including causal inference, semi-parametric inference, and feature attribution methods.
 We'll also be integrating these tools with sequential monitoring procedures to develop ML monitoring systems that both detect and explain performance drift over time.
@@ -21,12 +23,12 @@ This collaborative project includes team members with wide-ranging expertise:
 * [Alexej Gossmann](https://www.alexejgossmann.com/), a mathematical statistician at the FDA who, among other things, develops methods for  biomedical imaging data
 
 ## Qualifications:
-The position requires a PhD degree or equivalent in statistics, computer science, or another relevant field.
+The position requires a PhD degree or equivalent in (bio)statistics, computer science, or another relevant field.
 We are looking for someone who:
 * has experience doing methods development
 * can perform independent research
 * can work and collaborate with a team
-* has experience developing in a Linux environment, using git-based workflows, and writing in Python
+* has experience developing in a Linux environment, using git-based workflows, and writing in Python/R
 
 ## Applying
 If you are interested in this position, please submit the following materials:
@@ -43,3 +45,5 @@ Screening of applicants will begin immediately and will continue as needed throu
 The position will come with a competitive postdoc-level salary with great benefits for two years, with the ability to extend if things are going well.
 
 The University of California is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or protected veteran status.
+
+*Posted 11/18/2022*
