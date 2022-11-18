@@ -41,6 +41,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 </script><noscript>Sorry, you need Javascript on to email me.</noscript>
 
 ## News
+- **Nov 2022**: Big news! Our grant proposal on developing diagnostic tools for ML algorithms has been funded by PCORI! See the project description [here](https://www.pcori.org/research-results/2022/diagnostic-tools-quality-improvement-machine-learning-based-clinical-decision-support-systems).
 - **Nov 2022**: Thank you to SER digital for the opportunity to discuss the intersection of ML and epidemiology! Slides are [here](https://www.jeanfeng.com/ser_talk.pdf).
 - **May 2022**: Our paper "Clinical Artificial Intelligence Quality Improvement: Towards Continual Monitoring and Updating of AI Algorithms in Healthcare" is published in Nature Digital Medicine! Check it out [here](https://www.nature.com/articles/s41746-022-00611-y).
 - **Apr 2022**: I gave a talk at the Biometrics Journal Club on the statistical considerations when regulating ML-based medical devices that evolve over time. The talk is based on our 2021 Biometrics paper ["Approval policies for modifications to machine learning-based software as a medical device: A study of bio-creep"](https://doi.org/10.1111/biom.13379). Slides are [here](https://www.jeanfeng.com/biometrics_talk.pdf).
