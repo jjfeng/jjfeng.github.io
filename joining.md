@@ -33,9 +33,9 @@ We are looking for someone who:
 ## Applying
 If you are interested in this position, please submit the following materials:
 * A cover letter
-* A CV summarizing your education and work experience so far.
-* The names and email addresses of three references.
-* One representative publication.
+* A CV summarizing your education and work experience so far
+* The names and email addresses of three references
+* One representative publication
 * A code sample
 
 
