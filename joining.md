@@ -3,6 +3,8 @@ layout: default
 title: Joining
 ---
 
+We're hiring looking for a post-doc! See a description of the position below.
+
 ## The project:
 Machine learning (ML) algorithms have become important tools for leveraging healthcare data to improve patient outcomes and streamline hospital processes.
 Nevertheless, concerns regarding the reliability of these algorithms remain a barrier to their widespread adoption, as these algortihms may perform poorly in certain populations and/or decay in performance over time.
