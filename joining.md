@@ -22,6 +22,11 @@ This collaborative project includes team members with wide-ranging expertise:
 * [Mi-ok Kim](https://profiles.ucsf.edu/mi-ok.kim), a statistician who develops methods for causal inference, adaptive clinical trials, and longitudinal data
 * [Alexej Gossmann](https://www.alexejgossmann.com/), a mathematical statistician at the FDA who, among other things, develops methods for  biomedical imaging data
 
+## The position:
+We are looking to hire a postdoctoral researcher to join the team.
+The position (100% funded) will be for 3-years.
+Salary and benefits are competitive.
+
 ## Qualifications:
 The position requires a PhD degree or equivalent in (bio)statistics, computer science, or another relevant field.
 We are looking for someone who:
