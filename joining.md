@@ -17,6 +17,7 @@ To test out these systems, we will be analyzing clinical ML algorithms that are 
 At the end of the project, these tools will be distributed as an open-source software package for use by ML developers as well as hospital IT/data science teams.
 
 This collaborative project includes team members with wide-ranging expertise:
+* Jean Feng: PI
 * [Julian Hong](https://honglab.ucsf.edu/), a radiation oncologist who developed the SHIELD-RT algorithm for predicting acute care needs in radiation therapy patients and conducted [one of the first RCTs for ML-guided care](https://ascopubs.org/doi/full/10.1200/JCO.20.01688)
 * [Romain Pirracchio](https://www.romainpirracchio.org/), an anesthesiologist and biostatistician who has written a textbook on statistical modeling for ICU data
 * [Mi-ok Kim](https://profiles.ucsf.edu/mi-ok.kim), a statistician who develops methods for causal inference, adaptive clinical trials, and longitudinal data
