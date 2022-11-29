@@ -44,7 +44,32 @@ If you are interested in this position, please submit the following materials:
 * A code sample
 
 
-Please send these materials to [PI's email] if you're interested.
+Please send these materials to
+<script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature coded by Andrew Moulden
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "chGo.thop@wgUt.hOw"
+  key = "gHd4waxXhlYItNrmPkp7OQsG52j86EySC1W0ni9bUqzJcFRBuMVDeKoTfvAL3Z"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>Sorry, you need Javascript on to email me.</noscript>
+ if you're interested.
 
 Screening of applicants will begin immediately and will continue as needed throughout the recruitment period. The fellow will start as soon as March 2023.
 The position will come with a competitive postdoc-level salary with great benefits for two years, with the ability to extend if things are going well.
