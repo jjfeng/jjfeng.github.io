@@ -4,7 +4,7 @@ title: Home
 ---
 
 
-<img align="right" src="headshot.png" margin="20px" height="280px" onmouseover="this.src='pocky_new.png';" onmouseout="this.src='headshot.png';">
+<img align="right" src="headshot.png" margin="50px" height="280px" onmouseover="this.src='pocky_new.png';" onmouseout="this.src='headshot.png';">
 
 I am an Assistant Professor in the Department of Epidemiology and Biostatistics at the University of California, San Francisco and the UCSF-UC Berkeley Joint Program in Computational Precision Health.
 My research interests include the interpretability and reliability of machine learning methods for biomedical applications, particularly those involving black-box models.
