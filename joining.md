@@ -13,9 +13,8 @@ We are building out a ML predictive analytics team dedicated to the development 
 Our team charter is to improve patient care using data.
 We are dedicated to translation of these algorithms into clinical practice and will be embedding all our algorithms into the electronic health record (EHR) system for rigorous testing and monitoring.
 
-
-We are seeking a postdoctoral researcher and data scientist to join our team to support these efforts.
-In addition to developing and testing ML algorithms, other projects include the expansion of our data warehouse and the integration of new data sources.
+We are seeking a postdoctoral researcher and a data scientist to join our team.
+In addition to developing and testing ML algorithms, other responsibilities will include expanding the data warehouse, integrating new data sources (e.g. clinical notes), writing/editing research manuscripts, and more.
 
 Our ML predictive analytics team is highly collaborative and includes team members with wide-ranging expertise:
 * Jean Feng: Data analytics lead
@@ -31,12 +30,13 @@ Salary and benefits are competitive.
 ## Qualifications:
 The data scientist position requires a master's degree or equivalent in computer science, data science, (bio)statistics, or another relevant field.
 We are looking for someone who:
+* has experience training and testing machine learning algorithms for large datasets
 * has experience with database design and creating ETL pipelines
-* has experience training and testing machine learning algorithms
 
 The postdoctoral position requires a PhD degree or equivalent in computer science, data science, (bio)statistics, or another relevant field.
 We are looking for someone who:
-* has experience developing ML algorithms
+* has experience in developing new ML algorithms
+* has experience training and testing ML algorithms for large datasets
 * can perform independent research
 
 For both positions, the candidate should:
@@ -49,8 +49,8 @@ If you are interested in this position, please submit the following materials:
 * A cover letter
 * A CV summarizing your education and work experience so far
 * The names and email addresses of three references
-* One representative publication
 * A code sample
+* One representative publication (required for postdoc, optional for data scientist)
 
 
 Please send these materials to
