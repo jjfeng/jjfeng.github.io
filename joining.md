@@ -9,14 +9,19 @@ We're looking for a post-doc and data scientist! See a description of the positi
 
 ## The project:
 Zuckerberg San Francisco General Hospital and the Division of Cardiology is at the forefront of applying artificial intelligence and machine learning (AI/ML) to help improve outcomes in vulnerable and underserved populations.
-We are seeking a postdoctoral researcher and data scientist to join our ML predictive analytics team and help create a data warehouse  develop and validate ML algorithms that support clinical decision making and hospital performance improvement efforts, and research projects and papers.
+We are building out a ML predictive analytics team dedicated to the development and testing of ML algorithms that support the hospital's performance improvement efforts, with an emphasis on health equity and algorithmic fairness.
+Our team charter is to improve patient care using data.
+We are dedicated to translation of these algorithms into clinical practice and will be embedding all our algorithms into the electronic health record (EHR) system for rigorous testing and monitoring.
 
-The data scientist position requires a minimum of a Master’s degree or equivalent level of experience in computer science, (bio)statistics, or another relevant field. A proven track record of productivity within academia or industry in publishing and/or developing and applying new algorithms is necessary for this role.  The candidate should have experience developing in a Linux environment, using git-based workflows, writing in Python/R, using high-performance computing, and working collaboratively with a multidisclinary team. Ideally, the candidate also has experience cleaning and analyzing Electronic Health Record (EHR) data, creating datawarehouses for data analytics, and experience/interest in developing new ML algorithms.
+
+We are seeking a postdoctoral researcher and data scientist to join our team to support these efforts.
+In addition to developing and testing ML algorithms, other projects include the expansion of our data warehouse and the integration of new data sources.
 
 Our ML predictive analytics team is highly collaborative and includes team members with wide-ranging expertise:
-* Jean Feng
-* [Lucas Zier](https://profiles.ucsf.edu/lucas.zier): a cardiologist at UCSF and ZSFG
-* [Jim Marks](https://sfghf.org/team/james-d-marks-md-phd/): an anesthesiologist at UCSF and ZSFG, Chief of the Medical Staff and Chief of Performance Excellence at ZSFG
+* Jean Feng: Data analytics lead
+* [Lucas Zier](https://profiles.ucsf.edu/lucas.zier): Clinical lead, cardiologist at UCSF and ZSFG
+* [Jim Marks](https://sfghf.org/team/james-d-marks-md-phd/): Chief of the Medical Staff and Chief of Performance Excellence at ZSFG, anesthesiologist at UCSF and ZSFG
+* [Seth Goldman](https://profiles.ucsf.edu/seth.goldman): Informatics Director for Technology Integration and Digital Health for the Office of Health Informatics for the San Francisco Department of Public Health, hospitalist at ZSFG
 
 ## The position:
 We are looking to hire a postdoctoral researcher and data scientist to join the team.
