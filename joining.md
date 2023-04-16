@@ -28,7 +28,7 @@ The position (100% funded) will be for 2-years, with the possibility of extensio
 Salary and benefits are competitive.
 
 ## Qualifications:
-The data scientist position requires a master's degree or equivalent in computer science, data science, (bio)statistics, or another relevant field.
+The data scientist position requires at least a master's degree or equivalent in computer science, data science, (bio)statistics, or another relevant field.
 We are looking for someone who:
 * has experience training and testing machine learning algorithms for large datasets
 * has experience with database design and creating ETL pipelines
