@@ -42,7 +42,7 @@ We are looking for someone who:
 For both positions, the candidate should:
 * be able to work collaboratively with a team
 * has experience developing in a Linux environment, using git-based workflows, writing in Python, use high-performance computing
-* have interest in analyzing Electronic Health Record (EHR) data and unstructured clinical notes! :)
+* have interest in analyzing Electronic Health Record (EHR) data and unstructured clinical notes
 
 ## Applying
 If you are interested in this position, please submit the following materials:
