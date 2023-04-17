@@ -17,7 +17,7 @@ We are seeking a postdoctoral researcher and a data scientist to join our team.
 In addition to developing and testing ML algorithms, other responsibilities will include expanding the data warehouse, integrating new data sources (e.g. clinical notes), writing/editing research manuscripts, and more.
 
 Our ML predictive analytics team is highly collaborative and includes team members with wide-ranging expertise:
-* Jean Feng: Data analytics lead
+* Jean Feng: Data analytics lead, assistant professor in the Department of Epidemiology and Biostatistics at UCSF
 * [Lucas Zier](https://profiles.ucsf.edu/lucas.zier): Clinical lead, cardiologist at UCSF and ZSFG
 * [Jim Marks](https://sfghf.org/team/james-d-marks-md-phd/): Chief of the Medical Staff and Chief of Performance Excellence at ZSFG, anesthesiologist at UCSF and ZSFG
 * [Seth Goldman](https://profiles.ucsf.edu/seth.goldman): Informatics Director for Technology Integration and Digital Health for the Office of Health Informatics for the San Francisco Department of Public Health, hospitalist at ZSFG
@@ -41,7 +41,7 @@ We are looking for someone who:
 
 For both positions, the candidate should:
 * be able to work collaboratively with a team
-* has experience developing in a Linux environment, using git-based workflows, writing in Python/R, use high-performance computing
+* has experience developing in a Linux environment, using git-based workflows, writing in Python, use high-performance computing
 * have interest in analyzing Electronic Health Record (EHR) data and unstructured clinical notes! :)
 
 ## Applying
@@ -81,7 +81,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
  if you're interested.
 
 Screening of applicants will begin immediately and will continue as needed throughout the recruitment period.
-The position will come with a competitive postdoc-level salary with great benefits for two years, with the ability to extend if things are going well.
+
 
 The University of California is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or protected veteran status.
 
