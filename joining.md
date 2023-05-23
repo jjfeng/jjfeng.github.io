@@ -45,15 +45,7 @@ For both positions, the candidate should:
 * have interest in analyzing Electronic Health Record (EHR) data and unstructured clinical notes
 
 ## Applying
-If you are interested in this position, please submit the following materials:
-* A cover letter
-* A CV summarizing your education and work experience so far
-* The names and email addresses of three references
-* A code sample
-* One representative publication (required for postdoc, optional for data scientist)
-
-
-Please send these materials to
+If you are interested in the post-doctoral position, please submit the following materials to
 <script type="text/javascript" language="javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
@@ -77,8 +69,15 @@ Please send these materials to
 document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 }
 //-->
-</script><noscript>Sorry, you need Javascript on to email me.</noscript>
- if you're interested.
+</script><noscript>Sorry, you need Javascript on to email me.</noscript>:
+* A cover letter
+* A CV summarizing your education and work experience so far
+* The names and email addresses of three references
+* A code sample
+* One representative publication (required for postdoc, optional for data scientist)
+
+If you are interested in the data scientist position, please apply through [this portal](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=6495&siteid=5861&PageType=JobDetails&jobid=3414283).
+
 
 Screening of applicants will begin immediately and will continue as needed throughout the recruitment period.
 
