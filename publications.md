@@ -18,6 +18,11 @@ Wang, *Feng*, Gomes, Calthorpe, Ashraf Ganjouei, Romero-Hernandez, Benedetti Cac
 *Ann. Surg.*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1097/SLA.0000000000005916)
 
+**Multi-institutional Development and External Validation of a Machine Learning Model for the Prediction of Distant Metastasis in Patients Treated by Salvage Radiotherapy for Biochemical Failure After Radical Prostatectomy**<br />
+Sabbagh, Tilki, *Feng*, Huland, Graefen, Wiegel, B{\"o}hmer, Hong, Valdes, Cowan, Cooperberg, Feng, Mohammad, Shelan, D'Amico, Carroll and Mohamad<br />
+*European Urology Focus*, 2023<br />
+[\[paper\]](https://www.sciencedirect.com/science/article/pii/S2405456923001761)
+
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
