@@ -14,7 +14,7 @@ title: Publications
 
 **Is this model reliable for everyone? Testing for strong calibration**<br />
 *Feng*, Gossmann, Pirracchio, Petrick, Pennello and Sahiner<br />
-[\[arXiv\]](http://arxiv.org/abs/2307.15247)
+[\[arXiv\]](http://arxiv.org/abs/2307.15247)[\[code\]](https://github.com/jjfeng/testing_strong_calibration)
 
 ## 2023
 **Development and Validation of Prediction Models and Risk Calculators for Post-Hepatectomy Liver Failure and Postoperative Complications using a Diverse International Cohort of Major Hepatectomies**<br />

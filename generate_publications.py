@@ -15,6 +15,7 @@ SOFTWARE_DICT = {
     "bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees": "https://github.com/jjfeng/bayesian_model_revision",
     "selective prediction-set models with coverage guarantees": "https://github.com/jjfeng/pc_SPS",
     "sequential algorithmic modification with test data reuse": "https://github.com/jjfeng/adaptive_SRGP",
+    "is this model reliable for everyone? testing for strong calibration": "https://github.com/jjfeng/testing_strong_calibration",
 }
 POSTER_DICT = {
     "sequential algorithmic modification with test data reuse": "adaptive_SRGP.pdf",
