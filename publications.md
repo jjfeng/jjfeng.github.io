@@ -12,6 +12,10 @@ title: Publications
 *Feng*, Gossmann, Pennello, Petrick, Sahiner and Pirracchio<br />
 [\[arXiv\]](http://arxiv.org/abs/2211.09781)[\[code\]](https://github.com/jjfeng/monitoring_ML_CMI)
 
+**Is this model reliable for everyone? Testing for strong calibration**<br />
+*Feng*, Gossmann, Pirracchio, Petrick, Pennello and Sahiner<br />
+[\[arXiv\]](http://arxiv.org/abs/2307.15247)
+
 ## 2023
 **Development and Validation of Prediction Models and Risk Calculators for Post-Hepatectomy Liver Failure and Postoperative Complications using a Diverse International Cohort of Major Hepatectomies**<br />
 Wang, *Feng*, Gomes, Calthorpe, Ashraf Ganjouei, Romero-Hernandez, Benedetti Cacciaguerra, Hibi, Abdelgadir Adam, Alseidi, Abu Hilal, Rashidian and {International Post-Hepatectomy Liver Failure Study Group}<br />
