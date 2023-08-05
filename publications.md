@@ -27,6 +27,11 @@ Sabbagh, Tilki, *Feng*, Huland, Graefen, Wiegel, B{\"o}hmer, Hong, Valdes, Cowan
 *European Urology Focus*, 2023<br />
 [\[paper\]](https://www.sciencedirect.com/science/article/pii/S2405456923001761)
 
+**Development of a Machine Learning Model of Postoperative Acute Kidney Injury Using Non-Invasive Time-Sensitive Intraoperative Predictors**<br />
+Zamirpour, Hubbard, *Feng*, Butte, Pirracchio and Bishara<br />
+*Bioengineering*, 2023<br />
+[\[paper\]](https://www.mdpi.com/2306-5354/10/8/932)
+
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
