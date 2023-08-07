@@ -19,6 +19,7 @@ SOFTWARE_DICT = {
 }
 POSTER_DICT = {
     "sequential algorithmic modification with test data reuse": "adaptive_SRGP.pdf",
+    "is this model reliable for everyone? testing for strong calibration": "subgroup_poster.pdf",
 }
 
 def print_entries(entry_list):
@@ -71,6 +72,8 @@ for entry in bib_entries:
         else:
             print("NOT FOUND", title)
             pub_str = "**%s**<br />\n%s<br />\n[\[%s\]](%s)" % (title, author_str, journal, url)
+        if title.lower() in POSTER_DICT:
+            pub_str += "[\[poster\]](%s)" % POSTER_DICT[title.lower()]
         parsed_entries["preprints"].append(pub_str)
     else:
         journal = convert_journal(entry["journal"])
