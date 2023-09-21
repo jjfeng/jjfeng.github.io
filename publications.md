@@ -18,7 +18,7 @@ title: Publications
 
 ## 2023
 **Development and Validation of Prediction Models and Risk Calculators for Post-Hepatectomy Liver Failure and Postoperative Complications using a Diverse International Cohort of Major Hepatectomies**<br />
-Wang, *Feng*, Gomes, Calthorpe, Ashraf Ganjouei, Romero-Hernandez, Benedetti Cacciaguerra, Hibi, Abdelgadir Adam, Alseidi, Abu Hilal, Rashidian and {International Post-Hepatectomy Liver Failure Study Group}<br />
+Wang, *Feng*, Gomes, Calthorpe, Ashraf Ganjouei, Romero-Hernandez, Benedetti Cacciaguerra, Hibi, Abdelgadir Adam, Alseidi, Abu Hilal, Rashidian and International Post-Hepatectomy Liver Failure Study Group<br />
 *Ann. Surg.*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1097/SLA.0000000000005916)
 
@@ -38,7 +38,7 @@ Miller, Romero-Hernandez, Conroy, Calthorpe, Yilma, Mohamedaly, Kelly, *Feng*, H
 [\[paper\]](http://dx.doi.org/10.1007/s00268-022-06835-z)
 
 **Development and External Validation of a Machine Learning Model for Prediction of Lymph Node Metastasis in Patients with Prostate Cancer**<br />
-Sabbagh, Washington, Tilki, Hong, *Feng*, Valdes, Chen, Wu, Huland, Graefen, Wiegel, B{\"o}hmer, Cowan, Cooperberg, Feng, Roach, Trock, Partin, D'Amico, Carroll and Mohamad<br />
+Sabbagh, Washington, Tilki, Hong, *Feng*, Valdes, Chen, Wu, Huland, Graefen, Wiegel, Bohmer, Cowan, Cooperberg, Feng, Roach, Trock, Partin, D'Amico, Carroll and Mohamad<br />
 *Eur Urol Oncol*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1016/j.euo.2023.02.006)
 
