@@ -32,6 +32,11 @@ Zamirpour, Hubbard, *Feng*, Butte, Pirracchio and Bishara<br />
 *Bioengineering*, 2023<br />
 [\[paper\]](https://www.mdpi.com/2306-5354/10/8/932)
 
+**Hand-Assisted Versus Pure Minimally-Invasive Distal Pancreatectomy: Is There a Downside to Lending a Hand?**<br />
+Miller, Romero-Hernandez, Conroy, Calthorpe, Yilma, Mohamedaly, Kelly, *Feng*, Hirose, Kirkwood, Maker, Corvera, Nakakura, Alseidi and Adam<br />
+*World J. Surg.*, 2023<br />
+[\[paper\]](http://dx.doi.org/10.1007/s00268-022-06835-z)
+
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
