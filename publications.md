@@ -42,6 +42,11 @@ Sabbagh, Washington, Tilki, Hong, *Feng*, Valdes, Chen, Wu, Huland, Graefen, Wie
 *Eur Urol Oncol*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1016/j.euo.2023.02.006)
 
+**Hypertension Requiring Medication Use: a Silent Predictor of Poor Outcomes After Pancreaticoduodenectomy**<br />
+Lin, Conroy, Romero-Hernandez, Yilma, *Feng*, Hirose, Nakakura, Maker, Corvera, Kirkwood, Alseidi and Adam<br />
+*J. Gastrointest. Surg.*, 2023<br />
+[\[paper\]](http://dx.doi.org/10.1007/s11605-022-05577-6)
+
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
