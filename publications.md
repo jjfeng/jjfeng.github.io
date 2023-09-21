@@ -37,6 +37,11 @@ Miller, Romero-Hernandez, Conroy, Calthorpe, Yilma, Mohamedaly, Kelly, *Feng*, H
 *World J. Surg.*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1007/s00268-022-06835-z)
 
+**Development and External Validation of a Machine Learning Model for Prediction of Lymph Node Metastasis in Patients with Prostate Cancer**<br />
+Sabbagh, Washington, Tilki, Hong, *Feng*, Valdes, Chen, Wu, Huland, Graefen, Wiegel, B{\"o}hmer, Cowan, Cooperberg, Feng, Roach, Trock, Partin, D'Amico, Carroll and Mohamad<br />
+*Eur Urol Oncol*, 2023<br />
+[\[paper\]](http://dx.doi.org/10.1016/j.euo.2023.02.006)
+
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
