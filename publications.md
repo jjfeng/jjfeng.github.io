@@ -47,6 +47,11 @@ Lin, Conroy, Romero-Hernandez, Yilma, *Feng*, Hirose, Nakakura, Maker, Corvera, 
 *J. Gastrointest. Surg.*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1007/s11605-022-05577-6)
 
+**Predictors of All-Cause Thirty-Day Readmissions in Patients with Heart Failure at an Urban Safety Net Hospital: The Importance of Social Determinants of Health**<br />
+Steverson, Marano, Chen, Ma, Stern, *Feng*, Gennatas, Marks, Durstenfeld, Davis, Hsue and Zier<br />
+*American Journal of Medicine Open*, 2023<br />
+[\[paper\]](http://dx.doi.org/10.1016/j.ajmo.2023.100060)
+
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
