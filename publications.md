@@ -52,6 +52,11 @@ Steverson, Marano, Chen, Ma, Stern, *Feng*, Gennatas, Marks, Durstenfeld, Davis,
 *American Journal of Medicine Open*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1016/j.ajmo.2023.100060)
 
+**Homelessness and Incidence and Causes of Sudden Death: Data From the POST SCD Study**<br />
+Haghighat, Ramakrishna, Salazar, *Feng*, Chiang, Moffatt and Tseng<br />
+*JAMA Intern. Med.*, 2023<br />
+[\[paper\]](https://dx.doi.org/10.1001/jamainternmed.2023.5475)
+
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
 *Feng*, Gossmann, Sahiner and Pirracchio<br />
