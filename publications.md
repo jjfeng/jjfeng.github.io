@@ -2,6 +2,13 @@
 layout: default
 title: Publications
 ---
+<link rel="stylesheet" type="text/css" href="publications.css">
+<script src="publications_filter.js"></script>
+
+
+<button class="filter-btn" data-filter="all">All</button>
+<button class="filter-btn" data-filter="methods">Methods</button>
+<button class="filter-btn" data-filter="applied">Applied</button>
 
 ## Preprints
 **Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification**<br />

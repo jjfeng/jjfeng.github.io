@@ -30,7 +30,7 @@ def convert_journal(journal):
         return "International Conference on Machine Learning (ICML)"
     return journal
 
-BIBFILES = ["publications_preprint.bib", "publications.bib"]
+BIBFILES = ["publications_preprint.bib", "publications.bib"] #, "publications_workshop.bib"]
 OUTFILE = "publications.md"
 
 bib_entries = []
@@ -106,6 +106,13 @@ output_lines = [
 layout: default
 title: Publications
 ---
+<link rel="stylesheet" type="text/css" href="publications.css">
+<script src="publications_filter.js"></script>
+
+
+<button class="filter-btn" data-filter="all">All</button>
+<button class="filter-btn" data-filter="methods">Methods</button>
+<button class="filter-btn" data-filter="applied">Applied</button>
 
 """]
 output_lines.append("## Preprints\n")
