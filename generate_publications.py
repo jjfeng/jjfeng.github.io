@@ -106,15 +106,15 @@ output_lines = [
 layout: default
 title: Publications
 ---
-<link rel="stylesheet" type="text/css" href="publications.css">
-<script src="publications_filter.js"></script>
-
-
-<button class="filter-btn" data-filter="all">All</button>
-<button class="filter-btn" data-filter="methods">Methods</button>
-<button class="filter-btn" data-filter="applied">Applied</button>
-
 """]
+#<link rel="stylesheet" type="text/css" href="publications.css">
+#<script src="publications_filter.js"></script>
+#
+#
+#<button class="filter-btn" data-filter="all">All</button>
+#<button class="filter-btn" data-filter="methods">Methods</button>
+#<button class="filter-btn" data-filter="applied">Applied</button>
+
 output_lines.append("## Preprints\n")
 output_lines.append(print_entries(parsed_entries["preprints"]))
 if None in parsed_entries:
