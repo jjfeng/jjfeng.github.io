@@ -42,7 +42,7 @@ We are looking for someone who:
 * is able to work collaboratively with a team
 
 ## Applying
-If you are interested in the post-doctoral position, please submit the following materials to
+If you are interested, please submit the following materials to
 <script type="text/javascript" language="javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
