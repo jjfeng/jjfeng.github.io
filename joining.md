@@ -8,7 +8,7 @@ We're looking for a post-doc/data scientist! See a description of the position b
 -------
 
 ## The project:
-Zuckerberg San Francisco General Hospital and the Division of Cardiology is at the forefront of applying artificial intelligence and machine learning (AI/ML) to help improve outcomes in vulnerable and underserved populations.
+Zuckerberg San Francisco General Hospital is at the forefront of applying artificial intelligence and machine learning (AI/ML) to help improve outcomes in vulnerable and underserved populations.
 We are building out a predictive analytics team dedicated to the development and testing of ML algorithms that support the hospital's performance improvement efforts, with an emphasis on health equity and algorithmic fairness.
 Our team charter is to improve patient care using data.
 We are dedicated to the translation of these algorithms into clinical practice and will be embedding all our algorithms into various clinical systems including the electronic health record (EHR) for rigorous testing and monitoring.
