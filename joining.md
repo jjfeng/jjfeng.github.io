@@ -71,7 +71,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 * A CV summarizing your education and work experience so far
 * The names and email addresses of three references
 * A code sample
-* One representative publication (required for postdoc, optional for data scientist)
+* One representative publication
 
 
 Screening of applicants will begin immediately and will continue as needed throughout the recruitment period.
