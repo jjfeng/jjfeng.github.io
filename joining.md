@@ -16,7 +16,7 @@ We are committed to the translation of these algorithms into clinical practice a
 We are seeking a postdoctoral researcher/data scientist to join our team.
 The primary responsibilities are:
 * Develop and test new ML algorithms that analyze structured data and clinical notes from the electronic health record (EHR) system
-* Research/assess the use of large language models to develop interpretable and scalable clinical decision support systems
+* Research and assess the use of large language models to develop interpretable and scalable clinical decision support systems
 * Be up-to-date on state-of-the-art methodologies in the relevant technical fields and application domains
 * Ensure that the developed ML algorithms are reliable and fair
 * Write and edit research manuscripts in collaboration with the team
