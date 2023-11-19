@@ -15,10 +15,11 @@ We are dedicated to the translation of these algorithms into clinical practice a
 
 We are seeking a postdoctoral researcher/data scientist to join our team.
 The primary responsibilities are:
-* Develop and test ML algorithms that analyze structured data and clinical notes from the electronic health record (EHR) system
+* Develop and test new ML algorithms that analyze structured data and clinical notes from the electronic health record (EHR) system
 * Research/assess the use of large language models to develop interpretable and scalable clinical decision support systems
+* Be up-to-date on state-of-the-art methodologies in the relevant technical fields and application domains
 * Ensure that the developed ML algorithms are reliable and fair
-* Write and edit research manuscripts
+* Write and edit research manuscripts in collaboration with the team
 
 Our predictive analytics team is highly collaborative and includes team members with wide-ranging expertise:
 * Jean Feng: Data analytics lead, assistant professor in the Department of Epidemiology and Biostatistics at UCSF
@@ -35,8 +36,8 @@ Salary and benefits are competitive.
 The post-doctoral researcher/data scientist position requires at least a PhD degree or equivalent in data science, (bio)statistics, computer science, or another relevant field.
 We are looking for someone who:
 * has experience in training and testing ML algorithms for large datasets
-* has experience in methodological development and can perform independent research
-* has interest in analyzing Electronic Health Record (EHR) data and natural language processing
+* has experience in methodological development and can perform independent research, with a strong and relevant publication record
+* has interest in analyzing Electronic Health Record (EHR) data and natural language processing (prior experience is a plus)
 * has experience in developing in a Linux environment, using git-based workflows, writing Python, using high-performance computing
 * is able to work collaboratively with a team
 
