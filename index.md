@@ -41,6 +41,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 </script><noscript>Sorry, you need Javascript on to email me.</noscript>
 
 ## News
+- **Nov 2023**: Our lab has two papers accepted at the [Regulatable AI Workshop at NeurIPS](https://regulatableml.github.io/)! One on a [causal monitoring framework for ML-based medical devices)[https://arxiv.org/abs/2311.11463] and one on sample size calculations for model fairness audits.
 - **Sep 2023**: Avni Kothari has joined our lab as a data scientist! We're growing!
 - **Apr 2023**: Harvineet Singh will be joining as a postdoctoral researcher in the lab in July! We're really excited to have him!
 - **Nov 2022**: Big news! Our grant proposal on developing diagnostic tools for ML algorithms has been funded by PCORI! See the project description [here](https://www.pcori.org/research-results/2022/diagnostic-tools-quality-improvement-machine-learning-based-clinical-decision-support-systems).
