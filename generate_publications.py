@@ -20,6 +20,7 @@ SOFTWARE_DICT = {
 POSTER_DICT = {
     "sequential algorithmic modification with test data reuse": "adaptive_SRGP.pdf",
     "is this model reliable for everyone? testing for strong calibration": "subgroup_poster.pdf",
+    "towards a post-market monitoring framework for machine learning-based medical devices: a case study": "poster_neurips_regml_workshop.pdf",
 }
 
 def print_entries(entry_list):
