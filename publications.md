@@ -16,6 +16,16 @@ title: Publications
 [\[arXiv\]](http://arxiv.org/abs/2307.15247)[\[code\]](https://github.com/jjfeng/testing_strong_calibration)[\[poster\]](subgroup_poster.pdf)
 
 ## 2023
+**Towards a Post-Market Monitoring Framework for Machine Learning-based Medical Devices: A case study**<br />
+*Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
+*Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems*, 2023<br />
+[\[paper\]](http://arxiv.org/abs/2311.11463)[\[poster\]](poster_neurips_regml_workshop.pdf) ***Oral presentation***
+
+**A Brief Tutorial on Sample Size Calculations for Fairness Audits**<br />
+Singh, Xia, Kim, Pirracchio, Chunara and *Feng*<br />
+*Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems*, 2023<br />
+[\[paper\]](https://arxiv.org/abs/2312.04745)
+
 **Development and Validation of Prediction Models and Risk Calculators for Post-Hepatectomy Liver Failure and Postoperative Complications using a Diverse International Cohort of Major Hepatectomies**<br />
 Wang, *Feng*, Gomes, Calthorpe, Ashraf Ganjouei, Romero-Hernandez, Benedetti Cacciaguerra, Hibi, Abdelgadir Adam, Alseidi, Abu Hilal, Rashidian and International Post-Hepatectomy Liver Failure Study Group<br />
 *Ann. Surg.*, 2023<br />
@@ -55,16 +65,6 @@ Steverson, Marano, Chen, Ma, Stern, *Feng*, Gennatas, Marks, Durstenfeld, Davis,
 Haghighat, Ramakrishna, Salazar, *Feng*, Chiang, Moffatt and Tseng<br />
 *JAMA Intern. Med.*, 2023<br />
 [\[paper\]](https://dx.doi.org/10.1001/jamainternmed.2023.5475)
-
-**Towards a Post-Market Monitoring Framework for Machine Learning-based Medical Devices: A case study**<br />
-*Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
-*Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems*, 2023<br />
-[\[paper\]](http://arxiv.org/abs/2311.11463)[\[poster\]](poster_neurips_regml_workshop.pdf) ***Oral presentation***
-
-**A Brief Tutorial on Sample Size Calculations for Fairness Audits**<br />
-Singh, Xia, Kim, Pirracchio, Chunara and *Feng*<br />
-*Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems*, 2023<br />
-[\[paper\]](https://arxiv.org/abs/2312.04745)
 
 ## 2022
 **Bayesian logistic regression for online recalibration and revision of risk prediction models with performance guarantees**<br />
