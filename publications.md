@@ -19,7 +19,7 @@ title: Publications
 **Towards a Post-Market Monitoring Framework for Machine Learning-based Medical Devices: A case study**<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
 *Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems*, 2023<br />
-[\[paper\]](http://arxiv.org/abs/2311.11463)[\[poster\]](poster_neurips_regml_workshop.pdf) ***Oral presentation***
+[\[paper\]](http://arxiv.org/abs/2311.11463)[\[poster\]](poster_neurips_regml_workshop.pdf)[\[slides\]](postmarket_monitoring_talk_short.pdf) ***Oral presentation***
 
 **A Brief Tutorial on Sample Size Calculations for Fairness Audits**<br />
 Singh, Xia, Kim, Pirracchio, Chunara and *Feng*<br />

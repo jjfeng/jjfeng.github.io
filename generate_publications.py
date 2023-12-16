@@ -17,6 +17,9 @@ SOFTWARE_DICT = {
     "sequential algorithmic modification with test data reuse": "https://github.com/jjfeng/adaptive_SRGP",
     "is this model reliable for everyone? testing for strong calibration": "https://github.com/jjfeng/testing_strong_calibration",
 }
+TALK_DICT = {
+    "towards a post-market monitoring framework for machine learning-based medical devices: a case study": "postmarket_monitoring_talk_short.pdf",
+}
 POSTER_DICT = {
     "sequential algorithmic modification with test data reuse": "adaptive_SRGP.pdf",
     "is this model reliable for everyone? testing for strong calibration": "subgroup_poster.pdf",
@@ -98,6 +101,8 @@ for entry in bib_entries:
                 pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)" % (title, author_str, journal, url)
         if title.lower() in POSTER_DICT:
             pub_str += "[\[poster\]](%s)" % POSTER_DICT[title.lower()]
+        if title.lower() in TALK_DICT:
+            pub_str += "[\[slides\]](%s)" % TALK_DICT[title.lower()]
         if "award" in entry:
             pub_str += f" ***{entry['award']}***"
         if year not in parsed_entries:
