@@ -22,15 +22,15 @@ title: Publications
 [\[paper\]](http://arxiv.org/abs/2311.11463)
 
 ## 2023
-**Towards a Post-Market Monitoring Framework for Machine Learning-based Medical Devices: A case study**<br />
-*Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
-*Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems*, 2023<br />
-[\[paper\]](http://arxiv.org/abs/2311.11463)[\[poster\]](poster_neurips_regml_workshop.pdf)[\[slides\]](postmarket_monitoring_talk_short.pdf) ***Oral presentation***
-
 **A Brief Tutorial on Sample Size Calculations for Fairness Audits**<br />
 Singh, Xia, Kim, Pirracchio, Chunara and *Feng*<br />
 *Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems*, 2023<br />
 [\[paper\]](https://arxiv.org/abs/2312.04745)
+
+**Towards a Post-Market Monitoring Framework for Machine Learning-based Medical Devices: A case study**<br />
+*Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
+*Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems*, 2023<br />
+[\[paper\]](http://arxiv.org/abs/2311.11463)[\[poster\]](poster_neurips_regml_workshop.pdf)[\[slides\]](postmarket_monitoring_talk_short.pdf) ***Oral presentation***
 
 **Development and Validation of Prediction Models and Risk Calculators for Post-Hepatectomy Liver Failure and Postoperative Complications using a Diverse International Cohort of Major Hepatectomies**<br />
 Wang, *Feng*, Gomes, Calthorpe, Ashraf Ganjouei, Romero-Hernandez, Benedetti Cacciaguerra, Hibi, Abdelgadir Adam, Alseidi, Abu Hilal, Rashidian and International Post-Hepatectomy Liver Failure Study Group<br />
