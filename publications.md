@@ -15,6 +15,12 @@ title: Publications
 *Feng*, Gossmann, Pirracchio, Petrick, Pennello and Sahiner<br />
 [\[arXiv\]](http://arxiv.org/abs/2307.15247)[\[code\]](https://github.com/jjfeng/testing_strong_calibration)[\[poster\]](subgroup_poster.pdf)
 
+## 2024
+**Monitoring the performance of machine learning algorithms that induce feedback loops: what is the causal estimand**<br />
+*Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
+*Conference on Causal Learning and Reasoning*, 2024<br />
+[\[paper\]](http://arxiv.org/abs/2311.11463)
+
 ## 2023
 **Towards a Post-Market Monitoring Framework for Machine Learning-based Medical Devices: A case study**<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
