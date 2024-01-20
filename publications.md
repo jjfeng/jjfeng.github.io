@@ -7,19 +7,21 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
-**Monitoring machine learning (ML)-based risk prediction algorithms in the presence of confounding medical interventions**<br />
-*Feng*, Gossmann, Pennello, Petrick, Sahiner and Pirracchio<br />
-[\[arXiv\]](http://arxiv.org/abs/2211.09781)[\[code\]](https://github.com/jjfeng/monitoring_ML_CMI)
-
-**Is this model reliable for everyone? Testing for strong calibration**<br />
-*Feng*, Gossmann, Pirracchio, Petrick, Pennello and Sahiner<br />
-[\[arXiv\]](http://arxiv.org/abs/2307.15247)[\[code\]](https://github.com/jjfeng/testing_strong_calibration)[\[poster\]](subgroup_poster.pdf)
-
 ## 2024
 **Monitoring the performance of machine learning algorithms that induce feedback loops: what is the causal estimand?**<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
 *Conference on Causal Learning and Reasoning*, 2024<br />
 [\[paper\]](http://arxiv.org/abs/2311.11463)
+
+**Monitoring machine learning (ML)-based risk prediction algorithms in the presence of confounding medical interventions**<br />
+*Feng*, Gossmann, Pennello, Petrick, Sahiner and Pirracchio<br />
+*AISTATS*, 2024<br />
+[\[paper\]](http://arxiv.org/abs/2211.09781)[\[code\]](https://github.com/jjfeng/monitoring_ML_CMI)
+
+**Is this model reliable for everyone? Testing for strong calibration**<br />
+*Feng*, Gossmann, Pirracchio, Petrick, Pennello and Sahiner<br />
+*AISTATS*, 2024<br />
+[\[paper\]](http://arxiv.org/abs/2307.15247)[\[code\]](https://github.com/jjfeng/testing_strong_calibration)[\[poster\]](subgroup_poster.pdf) ***Oral presentation***
 
 ## 2023
 **A Brief Tutorial on Sample Size Calculations for Fairness Audits**<br />
