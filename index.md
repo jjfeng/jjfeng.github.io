@@ -41,6 +41,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 </script><noscript>Sorry, you need Javascript on to email me.</noscript>
 
 ## News
+- **Jan 2024**: What a month! Our lab has one paper accepted at the Conference on Causal Learning and Reasoning (CLeaR): ["Monitoring the performance of machine learning algorithms that induce feedback loops: what is the causal estimand"](https://arxiv.org/abs/2311.11463). We also have two papers accepted at AISTAT: [Is this model reliable for everyone? Testing for strong calibration](https://arxiv.org/abs/2307.15247) (oral, nonetheless!) and [Monitoring machine learning-based risk prediction algorithms in the presence of performativity](https://arxiv.org/abs/2211.09781).
 - **Nov 2023**: Our lab has two papers accepted at the [Regulatable AI Workshop at NeurIPS](https://regulatableml.github.io/)! One on a [causal monitoring framework for ML-based medical devices](https://arxiv.org/abs/2311.11463) (selected for oral) and one on sample size calculations for model fairness audits.
 - **Sep 2023**: Avni Kothari has joined our lab as a data scientist! We're growing!
 - **Apr 2023**: Harvineet Singh will be joining as a postdoctoral researcher in the lab in July! We're really excited to have him!
