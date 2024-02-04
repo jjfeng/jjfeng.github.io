@@ -9,6 +9,7 @@ title: Home
 I am an Assistant Professor in the Department of Epidemiology and Biostatistics at the University of California, San Francisco and the UCSF-UC Berkeley Joint Program in Computational Precision Health and a principal investigator at the UCSF-Stanford Center of Excellence in Regulatory Science and Innovation (CERSI).
 My research interests span the interpretability, reliability, and regulation of machine learning (ML) algorithms in healthcare.
 Recent projects include fairness auditing, performance monitoring, and safe updating of ML algorithms.
+My wide-ranging methodological interests include high-dimensional statistics, multiple hypothesis testing, causal inference, semiparametric theory, deep learning, and generative AI.
 
 I completed my Ph.D. in Biostatistics under [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Erick Matsen](https://matsen.fhcrc.org/) at the University of Washington.
 Before that, I studied computer science at Stanford and was a software engineer at [Coursera](https://www.coursera.org/).
