@@ -6,7 +6,7 @@ title: Home
 
 <img align="right" src="headshot.png" margin="50px" height="280px" onmouseover="this.src='pocky_new.png';" onmouseout="this.src='headshot.png';">
 
-I am an Assistant Professor in the Department of Epidemiology and Biostatistics at the University of California, San Francisco and the UCSF-UC Berkeley Joint Program in Computational Precision Health and a principal investigator at the UCSF-Stanford Center of Excellence in Regulatory Science and Innovation (CERSI).
+I am an Assistant Professor in the Department of Epidemiology and Biostatistics at the University of California, San Francisco and the UCSF-UC Berkeley Joint Program in Computational Precision Health and a principal investigator at the [UCSF-Stanford Center of Excellence in Regulatory Science and Innovation (CERSI)](https://pharm.ucsf.edu/cersi).
 I am also the data science lead on the predictive analytics team for the [Zuckerberg San Francisco Hospital](https://zuckerbergsanfranciscogeneral.org/).
 My research interests span the interpretability, reliability, and regulation of machine learning (ML) algorithms in healthcare.
 Recent projects include fairness auditing, performance monitoring, and safe updating of ML algorithms.
