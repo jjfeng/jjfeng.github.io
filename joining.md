@@ -30,7 +30,7 @@ Our predictive analytics team is highly collaborative and includes team members 
 
 ## The position:
 We are looking to hire a postdoctoral researcher/data scientist to join the team.
-The position (100% funded) will be for 2-years, with the possibility of extension.
+The position (100% funded) will be for one year, with the possibility of extension.
 Salary and benefits are competitive.
 
 ## Qualifications:
