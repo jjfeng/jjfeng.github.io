@@ -9,7 +9,7 @@ We're looking for a post-doc/data scientist! See a description of the position b
 
 ## The project:
 Zuckerberg San Francisco General Hospital is at the forefront of applying artificial intelligence and machine learning (AI/ML) to help improve outcomes in vulnerable and underserved populations.
-We are building out the hospital's predictive analytics team, whose charter is to leverage large datasets to improve patient care for all.
+We are growing the hospital's predictive analytics team, whose charter is to leverage large datasets to improve patient care for all.
 Our team is dedicated to the development and testing of ML algorithms that support the hospital's performance improvement efforts, with an emphasis on health equity and algorithmic fairness.
 We are committed to the translation of these algorithms into clinical practice and will be embedding all our algorithms into various clinical systems including the electronic health record (EHR) for rigorous testing and monitoring.
 
@@ -26,6 +26,7 @@ Our predictive analytics team is highly collaborative and includes team members 
 * [Lucas Zier](https://profiles.ucsf.edu/lucas.zier): Clinical lead, cardiologist at UCSF and ZSFG
 * [Jim Marks](https://sfghf.org/team/james-d-marks-md-phd/): Chief of the Medical Staff and Chief of Performance Excellence at ZSFG, anesthesiologist at UCSF and ZSFG
 * [Seth Goldman](https://profiles.ucsf.edu/seth.goldman): Informatics Director for Technology Integration and Digital Health for the Office of Health Informatics for the San Francisco Department of Public Health, hospitalist at ZSFG
+* Avni Kothari: Data scientist
 
 ## The position:
 We are looking to hire a postdoctoral researcher/data scientist to join the team.
