@@ -7,6 +7,10 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
+**A hierarchical decomposition for explaining ML performance discrepancies**<br />
+*Feng*, Singh, Xia, Subbaswamy and Gossmann<br />
+[\[arXiv\]](https://arxiv.org/abs/2402.14254)
+
 ## 2024
 **Monitoring the performance of machine learning algorithms that induce feedback loops: what is the causal estimand?**<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
