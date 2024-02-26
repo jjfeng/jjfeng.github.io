@@ -12,10 +12,10 @@ title: Publications
 [\[arXiv\]](https://arxiv.org/abs/2402.14254)
 
 ## 2024
-**Monitoring the performance of machine learning algorithms that induce feedback loops: what is the causal estimand?**<br />
+**Designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens**<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
 *Conference on Causal Learning and Reasoning*, 2024<br />
-[\[paper\]](http://arxiv.org/abs/2311.11463)
+[\[paper\]](http://arxiv.org/abs/2311.11463)[\[code\]](https://github.com/jjfeng/monitoring_causally)
 
 **Monitoring machine learning (ML)-based risk prediction algorithms in the presence of confounding medical interventions**<br />
 *Feng*, Gossmann, Pennello, Petrick, Sahiner and Pirracchio<br />

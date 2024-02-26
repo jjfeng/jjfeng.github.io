@@ -16,6 +16,7 @@ SOFTWARE_DICT = {
     "selective prediction-set models with coverage guarantees": "https://github.com/jjfeng/pc_SPS",
     "sequential algorithmic modification with test data reuse": "https://github.com/jjfeng/adaptive_SRGP",
     "is this model reliable for everyone? testing for strong calibration": "https://github.com/jjfeng/testing_strong_calibration",
+    "designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens": "https://github.com/jjfeng/monitoring_causally",
 }
 TALK_DICT = {
     "towards a post-market monitoring framework for machine learning-based medical devices: a case study": "postmarket_monitoring_talk_short.pdf",
