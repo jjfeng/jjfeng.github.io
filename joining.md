@@ -9,12 +9,12 @@ We're hiring for two positions: (a) a post-doc to work on LLM research and (b) a
 # Postdoctoral researcher on LLM auditing
 
 ## The project:
-Due to the unprecedented ability of large language models (LLMs) to interpret text data with human-like reasoning, this technology is poised to transform many fields, including healthcare.
-Nevertheless, for LLMs to be safe and effective for use in healthcare, it is crucial to understand biases embedded in this technology, as it has been shown to vary in performance across patient subgroups and can even discriminate against minorities. The goal of this project is to study red-teaming solutions that can effectively audit LLM systems, as well as the limits of current approaches. This project is a supplement of our existing PCORI project ``Diagnostic Tools for Quality Improvement of Machine Learning-Based Clinical Decision Support Systems'' (see project description [here](https://www.pcori.org/research-results/2022/diagnostic-tools-quality-improvement-machine-learning-based-clinical-decision-support-systems)).
+The unprecedented ability of large language models (LLMs) to interpret text data with human-like reasoning is poised to transform many fields.
+Nevertheless, for LLMs to be safe and effective for use in high-risk domains like healthcare, it is crucial to understand biases embedded in this technology, as it has been shown to vary in performance across subgroups and even discriminate against minorities. The goal of this project is to study red-teaming solutions that can effectively audit LLM systems, as well as the limits of current approaches. Methodologies developed in this project will be tested on real-world clinical data, including unstructured notes. This project is a supplement of our existing PCORI project ``Diagnostic Tools for Quality Improvement of Machine Learning-Based Clinical Decision Support Systems'' (see project description [here](https://www.pcori.org/research-results/2022/diagnostic-tools-quality-improvement-machine-learning-based-clinical-decision-support-systems)).
 
 ## The position:
 We are looking to hire a postdoctoral researcher/data scientist to join the team.
-The position (100% funded) will be for two years, with the possibility of extension.
+The position (100% funded) will be for two years.
 Salary and benefits are competitive.
 
 ## Qualifications:
@@ -23,7 +23,7 @@ We are looking for someone who:
 * has experience in training and testing ML algorithms for large datasets
 * has experience in natural language processing and working with LLMs
 * has experience in methodological development and can perform independent research, with a strong and relevant publication record
-* has strong software engineering background (e.g. git-based workflows, high-performance computing, linux, SQL, spark)
+* has strong software engineering background (e.g. python, torch, huggingface, git-based workflows, high-performance computing, SQL, spark)
 * is able to work collaboratively with a team
 
 ## Applying
