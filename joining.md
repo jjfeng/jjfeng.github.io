@@ -138,5 +138,5 @@ Screening of applicants will begin immediately and will continue as needed throu
 
 *Posted 11/20/2023*
 
------
+-------
 The University of California is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or protected veteran status.
