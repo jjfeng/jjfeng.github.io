@@ -14,7 +14,7 @@ Nevertheless, for LLMs to be safe and effective for use in safety critical domai
 
 We are seeking a postdoctoral researcher to join our lab. The primary responsibilities are:
 * Analyze and evaluate existing red-teaming algorithms for LLMs
-* Develop a comprehensive framework for red-teaming LLMs
+* Develop new statistical methods/frameworks for comprehensive red-teaming of LLMs
 * Develop an explanation framework to understand systematic limitations of LLMs
 * Write, edit, and publish research manuscripts in collaboration with the team
 
