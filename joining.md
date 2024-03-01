@@ -13,12 +13,12 @@ The unprecedented ability of large language models (LLMs) to interpret text data
 Nevertheless, for LLMs to be safe and effective for use in high-risk domains like healthcare, it is crucial to understand biases embedded in this technology, as it has been shown to vary in performance across subgroups and even discriminate against minorities. The goal of this project is to study red-teaming solutions that can effectively audit LLM systems, as well as the limits of current approaches. Methodologies developed in this project will be tested on real-world clinical data, including unstructured notes. This project is a supplement of our existing PCORI project ``Diagnostic Tools for Quality Improvement of Machine Learning-Based Clinical Decision Support Systems'' (see project description [here](https://www.pcori.org/research-results/2022/diagnostic-tools-quality-improvement-machine-learning-based-clinical-decision-support-systems)).
 
 ## The position:
-We are looking to hire a postdoctoral researcher/data scientist to join the team.
+We are looking to hire a postdoctoral researcher to join the team.
 The position (100% funded) will be for two years.
 Salary and benefits are competitive.
 
 ## Qualifications:
-The post-doctoral researcher/data scientist position requires at least a PhD degree in data science, (bio)statistics, computer science, or another relevant field.
+The post-doctoral researcher position requires at least a PhD degree in data science, (bio)statistics, computer science, or another relevant field.
 We are looking for someone who:
 * has experience in training and testing ML algorithms for large datasets
 * has experience in natural language processing and working with LLMs
