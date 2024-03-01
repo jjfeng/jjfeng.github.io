@@ -24,7 +24,7 @@ Our team is highly collaborative and includes members with wide-ranging expertis
 * [Fan Xia](https://profiles.ucsf.edu/fan.xia): Assistant Professor in the Department of Epidemiology and Biostatistics at UCSF. Research interests include causal inference, clinical trial design, and machine learning.
 * [Alexej Gossmann](https://www.alexejgossmann.com/): Staff Fellow and mathematical statistician in the Division of Imaging, Diagnostics, and
 Software Reliability (CDRH/OSEL/DIDSR) at the FDA. Research interests include performance evaluation of AI/ML-enabled medical devices and software in medicine.
-* And many others!
+* And many others, including Berkman Sahiner, Gene Pennello, [Adarsh Subbaswamy](https://asubbaswamy.github.io/), Nicholas Petrick, and [Romain Pirracchio](https://profiles.ucsf.edu/romain.pirracchio)!
 
 ## The position:
 We are looking to hire a postdoctoral researcher to join the team.
