@@ -43,7 +43,7 @@ Email:
 document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 }
 //-->
-</script><noscript>Sorry, you need Javascript on to email me.</noscript>
+</script><noscript>Sorry, you need Javascript on to email.</noscript>
 
 ## News
 - **Mar 2024**: More exciting news! Our proposal for supplemental research funding on studying robustness of LLMs in healthcare was approved for PCORI funding! The project will extend our current work on creating diagnostic tools for ML-based clinical decision support systems, but now encompassing LLMs.
