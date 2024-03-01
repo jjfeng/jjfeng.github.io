@@ -12,6 +12,20 @@ We're hiring for two positions: (a) a post-doc to work on LLM research and (b) a
 The unprecedented ability of large language models (LLMs) to interpret text data with human-like reasoning is poised to transform many fields.
 Nevertheless, for LLMs to be safe and effective for use in high-risk domains like healthcare, it is crucial to understand biases embedded in this technology, as it has been shown to vary in performance across subgroups and even discriminate against minorities. The goal of this project is to study red-teaming solutions that can effectively audit LLM systems, as well as the limits of current approaches. Methodologies developed in this project will be tested on real-world clinical data, including unstructured notes. This project is a supplement of our existing PCORI project ``Diagnostic Tools for Quality Improvement of Machine Learning-Based Clinical Decision Support Systems'' (see project description [here](https://www.pcori.org/research-results/2022/diagnostic-tools-quality-improvement-machine-learning-based-clinical-decision-support-systems)).
 
+We are seeking a postdoctoral researcher to join our lab. The primary responsibilities are:
+* Analyze and evaluate existing red-teaming algorithms for LLMs
+* Develop a comprehensive framework for red-teaming LLMs
+* Develop an explanation framework to understand systematic limitations of LLMs
+* Write, edit, and publish research manuscripts in collaboration with the team
+
+Our team is highly collaborative and includes members with wide-ranging expertise:
+* Jean Feng: PI of the lab
+* [Julian Hong](https://honglab.ucsf.edu/): Assistant Professor and Medical Director of Radiation Oncology Informatics in the Department of Radiation Oncology. Led one of the first randomized controlled studies of clinical machine learning. Research interests include the development and implementation of computational methods for providing personalized cancer care for patients, natural language processing of clinical notes, and evaluation of AI-based tools.
+* [Fan Xia](https://profiles.ucsf.edu/fan.xia): Assistant Professor in the Department of Epidemiology and Biostatistics at UCSF. Research interests include causal inference, clinical trial design, and machine learning.
+* [Alexej Gossmann](https://www.alexejgossmann.com/): Staff Fellow and mathematical statistician in the Division of Imaging, Diagnostics, and
+Software Reliability (CDRH/OSEL/DIDSR) at the FDA. Research interests include performance evaluation of AI/ML-enabled medical devices and software in medicine.
+* And many others!
+
 ## The position:
 We are looking to hire a postdoctoral researcher to join the team.
 The position (100% funded) will be for two years.
