@@ -13,9 +13,9 @@ The unprecedented ability of large language models (LLMs) to interpret text data
 Nevertheless, for LLMs to be safe and effective for use in safety critical domains like healthcare, it is crucial to understand biases embedded in this technology, as it has been shown to vary in performance across subgroups and even discriminate against minorities. This project aims to study and develop red-teaming solutions to audit LLMs and to understand the limits of current approaches.  Methodologies developed in this project will be tested on real-world clinical data, including unstructured notes. This project is a supplement of our existing PCORI project "Diagnostic Tools for Quality Improvement of Machine Learning-Based Clinical Decision Support Systems" (see project description [here](https://www.pcori.org/research-results/2022/diagnostic-tools-quality-improvement-machine-learning-based-clinical-decision-support-systems)).
 
 We are seeking a postdoctoral researcher to join our lab. The primary responsibilities are:
-* Analyze and evaluate existing red-teaming algorithms for LLMs
+* Rigorously analyze and evaluate existing red-teaming algorithms for LLMs
 * Develop new statistical methods/frameworks for comprehensive red-teaming of LLMs
-* Develop an explanation framework to understand systematic limitations of LLMs
+* Develop an explanation framework and statistical inference procedures to understand systematic limitations of LLMs
 * Write, edit, and publish research manuscripts in collaboration with the team
 
 Our team is highly collaborative and includes members with wide-ranging expertise:
