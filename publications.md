@@ -32,6 +32,11 @@ Wang, Tozzi, Ganjouei, Romero-Hernandez, *Feng*, Calthorpe, Castro, Davis, Withe
 *J. Gastrointest. Surg.*, 2024<br />
 [\[paper\]](https://doi.org/10.1016/j.gassur.2024.03.006)
 
+**Machine Learning--Based Prediction of Hospitalization During Chemoradiotherapy With Daily Step Counts**<br />
+Friesner, *Feng*, Kalnicki, Garg, Ohri and Hong<br />
+*JAMA Oncol*, 2024<br />
+[\[paper\]](http://dx.doi.org/10.1001/jamaoncol.2024.0014)
+
 ## 2023
 **A Brief Tutorial on Sample Size Calculations for Fairness Audits**<br />
 Singh, Xia, Kim, Pirracchio, Chunara and *Feng*<br />
