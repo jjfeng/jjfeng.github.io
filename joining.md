@@ -4,7 +4,7 @@ title: Joining
 ---
 
 We're hiring for three positions:
-*-[a-post-doc-to-work-on-post-market-monitoring-of-ML-algorithms](#postdoctoral-researcher-on-post-market-monitoring-of-machine-learning-algorithms)
+1. [a post-doc to work on post-market monitoring of ML algorithms](#postdoctoral-researcher-on-post-market-monitoring-of-machine-learning-algorithms)
 * a post-doc to work on LLM auditing
 * a post-doc/data scientist to be part of the ZSFG Predictive Analytics group! See a description of the positions below.
 
