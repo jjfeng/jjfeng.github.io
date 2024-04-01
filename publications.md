@@ -15,7 +15,7 @@ title: Publications
 **Designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens**<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
 *Conference on Causal Learning and Reasoning*, 2024<br />
-[\[paper\]](https://proceedings.mlr.press/v236/feng24a.html)[\[code\]](https://github.com/jjfeng/monitoring_causally)
+[\[paper\]](https://proceedings.mlr.press/v236/feng24a.html)[\[code\]](https://github.com/jjfeng/monitoring_causally)[\[poster\]](clear_poster.pdf)
 
 **Monitoring machine learning (ML)-based risk prediction algorithms in the presence of confounding medical interventions**<br />
 *Feng*, Gossmann, Pennello, Petrick, Sahiner and Pirracchio<br />
