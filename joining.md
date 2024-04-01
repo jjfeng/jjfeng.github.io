@@ -9,7 +9,7 @@ We're hiring for three positions:
 3. [a post-doc/data scientist to be part of the ZSFG Predictive Analytics group](#postdoctoral-researcher/senior-data-scientist-on-the-zsfg-predictive-analytics-team)
 
 -------
-# [1] Postdoctoral researcher on post-market monitoring of machine learning algorithms
+# Postdoctoral researcher on post-market monitoring of machine learning algorithms
 
 ## The project:
 After a machine learning (ML)-based system is deployed, monitoring its performance is important to ensure the safety and effectiveness of the algorithm over time. When an ML algorithm interacts with its environment, the algorithm can affect the data-generating mechanism and be a major source of bias when evaluating its standalone performance, an issue known as performativity. Although prior work has shown how to validate models in the presence of performativity using causal inference techniques, there has been little work on how to monitor models in the presence of performativity. The goal of this project is to bring together techniques from causal inference and statistical process control to develop a comprehensive framework for post-market monitoring of ML algorithms. This work builds on a number of our previous works, including [this paper](https://proceedings.mlr.press/v236/feng24a.html) that was published at the Conference of Causal Learning and Resoning (CLeaR) and was presented at the NeurIPS Regulatable AI workshop.
@@ -77,7 +77,7 @@ Screening of applicants will begin immediately and will continue as needed throu
 *Posted 3/31/2024*
 
 -------
-# [2] Postdoctoral researcher on LLM auditing
+# Postdoctoral researcher on LLM auditing
 
 ## The project:
 The unprecedented ability of large language models (LLMs) to interpret text data with human-like reasoning is poised to transform many fields.
@@ -149,7 +149,7 @@ Screening of applicants will begin immediately and will continue as needed throu
 *Posted 3/1/2024*
 
 -------
-# [3] Postdoctoral researcher/senior data scientist on the ZSFG Predictive Analytics team
+# Postdoctoral researcher/senior data scientist on the ZSFG Predictive Analytics team
 
 ## The project:
 Zuckerberg San Francisco General Hospital is at the forefront of applying artificial intelligence and machine learning (AI/ML) to help improve outcomes in vulnerable and underserved populations.
