@@ -3,7 +3,11 @@ layout: default
 title: Joining
 ---
 
-We're hiring for two positions: (a) a post-doc to work on LLM research and (b) a post-doc/data scientist to be part of the ZSFG Predictive Analytics group! See a description of the positions below.
+We're hiring for three positions:
+* a post-doc to work on post-market monitoring of ML algorithms
+* a post-doc to work on LLM auditing
+* a post-doc/data scientist to be part of the ZSFG Predictive Analytics group! See a description of the positions below.
+
 -------
 # Postdoctoral researcher on post-market monitoring of machine learning algorithms
 
@@ -71,8 +75,6 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 Screening of applicants will begin immediately and will continue as needed throughout the recruitment period.
 
 *Posted 3/31/2024*
-
--------
 
 -------
 # Postdoctoral researcher on LLM auditing
