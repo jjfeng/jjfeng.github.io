@@ -20,12 +20,12 @@ title: Publications
 **Monitoring machine learning (ML)-based risk prediction algorithms in the presence of confounding medical interventions**<br />
 *Feng*, Gossmann, Pennello, Petrick, Sahiner and Pirracchio<br />
 *AISTATS*, 2024<br />
-[\[paper\]](http://arxiv.org/abs/2211.09781)[\[code\]](https://github.com/jjfeng/monitoring_ML_CMI)
+[\[paper\]](https://proceedings.mlr.press/v238/feng24b.html)[\[code\]](https://github.com/jjfeng/monitoring_ML_CMI)
 
 **Is this model reliable for everyone? Testing for strong calibration**<br />
 *Feng*, Gossmann, Pirracchio, Petrick, Pennello and Sahiner<br />
 *AISTATS*, 2024<br />
-[\[paper\]](http://arxiv.org/abs/2307.15247)[\[code\]](https://github.com/jjfeng/testing_strong_calibration)[\[poster\]](subgroup_poster.pdf) ***Oral presentation***
+[\[paper\]](https://proceedings.mlr.press/v238/feng24a.html)[\[code\]](https://github.com/jjfeng/testing_strong_calibration)[\[poster\]](subgroup_poster.pdf) ***Oral presentation***
 
 **Machine Learning Improves Prediction of Postoperative Outcomes After Gastrointestinal Surgery: A Systematic Review and Meta-analysis**<br />
 Wang, Tozzi, Ganjouei, Romero-Hernandez, *Feng*, Calthorpe, Castro, Davis, Withers, Zhou, Chaudhary, Adam, Berrevoet, Alseidi and Rashidian<br />
