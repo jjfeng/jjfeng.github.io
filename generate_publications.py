@@ -1,6 +1,7 @@
 import bibtexparser
 
 SOFTWARE_DICT = {
+    "bayesian concept bottleneck models with llm priors": "https://github.com/jjfeng/bc-llm",
     "monitoring machine learning (ml)-based risk prediction algorithms in the presence of confounding medical interventions": "https://github.com/jjfeng/monitoring_ML_CMI",
     "ensembled sparse-input hierarchical networks for high-dimensional datasets": "https://pypi.org/project/EASIER-net/",
     "estimation of cell lineage trees by maximum-likelihood phylogenetics": "https://github.com/matsengrp/gapml",

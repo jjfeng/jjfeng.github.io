@@ -15,7 +15,7 @@ title: Publications
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
 *NeurIPS Workshop on Statistical Frontiers in LLMs and Foundation Models*, 2024<br />
-[\[paper\]](https://arxiv.org/abs/2410.15555)
+[\[paper\]](https://arxiv.org/abs/2410.15555)[\[code\]](https://github.com/jjfeng/bc-llm)
 
 **Designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens**<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
