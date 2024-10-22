@@ -12,6 +12,11 @@ title: Publications
 [\[arXiv\]](https://arxiv.org/abs/2402.14254)
 
 ## 2024
+**Bayesian Concept Bottleneck Models with LLM Priors**<br />
+*Feng*, Kothari, Zier, Singh and Tan<br />
+*NeurIPS Workshop on Statistical Frontiers in LLMs and Foundation Models*, 2024<br />
+[\[paper\]](https://arxiv.org/abs/2410.15555)
+
 **Designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens**<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
 *Conference on Causal Learning and Reasoning*, 2024<br />
