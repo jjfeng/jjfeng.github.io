@@ -7,10 +7,6 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
-**A hierarchical decomposition for explaining ML performance discrepancies**<br />
-*Feng*, Singh, Xia, Subbaswamy and Gossmann<br />
-[\[arXiv\]](https://arxiv.org/abs/2402.14254)
-
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
@@ -41,6 +37,11 @@ Wang, Tozzi, Ganjouei, Romero-Hernandez, *Feng*, Calthorpe, Castro, Davis, Withe
 Friesner, *Feng*, Kalnicki, Garg, Ohri and Hong<br />
 *JAMA Oncol*, 2024<br />
 [\[paper\]](http://dx.doi.org/10.1001/jamaoncol.2024.0014)
+
+**A hierarchical decomposition for explaining ML performance discrepancies**<br />
+*Feng*, Singh, Xia, Subbaswamy and Gossmann<br />
+*Adv. Neural Inf. Process. Syst.*, 2024<br />
+[\[paper\]](https://neurips.cc/virtual/2024/poster/93686)[\[code\]](https://github.com/jjfeng/HDPD)
 
 ## 2023
 **A Brief Tutorial on Sample Size Calculations for Fairness Audits**<br />
