@@ -39,7 +39,7 @@ Friesner, *Feng*, Kalnicki, Garg, Ohri and Hong<br />
 [\[paper\]](http://dx.doi.org/10.1001/jamaoncol.2024.0014)
 
 **A hierarchical decomposition for explaining ML performance discrepancies**<br />
-*Feng*, Singh, Xia, Subbaswamy and Gossmann<br />
+Singh, Xia, Subbaswamy, Gossmann and *Feng*<br />
 *Adv. Neural Inf. Process. Syst.*, 2024<br />
 [\[paper\]](https://neurips.cc/virtual/2024/poster/93686)[\[code\]](https://github.com/jjfeng/HDPD)
 
