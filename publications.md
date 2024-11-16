@@ -43,6 +43,11 @@ Singh, Xia, Subbaswamy, Gossmann and *Feng*<br />
 *Adv. Neural Inf. Process. Syst.*, 2024<br />
 [\[paper\]](https://neurips.cc/virtual/2024/poster/93686)[\[code\]](https://github.com/jjfeng/HDPD)
 
+**Transcriptomic profiling of human myocardium at sudden death to define vulnerable substrate for lethal arrhythmias**<br />
+Caudal, Liu, Pang, Maison, Nakasuka, *Feng*, Schwarzer-Sperber, Schwarzer, Moffatt, Henrich, Padmanabhan, Connolly, Wu and Tseng<br />
+*JACC Clin. Electrophysiol.*, 2024<br />
+[\[paper\]](https://doi.org/10.1016/j.jacep.2024.08.013)
+
 ## 2023
 **A Brief Tutorial on Sample Size Calculations for Fairness Audits**<br />
 Singh, Xia, Kim, Pirracchio, Chunara and *Feng*<br />
