@@ -54,14 +54,17 @@ $on-laptop:        800px;
   .trigger.visible {
     display: flex; /* Show links when toggled */
   }
+  .nav-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
 }
 
-/* Optional styling for toggle button */
 .nav-toggle {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
+  display: none;
 }
 
 
