@@ -46,7 +46,7 @@ $on-laptop:        800px;
   flex-direction: row;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .trigger {
     display: none; /* Hide navigation links initially */
     flex-direction: column; /* Stack links vertically */
