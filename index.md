@@ -4,7 +4,7 @@ title: Home
 ---
 
 
-<img align="right" src="headshot.png" style="margin:50px" height="280px" onmouseover="this.src='pocky_new.png';" onmouseout="this.src='headshot.png';">
+<img align="right" src="headshot.png" style="margin:20px" height="280px" onmouseover="this.src='pocky_new.png';" onmouseout="this.src='headshot.png';">
 
 I am an Assistant Professor in the Department of Epidemiology and Biostatistics at the University of California, San Francisco and the UCSF-UC Berkeley Joint Program in Computational Precision Health and a principal investigator at the [UCSF-Stanford Center of Excellence in Regulatory Science and Innovation (CERSI)](https://pharm.ucsf.edu/cersi).
 I am also the data science lead on the [PROSPECT team](https://zsfg-prospect.github.io/), the digital innovation taskforce for the Zuckerberg San Francisco General Hospital.
