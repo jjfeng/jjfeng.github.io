@@ -40,6 +40,30 @@ $on-laptop:        800px;
     font-style:italic;
 }
 
+/* Ensure nav is hidden by default on mobile */
+.trigger {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .trigger {
+    display: none; /* Hide navigation links initially */
+    flex-direction: column; /* Stack links vertically */
+  }
+  .trigger.visible {
+    display: flex; /* Show links when toggled */
+  }
+}
+
+/* Optional styling for toggle button */
+.nav-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 
 // Import partials from the `minima` theme.
 @import "minima";
