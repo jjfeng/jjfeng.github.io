@@ -11,7 +11,7 @@ title: Publications
 **Not all clinical AI monitoring systems are created equal: Review and recommendations**<br />
 *Feng*, Xia, Singh and Pirracchio<br />
 *NEJM AI*, 2025<br />
-[\[paper\]](https://ai.nejm.org/doi/full/10.1056/AIra2400657)
+[\[paper\]](https://ai.nejm.org/stoken/default+domain/WHP5GAV5DNNC8FSNKFSD/full?redirectUri=doi/full/10.1056/AIra2400657)
 
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
