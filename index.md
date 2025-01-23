@@ -46,6 +46,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 </script><noscript>Sorry, you need Javascript on to email.</noscript>
 
 ## News
+- **Jan 2025**: We just published a review in NEJM AI on real-world clinical AI monitoring systems, which was a wonderful collaboration between Romain Pirracchio, Fan Xia, and Karandeep Singh. TL;DR [Not all clinical AI monitoring systems are created equal!](https://ai.nejm.org/doi/full/10.1056/AIra2400657)
 - **Oct 2024**: Our lab has two NeurIPS workshop papers accepted! One on [explaining performance differences of ML algorithms across domains](https://arxiv.org/abs/2402.14254) and one on [leveraging LLMs as Bayesian priors to fit Concept Bottleneck Models](https://arxiv.org/abs/2410.15555).
 - **Sep 2024**: Our work on [explaining performance differences of ML algorithms across domains](https://arxiv.org/abs/2402.14254) was accepted at NeurIPS! Congratulations Harvineet and the rest of the team!
 - **June 2024**: Congratulations Harvineet Singh and Avni Kothari for acceptances for oral presentations at the AMIA Annual Symposium!
