@@ -7,6 +7,12 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
+## 2025
+**Not all clinical AI monitoring systems are created equal: Review and recommendations**<br />
+*Feng*, Xia, Singh and Pirracchio<br />
+*NEJM AI*, 2025<br />
+[\[paper\]](https://ai.nejm.org/doi/full/10.1056/AIra2400657)
+
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
