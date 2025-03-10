@@ -13,6 +13,11 @@ title: Publications
 *NEJM AI*, 2025<br />
 [\[paper\]](https://ai.nejm.org/stoken/default+domain/WHP5GAV5DNNC8FSNKFSD/full?redirectUri=doi/full/10.1056/AIra2400657)
 
+**Reducing readmissions in the safety net through AI and automation**<br />
+Bennett, *Feng*, Goldman, Kothari, Gottlieb, Durstenfeld, Marks, Ehrlich, Davis and Zier<br />
+*Am. J. Manag. Care*, 2025<br />
+[\[paper\]](https://doi.org/10.37765/ajmc.2025.89697)
+
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
