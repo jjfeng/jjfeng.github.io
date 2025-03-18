@@ -18,6 +18,11 @@ Bennett, *Feng*, Goldman, Kothari, Gottlieb, Durstenfeld, Marks, Ehrlich, Davis 
 *Am. J. Manag. Care*, 2025<br />
 [\[paper\]](https://doi.org/10.37765/ajmc.2025.89697)
 
+**Optimal vasopressin initiation in septic shock: The OVISS reinforcement learning study**<br />
+Kalimouttou, Kennedy, *Feng*, Singh, Saria, Angus, Seymour and Pirracchio<br />
+*JAMA*, 2025<br />
+[\[paper\]](https://doi.org/10.1001/jama.2025.3046)
+
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
