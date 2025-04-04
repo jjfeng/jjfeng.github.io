@@ -17,7 +17,7 @@ My wide-ranging methodological interests include high-dimensional statistics, mu
 I completed my Ph.D. in Biostatistics under [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Erick Matsen](https://matsen.fhcrc.org/) at the University of Washington.
 Before that, I studied computer science at Stanford and was a software engineer at [Coursera](https://www.coursera.org/).
 
-[CV](cv.pdf) / [GitHub](https://github.com/jjfeng) / [Twitter](https://twitter.com/Jean_J_Feng)
+[CV](cv.pdf) / [GitHub](https://github.com/jjfeng) / [Twitter](https://twitter.com/Jean_J_Feng) / [Google Scholar](https://scholar.google.com/citations?user=rKCO-dwAAAAJ&hl=en)
 
 Email:
 <script type="text/javascript" language="javascript">
