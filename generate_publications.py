@@ -127,14 +127,14 @@ title: Publications
 #<button class="filter-btn" data-filter="methods">Methods</button>
 #<button class="filter-btn" data-filter="applied">Applied</button>
 
-output_lines.append("## Preprints\n")
-output_lines.append(print_entries(parsed_entries["preprints"]))
 if None in parsed_entries:
-    output_lines.append("\n\n## In press\n")
+    output_lines.append("\n## In press\n")
     output_lines.append(print_entries(parsed_entries[None]))
 for year in sorted(years, reverse=True):
     output_lines.append("\n\n## %d\n" % year)
     output_lines.append(print_entries(parsed_entries[year]))
+output_lines.append("\n\n## Preprints\n")
+output_lines.append(print_entries(parsed_entries["preprints"]))
 
 with open(OUTFILE, "w") as outfile:
     outfile.writelines(output_lines)
