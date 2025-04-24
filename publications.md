@@ -20,6 +20,11 @@ Kalimouttou, Kennedy, *Feng*, Singh, Saria, Angus, Seymour and Pirracchio<br />
 *JAMA*, 2025<br />
 [\[paper\]](https://doi.org/10.1001/jama.2025.3046)
 
+**Patterns in symptoms preceding acute care in patients with cancer**<br />
+Chang, Chen, *Feng*, Friesner, Mohindra, Boreta, Rabow, Braunstein, Benson and Hong<br />
+*JAMA Netw. Open*, 2025<br />
+[\[paper\]](https://doi.org/10.1001/jamanetworkopen.2025.6366)
+
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
