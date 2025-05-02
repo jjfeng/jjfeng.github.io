@@ -77,8 +77,8 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 * A cover letter
 * A CV summarizing your education and work experience so far
 * The names and email addresses of three references
-* A code sample
-* One representative publication
+* A code sample (e.g. a github repo of yours that you are most proud of)
+* One representative publication (Optional for data scientist applicants; Required for postdoc applicants)
 
 
 Screening of applicants will begin immediately and will continue as needed throughout the recruitment period.
