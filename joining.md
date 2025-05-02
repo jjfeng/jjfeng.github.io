@@ -6,7 +6,9 @@ title: Joining
 We're seeking post-doctoral researchers and data scientists to join our interdisciplinary research team on an ambitious multi-year mission to develop cutting-edge computational tools for monitoring, diagnosing, and updating ML/AI algorithms that will be ultimately be rigorously tested and deployed in real-world clinical settings.
 The team is led by Dr. Feng and [Suchi Saria](https://suchisaria.jhu.edu/). Other team members include faculty across both UCSF and JHU, including Fan Xia, Julian Hong, Lucas Zier, and more!
 If this opportunity excites you, please see below!
+
 -------
+
 # Postdoctoral researchers [4 openings]
 The position (100% funded) will be for two years, with potential for continuation.
 Salary and benefits are competitive.
@@ -24,7 +26,9 @@ We are looking for someone who:
 * has experience in methodological development and can perform independent research, with a strong and relevant publication record
 * has strong software engineering background
 * is able to work collaboratively with a team
+
 -------
+
 # Data scientist [2 openings]
 The position (100% funded) will be for two years, with potential for continuation.
 Salary and benefits are competitive.
@@ -41,6 +45,7 @@ We are looking for someone who:
 * experience in building ETL pipelines
 * excited to getting their hands dirty with real-world clinical data
 * is able to work collaboratively with a team
+
 ---------
 
 ## Applying
