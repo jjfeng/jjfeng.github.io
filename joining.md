@@ -4,7 +4,7 @@ title: Joining
 ---
 
 We're seeking post-doctoral researchers and data scientists to join our interdisciplinary research team on an ambitious multi-year mission to develop cutting-edge computational tools for monitoring, diagnosing, and updating ML/AI algorithms that will be ultimately be rigorously tested and deployed in real-world clinical settings.
-The team is led by Dr. Feng and [Suchi Saria](https://suchisaria.jhu.edu/). Other team members include faculty across both UCSF and JHU, including Fan Xia, Julian Hong, Lucas Zier, and more!
+The team is led by Drs. Feng and [Suchi Saria](https://suchisaria.jhu.edu/). Other team members include faculty across both UCSF and JHU, including Fan Xia, Julian Hong, Lucas Zier, and more!
 If this opportunity excites you, please see below!
 
 -------
