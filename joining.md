@@ -14,9 +14,9 @@ The position (100% funded) will be for two years, with potential for continuatio
 Salary and benefits are competitive.
 
 ## Primary responsibilities:
-* Develop tools for monitoring, diagnosing, and updating ML/AI systems in real-world clinical settings with rigorous statistical guarantees.
+* Develop tools for monitoring, diagnosing, and updating ML/AI systems in real-world clinical settings with rigorous statistical guarantees. See example papers from our group [here](https://ai.nejm.org/stoken/default+domain/WHP5GAV5DNNC8FSNKFSD/full?redirectUri=doi/full/10.1056/AIra2400657), [here](https://proceedings.mlr.press/v236/feng24a.html), [here](https://www.nejm.org/doi/full/10.1056/NEJMc2104626), and [here](https://proceedings.mlr.press/v130/subbaswamy21a.html).
 * Design and implement robust, scalable software libraries and data pipelines
-* Collaborate with deployment teams to integrate tools into real-world systems
+* Collaborate with deployment teams to ensure developed tools work well in real-world settings
 * Prepare and submit research manuscripts and technical reports
 
 ## Qualifications:
