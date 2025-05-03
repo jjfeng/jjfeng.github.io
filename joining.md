@@ -34,7 +34,7 @@ The position (100% funded) will be for two years, with potential for continuatio
 Salary and benefits are competitive.
 
 ## Primary responsibilities:
-* Architect, implement, and maintain ETL pipelines to support monitoring, diagnosing, and updating ML/AI systems in real-world clinical settings
+* Architect, implement, and maintain ETL pipelines that extract data from the Electronic Health Record (EHR) system and support monitoring, diagnosing, and updating ML/AI systems in real-world clinical settings
 * Design and implement robust, scalable software libraries and data pipelines
 * Collaborate with deployment teams to integrate tools into real-world systems
 
