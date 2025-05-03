@@ -42,8 +42,8 @@ Salary and benefits are competitive.
 The data scientist position requires a BS (preferably MS) in computer science, data science, (bio)statistics, or related areas.
 We are looking for someone who:
 * has a strong software engineering background
-* experience in building ETL pipelines
-* excited to getting their hands dirty with real-world clinical data
+* has experience in building ETL pipelines
+* is excited to getting their hands dirty with real-world clinical data
 * is able to work collaboratively with a team
 
 ---------
