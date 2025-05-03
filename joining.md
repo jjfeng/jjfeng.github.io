@@ -39,7 +39,7 @@ Salary and benefits are competitive.
 * Collaborate with deployment teams to integrate tools into real-world systems
 
 ## Qualifications:
-The data scientist position requires a BS (preferably MS) in computer science, data science, or related areas.
+The data scientist position requires a BS (preferably MS) in computer science, data science, (bio)statistics, or related areas.
 We are looking for someone who:
 * has a strong software engineering background
 * experience in building ETL pipelines
