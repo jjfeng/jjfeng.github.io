@@ -24,7 +24,7 @@ The post-doctoral researcher position requires at least a PhD degree in computer
 We are looking for someone who:
 * has experience in at least one of these fields: sequential monitoring, machine learning, and causal inference
 * has experience in methodological development and can perform independent research, with a strong and relevant publication record
-* has strong software engineering background
+* is comfortable working with large datasets as well as data from different modalities (tabular, imaging, text)
 * is able to work collaboratively with a team
 
 -------
