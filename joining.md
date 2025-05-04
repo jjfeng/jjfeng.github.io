@@ -23,7 +23,7 @@ Salary and benefits are competitive.
 The post-doctoral researcher position requires at least a PhD degree in computer science, (bio)statistics, data science, or related fields.
 We are looking for someone who:
 * has experience in methodological development and can perform independent research, with a strong and relevant publication record
-* (preferably) has experience in at least one of these fields: sequential monitoring, multiple hypothesis testing, machine learning, causal inference
+* (preferably) has experience in at least one of these fields: sequential monitoring, multiple hypothesis testing, machine learning, causal inference, post-prediction inference
 * is comfortable working with large datasets as well as data from different modalities (tabular, imaging, text)
 * is able to work collaboratively with a team
 
