@@ -83,7 +83,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 
 Screening of applicants will begin immediately and will continue as needed throughout the recruitment period.
 
-*Posted 05/10/2025*
+*Posted 05/4/2025*
 
 -------
 The University of California is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or protected veteran status.
