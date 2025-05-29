@@ -5,6 +5,11 @@ title: Publications
 
 
 ## 2025
+**Judging LLMs on a Simplex**<br />
+Patrick, Fan, Yifan and Jean<br />
+*arXiv [cs.LG]*, 2025<br />
+[\[paper\]](https://arxiv.org/abs/2505.21972)
+
 **Not all clinical AI monitoring systems are created equal: Review and recommendations**<br />
 *Feng*, Xia, Singh and Pirracchio<br />
 *NEJM AI*, 2025<br />
