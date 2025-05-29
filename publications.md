@@ -4,6 +4,11 @@ title: Publications
 ---
 
 
+## Preprints
+**Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification**<br />
+*Feng* and Simon<br />
+[\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
+
 ## 2025
 **Judging LLMs on a Simplex**<br />
 Patrick, Fan, Yifan and Jean<br />
@@ -206,8 +211,3 @@ Davidsen, Olson, DeWitt, *Feng*, Harkins, Bradley and Matsen<br />
 *Feng*, Williamson, Simon and Carone<br />
 *International Conference on Machine Learning (ICML)*, 2018<br />
 [\[paper\]](http://proceedings.mlr.press/v80/feng18a.html)[\[code\]](https://github.com/jjfeng/nnet_var_import)
-
-## Preprints
-**Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification**<br />
-*Feng* and Simon<br />
-[\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)

@@ -130,12 +130,11 @@ title: Publications
 if None in parsed_entries:
     output_lines.append("\n## In press\n")
     output_lines.append(print_entries(parsed_entries[None]))
+output_lines.append("\n\n## Preprints\n")
+output_lines.append(print_entries(parsed_entries["preprints"]))
 for year in sorted(years, reverse=True):
     output_lines.append("\n\n## %d\n" % year)
     output_lines.append(print_entries(parsed_entries[year]))
-output_lines.append("\n\n## Preprints\n")
-output_lines.append(print_entries(parsed_entries["preprints"]))
-
 with open(OUTFILE, "w") as outfile:
     outfile.writelines(output_lines)
 
