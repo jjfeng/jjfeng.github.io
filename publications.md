@@ -10,7 +10,7 @@ title: Publications
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
 **Judging LLMs on a Simplex**<br />
-Patrick, Fan, Yifan and Jean<br />
+Vossler, Xia, Mai and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2505.21972)
 
 ## 2025
