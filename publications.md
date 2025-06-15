@@ -37,7 +37,7 @@ Chang, Chen, *Feng*, Friesner, Mohindra, Boreta, Rabow, Braunstein, Benson and H
 **``Who experiences large model decay and why?'' A Hierarchical Framework for Diagnosing Heterogeneous Performance Drift**<br />
 Singh, Xia, Gossmann, Chuang, Hong and *Feng*<br />
 *International Conference on Machine Learning (ICML)*, 2025<br />
-[\[paper\]](https://icml.cc/virtual/2025/poster/45315)[\[code\]](https://github.com/jjfeng/shift)
+[\[paper\]](https://icml.cc/virtual/2025/poster/45315)[\[code\]](https://github.com/jjfeng/shift)[\[poster\]](2025_07_16_icml_SHIFT_poster.pdf)
 
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
