@@ -43,7 +43,7 @@ The data scientist position requires a BS (preferably MS) in computer science, d
 We are looking for someone who:
 * has a strong software engineering background
 * has experience in building ETL pipelines
-* is excited to getting their hands dirty with real-world clinical data
+* is excited to get their hands dirty with real-world clinical data
 * is able to work collaboratively with a team
 
 ---------
