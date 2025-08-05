@@ -39,6 +39,11 @@ Singh, Xia, Gossmann, Chuang, Hong and *Feng*<br />
 *International Conference on Machine Learning (ICML)*, 2025<br />
 [\[paper\]](https://icml.cc/virtual/2025/poster/45315)[\[code\]](https://github.com/jjfeng/shift)
 
+**The state of the art in artificial intelligence and digital pathology in prostate cancer**<br />
+Ni, Kouzy, Sabbagh, Rooney, *Feng*, Castillo, Gadoue, El Kouzi, Hoffman, Yuan, Madabhushi and Mohamad<br />
+*Nat. Rev. Urol.*, 2025<br />
+[\[paper\]](http://dx.doi.org/10.1038/s41585-025-01070-2)
+
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
