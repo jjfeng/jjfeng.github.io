@@ -14,6 +14,11 @@ Vossler, Xia, Mai and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2505.21972)
 
 ## 2025
+**When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
+Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />
+*arXiv [cs.CY]*, 2025<br />
+[\[paper\]](https://www.arxiv.org/abs/2508.08504)[\[code\]](https://github.com/jjfenglab/social-wayfinder)
+
 **Not all clinical AI monitoring systems are created equal: Review and recommendations**<br />
 *Feng*, Xia, Singh and Pirracchio<br />
 *NEJM AI*, 2025<br />
