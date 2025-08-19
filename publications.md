@@ -48,6 +48,11 @@ Ni, Kouzy, Sabbagh, Rooney, *Feng*, Castillo, Gadoue, El Kouzi, Hoffman, Yuan, M
 *Nat. Rev. Urol.*, 2025<br />
 [\[paper\]](http://dx.doi.org/10.1038/s41585-025-01070-2)
 
+**Performance drift in a nationally deployed population health risk algorithm in the US Veterans Health Administration**<br />
+Kolla, Linn, Navathe, Kreisler, Roberts, Park, Singh, *Feng*, Chen and Parikh<br />
+*JAMA Health Forum*, 2025<br />
+[\[paper\]](http://dx.doi.org/10.1001/jamahealthforum.2025.2717)
+
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
