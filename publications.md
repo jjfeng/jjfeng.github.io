@@ -53,6 +53,11 @@ Kolla, Linn, Navathe, Kreisler, Roberts, Park, Singh, *Feng*, Chen and Parikh<br
 *JAMA Health Forum*, 2025<br />
 [\[paper\]](http://dx.doi.org/10.1001/jamahealthforum.2025.2717)
 
+**Minimally invasive distal pancreatectomy as the standard of care in the US: Are we there yet?**<br />
+Foroutani, Gonzalez, Wang, Aburayya, Ganjouei, *Feng*, Thornblade, Hirose, Maker, Nakakura, Corvera, Alseidi and Adam<br />
+*Cancers (Basel)*, 2025<br />
+[\[paper\]](https://doi.org/10.3390/cancers17183015)
+
 ## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
