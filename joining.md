@@ -5,13 +5,33 @@ title: Joining
 
 We're seeking talented post-doctoral researchers and data scientists to join our interdisciplinary research team on an ambitious multi-year mission to develop cutting-edge computational tools for monitoring, diagnosing, and updating ML/AI algorithms. The goal is to ultimately rigorously test and deploy these tools in multiple hospital systems.
 If this opportunity excites you, please see below!
-The team is led by Drs. Feng and [Suchi Saria](https://suchisaria.jhu.edu/). Other team members include faculty across UCSF, JHU, and Northwell with expertise in ML/AI/statistics and medicine, including [Fan Xia](https://profiles.ucsf.edu/fan.xia), [Julian Hong](https://profiles.ucsf.edu/julian.hong), [Lucas Zier](https://profiles.ucsf.edu/lucas.zier), [Arjun Sondhi](https://asondhi.github.io/), and more!
+Note that all posted positions will be 100% funded for two years, with potential for continuation. Salary and benefits are competitive.
+
+-------
+# Postdoctoral Fellow in monitoring clinical impact of AI tools
+
+## About the Project
+
+This project aims to develop novel statistical and computational methods for monitoring changes in the *clinical* impact of AI-enabled devices, such as AI scribes and clinical risk prediction models. A critical aspect of this project is to think through how the AI’s impact is mediated through the user of the AI device, and how human+AI interactions affect what we can (or cannot) monitor. This project is co-led by Drs. Jean Feng and [Fan Xia](https://profiles.ucsf.edu/fan.xia) from UCSF as well as the FDA’s CDRH/OSEL/DIDSR team, and will be supported by the UCSF [IMPACC group](https://docit.ucsf.edu/news/first-continuous-ai-monitoring-platform-clinical-care).
+
+## Primary Responsibilities
+* Develop tools for causally-informed monitoring of AI-enabled medical devices, with rigorous statistical guarantees
+* Design and implement open-source software packages and federated data pipelines
+* Collaborate closely with interdisciplinary team
+* Prepare and submit research manuscripts to ML/AI conferences, statistics journals, and/or clinical AI journals
+
+## Qualifications
+The postdoctoral researcher position requires a PhD in statistics, biostatistics, computer science, data science, or a related field. We are looking for someone who:
+* Has strong experience in methodological development and independent research, with a strong publication record
+* Has a strong computational background and is comfortable processing large-scale, multi-modal datasets
+* (Preferably) Has methodological expertise in one or more of: causal inference, sequential monitoring, changepoint detection, ML/AI, natural language processing, etc.
+
 
 -------
 
-# Postdoctoral researchers [4 openings]
-The position (100% funded) will be for two years, with potential for continuation.
-Salary and benefits are competitive.
+# Postdoctoral Fellow in developing clinical AI monitoring systems
+This project aims to develop a suite of statistical and computational methods that hospitals can use to monitor changes in performance of clinical AI algorithms and, subsequently, diagnose the root cause and update the model.
+The team is led by Drs. Feng and [Suchi Saria](https://suchisaria.jhu.edu/). Other team members include faculty across UCSF, JHU, and Northwell with expertise in ML/AI/statistics and medicine, including [Fan Xia](https://profiles.ucsf.edu/fan.xia), [Julian Hong](https://profiles.ucsf.edu/julian.hong), [Lucas Zier](https://profiles.ucsf.edu/lucas.zier), [Arjun Sondhi](https://asondhi.github.io/), and more!
 
 ## Primary responsibilities:
 * Develop tools for monitoring, diagnosing, and updating ML/AI systems in real-world clinical settings with rigorous statistical guarantees. See example papers from our group [here](https://ai.nejm.org/stoken/default+domain/WHP5GAV5DNNC8FSNKFSD/full?redirectUri=doi/full/10.1056/AIra2400657), [here](https://proceedings.mlr.press/v236/feng24a.html), [here](https://www.nejm.org/doi/full/10.1056/NEJMc2104626), [here](https://proceedings.mlr.press/v130/subbaswamy21a.html), and [here](https://doi.org/10.1111/biom.13379).
@@ -25,25 +45,6 @@ We are looking for someone who:
 * has experience in methodological development and can perform independent research, with a strong and relevant publication record
 * (preferably) has experience in at least one of these fields: sequential monitoring, multiple hypothesis testing, machine learning, causal inference, post-prediction inference
 * is comfortable working with large datasets as well as data from different modalities (tabular, imaging, text)
-* is able to work collaboratively with a team
-
--------
-
-# Data scientist [2 openings]
-The position (100% funded) will be for two years, with potential for continuation.
-Salary and benefits are competitive.
-
-## Primary responsibilities:
-* Architect, implement, and maintain ETL pipelines that extract data from the Electronic Health Record (EHR) system and support monitoring, diagnosing, and updating ML/AI systems in real-world clinical settings
-* Design and implement robust, scalable software libraries and data pipelines
-* Collaborate with deployment teams to integrate tools into real-world systems
-
-## Qualifications:
-The data scientist position requires a BS (preferably MS) in computer science, data science, (bio)statistics, or related areas.
-We are looking for someone who:
-* has a strong software engineering background
-* has experience in building ETL pipelines
-* is excited to get their hands dirty with real-world clinical data
 * is able to work collaboratively with a team
 
 ---------
