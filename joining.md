@@ -23,7 +23,7 @@ This project aims to develop novel statistical and computational methods for mon
 The postdoctoral researcher position requires a PhD in statistics, biostatistics, computer science, data science, or a related field. We are looking for someone who:
 * Has strong experience in methodological development and independent research, with a strong publication record
 * Has a strong computational background and is comfortable processing large-scale, multi-modal datasets
-* (Preferably) Has methodological expertise in one or more of: causal inference, sequential monitoring, changepoint detection, ML/AI, natural language processing, federated learning
+* (Preferably) Has methodological expertise in one or more of: causal inference, sequential monitoring, changepoint detection, ML/AI, natural language processing, federated learning, longidutinal data analysis
 
 
 -------
