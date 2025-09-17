@@ -10,8 +10,6 @@ Note that all posted positions will be 100% funded for two years, with potential
 -------
 # Postdoctoral Fellow in monitoring clinical impact of AI tools
 
-## About the Project
-
 This project aims to develop novel statistical and computational methods for monitoring changes in the *clinical* impact of AI-enabled devices, such as AI scribes and clinical risk prediction models. A critical aspect of this project is to think through how the AI’s impact is mediated through the user of the AI device, and how human+AI interactions affect what we can (or cannot) monitor. This project is co-led by Drs. Jean Feng and [Fan Xia](https://profiles.ucsf.edu/fan.xia) from UCSF as well as the FDA’s CDRH/OSEL/DIDSR team, and will be supported by the UCSF [IMPACC group](https://docit.ucsf.edu/news/first-continuous-ai-monitoring-platform-clinical-care).
 
 ## Primary Responsibilities
