@@ -15,7 +15,8 @@ Note that all posted positions will be 100% funded for two years, with potential
 This project aims to develop novel statistical and computational methods for monitoring changes in the *clinical* impact of AI-enabled devices, such as AI scribes and clinical risk prediction models. A critical aspect of this project is to think through how the AI’s impact is mediated through the user of the AI device, and how human+AI interactions affect what we can (or cannot) monitor. This project is co-led by Drs. Jean Feng and [Fan Xia](https://profiles.ucsf.edu/fan.xia) from UCSF as well as the FDA’s CDRH/OSEL/DIDSR team, and will be supported by the UCSF [IMPACC group](https://docit.ucsf.edu/news/first-continuous-ai-monitoring-platform-clinical-care).
 
 ## Primary Responsibilities
-* Develop tools for causally-informed monitoring of AI-enabled medical devices, with rigorous statistical guarantees
+* Develop tools for monitoring AI-enabled medical devices, with rigorous statistical guarantees
+* Extract, process, and analyze multi-modal Electronic Health Record (EHR) data (e.g., clinical notes)
 * Design and implement open-source software packages and federated data pipelines
 * Collaborate closely with interdisciplinary team
 * Prepare and submit research manuscripts to ML/AI conferences, statistics journals, and/or clinical AI journals
@@ -24,7 +25,7 @@ This project aims to develop novel statistical and computational methods for mon
 The postdoctoral researcher position requires a PhD in statistics, biostatistics, computer science, data science, or a related field. We are looking for someone who:
 * Has strong experience in methodological development and independent research, with a strong publication record
 * Has a strong computational background and is comfortable processing large-scale, multi-modal datasets
-* (Preferably) Has methodological expertise in one or more of: causal inference, sequential monitoring, changepoint detection, ML/AI, natural language processing, etc.
+* (Preferably) Has methodological expertise in one or more of: causal inference, sequential monitoring, changepoint detection, ML/AI, natural language processing, federated learning
 
 
 -------
