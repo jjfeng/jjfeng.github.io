@@ -3,7 +3,7 @@ layout: default
 title: Joining
 ---
 
-We're seeking talented post-doctoral researchers and data scientists to join our interdisciplinary research team on an ambitious multi-year mission to develop cutting-edge computational tools for monitoring, diagnosing, and updating ML/AI algorithms. The goal is to ultimately rigorously test and deploy these tools in multiple hospital systems.
+We're seeking talented post-doctoral researchers to join our interdisciplinary research team on an ambitious multi-year mission to develop cutting-edge computational tools for monitoring, diagnosing, and updating ML/AI algorithms. The goal is to ultimately rigorously test and deploy these tools in multiple hospital systems.
 If this opportunity excites you, please see below!
 Note that all posted positions will be 100% funded for two years, with potential for continuation. Salary and benefits are competitive.
 
