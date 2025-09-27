@@ -58,12 +58,12 @@ Foroutani, Gonzalez, Wang, Aburayya, Ganjouei, *Feng*, Thornblade, Hirose, Maker
 *Cancers (Basel)*, 2025<br />
 [\[paper\]](https://doi.org/10.3390/cancers17183015)
 
-## 2024
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
-*NeurIPS Workshop on Statistical Frontiers in LLMs and Foundation Models*, 2024<br />
+*Adv. Neural Inf. Process. Syst.*, 2025<br />
 [\[paper\]](https://arxiv.org/abs/2410.15555)[\[code\]](https://github.com/jjfeng/bc-llm)
 
+## 2024
 **Designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens**<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
 *Conference on Causal Learning and Reasoning*, 2024<br />
