@@ -18,6 +18,11 @@ Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, 
 [\[arXiv\]](https://www.arxiv.org/abs/2508.08504)[\[code\]](https://github.com/jjfenglab/social-wayfinder)
 
 ## 2025
+**Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
+Will, Jean, Alexandre, Zhang, Christopher and Romain<br />
+*NeurIPS 2025 Workshop on Learning from Time Series for Health*, 2025<br />
+[\[paper\]](https://arxiv.org/pdf/2510.01508)
+
 **Not all clinical AI monitoring systems are created equal: Review and recommendations**<br />
 *Feng*, Xia, Singh and Pirracchio<br />
 *NEJM AI*, 2025<br />
