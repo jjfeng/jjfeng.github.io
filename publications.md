@@ -19,7 +19,7 @@ Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, 
 
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
-Will, Jean, Alexandre, Zhang, Christopher and Romain<br />
+Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
 *NeurIPS 2025 Workshop on Learning from Time Series for Health*, 2025<br />
 [\[paper\]](https://arxiv.org/pdf/2510.01508)
 
