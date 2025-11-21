@@ -17,7 +17,7 @@ Vossler, Xia, Mai and *Feng*<br />
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
 Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />
 *Proc. Conf. AAAI Artif. Intell.*, 2026<br />
-[\[paper\]](https://arxiv.org/abs/2508.08504)[\[code\]](https://github.com/jjfenglab/social-wayfinder)
+[\[paper\]](https://arxiv.org/abs/2508.08504)[\[code\]](https://github.com/jjfenglab/social-wayfinder) ***Oral presentation***
 
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
