@@ -46,6 +46,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 </script><noscript>Sorry, you need Javascript on to email.</noscript>
 
 ## News
+- **Jan 2025**: Our work on [developing an LLM-based summarization and information extraction engine for the social workers at the SF safety net hospital](https://arxiv.org/abs/2508.08504) was accepted at AAAI! Incredible work by Avni Kothari and Patrick Vossler, and deep gratitude to the social workers for their engagement in this work! See you all in Singapore!
 - **Dec 2025**: Our work on [learning concept bottleneck with LLM priors in a statistically principled framework](https://neurips.cc/virtual/2025/loc/san-diego/poster/116029) was accepted at NeurIPS! Thank you to my wonderful coauthors Yan Shuo Tan, Chandan Singh, Avni Kothari, and Luke Zier!
 - **Jun 2025**: Our work on [testing for subgroup-level performance decay of ML algorithms](https://icml.cc/virtual/2025/poster/45315) was accepted at ICML! Congrats Harvineet and the rest of the team!
 - **Jan 2025**: We just published a review in NEJM AI on real-world clinical AI monitoring systems, which was a wonderful collaboration between Romain Pirracchio, Fan Xia, and Karandeep Singh. TL;DR [Not all clinical AI monitoring systems are created equal!](https://ai.nejm.org/doi/full/10.1056/AIra2400657)
