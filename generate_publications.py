@@ -31,6 +31,7 @@ POSTER_DICT = {
     "towards a post-market monitoring framework for machine learning-based medical devices: a case study": "poster_neurips_regml_workshop.pdf",
     "designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens": "clear_poster.pdf",
     "``who experiences large model decay and why?'' a hierarchical framework for diagnosing heterogeneous performance drift": "2025_07_16_icml_SHIFT_poster.pdf",
+    "bayesian concept bottleneck models with llm priors": "poster_bc_llm.pdf",
 }
 
 def print_entries(entry_list):

@@ -68,7 +68,7 @@ Foroutani, Gonzalez, Wang, Aburayya, Ganjouei, *Feng*, Thornblade, Hirose, Maker
 **Bayesian Concept Bottleneck Models with LLM Priors**<br />
 *Feng*, Kothari, Zier, Singh and Tan<br />
 *Adv. Neural Inf. Process. Syst.*, 2025<br />
-[\[paper\]](https://neurips.cc/virtual/2025/loc/san-diego/poster/116029)[\[code\]](https://github.com/jjfeng/bc-llm)
+[\[paper\]](https://neurips.cc/virtual/2025/loc/san-diego/poster/116029)[\[code\]](https://github.com/jjfeng/bc-llm)[\[poster\]](poster_bc_llm.pdf)
 
 ## 2024
 **Designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens**<br />
