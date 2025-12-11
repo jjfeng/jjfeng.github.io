@@ -70,7 +70,7 @@ Foroutani, Gonzalez, Wang, Aburayya, Ganjouei, *Feng*, Thornblade, Hirose, Maker
 *Adv. Neural Inf. Process. Syst.*, 2025<br />
 [\[paper\]](https://neurips.cc/virtual/2025/loc/san-diego/poster/116029)[\[code\]](https://github.com/jjfeng/bc-llm)[\[poster\]](poster_bc_llm.pdf)
 
-**Potential for algorithmic bias in Clinical decision instrument development**<br />
+**Potential for algorithmic bias in clinical decision instrument development**<br />
 Obra, Singh, Watkins, *Feng*, Obermeyer and Kornblith<br />
 *NPJ Digit. Med.*, 2025<br />
 [\[paper\]](https://doi.org/10.1038/s41746-025-02119-7)
