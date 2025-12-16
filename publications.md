@@ -9,8 +9,8 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
-**Judging LLMs on a Simplex**<br />
-Vossler, Xia, Mai and *Feng*<br />
+**LLMs Judging LLMs: A Simplex Perspective**<br />
+Vossler, Xia, Mai, Subbaswamy and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2505.21972)
 
 ## 2026
