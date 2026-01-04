@@ -3,12 +3,37 @@ layout: default
 title: Joining
 ---
 
-We're seeking talented post-doctoral researchers to join our interdisciplinary research team on an ambitious multi-year mission to develop cutting-edge computational tools for monitoring, diagnosing, and updating ML/AI algorithms. The goal is to ultimately rigorously test and deploy these tools in multiple hospital systems.
-If this opportunity excites you, please see below!
-Note that all posted positions will be 100% funded for two years, with potential for continuation. Salary and benefits are competitive.
+We're always seeking talented AI engineers and post-doctoral researchers to join our research team.
+If any of the positions below interest you, please reach out!
 
 -------
-# Postdoctoral Fellow in monitoring clinical impact of AI tools
+# Senior AI Engineer for the PROSPECT Team
+
+Our team serves as the data science arm of the [PROSPECT lab](https://zsfg-prospect.github.io/), which is the digital innovation team at Zuckerberg San Francisco General Hospital. The mission of PROSPECT is to improve health outcomes and equity in vulnerable and underserved populations through the application of novel technologies and digital tools. Our team is composed of experts in machine learning, artificial intelligence, data science, informatics, building and analytics within the electronic health record, health equity and social determinants of health. We're looking for a senior AI engineer to join our team, who will help architect, implement, and scale AI technologies at the hospital. As part of this role, you'll have opportunities to support or even conduct AI research as well.
+
+## Primary Responsibilities
+* Develop and deploy production-grade AI applications that integrate directly into the EHR system
+* Build and maintain PHI-compliant data pipelines that process high volumes of clinical notes and multi-modal Electronic Health Record (EHR) data
+* Architect and implement cloud-based infrastructure (AWS or similar platforms) for deploying scalable AI applications
+* Design and maintain a standardized database for EHR data to support ML/AI applications across the team
+* Create robust infrastructure and tooling to enable and accelerate AI research efforts for the broader team
+* Develop ETL pipelines that extract, process, and analyze large-scale multi-modal EHR data
+* Ensure all systems meet HIPAA compliance and healthcare security standards
+* Collaborate closely with clinicians, informaticists, and interdisciplinary team members
+* Prepare and submit research manuscripts to ML/AI conferences and/or clinical AI journals
+* Design and implement open-source software packages for the research and clinical communities
+
+## Qualifications
+The position requires an MS or PhD in computer science, data science, or a related field. We are looking for someone who:
+* Has strong software engineering skills with experience building production systems
+* Has experience with cloud platforms (AWS, Azure, or GCP) and containerization (Docker, Kubernetes)
+* Is proficient in designing databases, building scalable data pipelines, and processing large-scale datasets
+* Can work independently and take ownership of complex technical projects
+* Has experience with EHR systems and healthcare data integration (strongly preferred)
+* Has experience with natural language processing and processing clinical notes (strongly preferred)
+* Has interest in methodological development and independent research (strongly preferred)
+
+<!--# Postdoctoral Fellow in monitoring clinical impact of AI tools
 
 This project aims to develop novel statistical and computational methods for monitoring changes in the *clinical* impact of AI-enabled devices, such as AI scribes and clinical risk prediction models. A critical aspect of this project is to think through how the AI’s impact is mediated through the user of the AI device, and how human+AI interactions affect what we can (or cannot) monitor. This project is co-led by Drs. Jean Feng and [Fan Xia](https://profiles.ucsf.edu/fan.xia) from UCSF as well as the FDA’s CDRH/OSEL/DIDSR team, and will be supported by the UCSF [IMPACC group](https://docit.ucsf.edu/news/first-continuous-ai-monitoring-platform-clinical-care).
 
@@ -24,7 +49,7 @@ The postdoctoral researcher position requires a PhD in statistics, biostatistics
 * Has strong experience in methodological development and independent research, with a strong publication record
 * Has a strong computational background and is comfortable processing large-scale, multi-modal datasets
 * (Preferably) Has methodological expertise in one or more of: causal inference, sequential monitoring, changepoint detection, ML/AI, natural language processing, federated learning, longidutinal data analysis
-
+-->
 
 -------
 
