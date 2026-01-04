@@ -26,7 +26,7 @@ Our team serves as the data science arm of the [PROSPECT lab](https://zsfg-prosp
 ## Qualifications
 The position requires an MS or PhD in computer science, data science, or a related field. We are looking for someone who:
 * Has strong software engineering skills with experience building production systems
-* Has experience with cloud platforms (AWS, Azure, or GCP) and containerization (Docker, Kubernetes)
+* Has experience with cloud platforms (AWS, Azure, or GCP) and containerization (e.g., Docker)
 * Is proficient in designing databases, building scalable data pipelines, and processing large-scale datasets
 * Can work independently and take ownership of complex technical projects
 * Has experience with EHR systems and healthcare data integration (strongly preferred)
