@@ -24,7 +24,7 @@ Our team serves as the data science arm of the [PROSPECT lab](https://zsfg-prosp
 * Design and implement open-source software packages for the research and clinical communities
 
 ## Qualifications
-The position requires an MS or PhD in computer science, data science, or a related field. We are looking for someone who:
+The position requires an MS or PhD in computer science, data science, or a related field and/or equivalent working experience. We are looking for someone who:
 * Has strong software engineering skills with experience building production systems
 * Has experience with cloud platforms (AWS, Azure, or GCP) and containerization (e.g., Docker)
 * Is proficient in designing databases, building scalable data pipelines, and processing large-scale datasets
