@@ -4,7 +4,7 @@ title: Joining
 ---
 
 We're always seeking talented AI engineers and post-doctoral researchers to join our research team.
-If any of the positions below interest you, please reach out!
+If any of the positions below interest you, please reach out! Females and underrepresented groups are particularly encouraged to apply.
 
 -------
 # Senior AI Engineer for the PROSPECT Team
