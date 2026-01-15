@@ -13,16 +13,15 @@ title: Publications
 Vossler, Xia, Mai, Subbaswamy and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2505.21972)
 
+**Human-AI co-design for clinical prediction models**<br />
+Jean, Avni, Patrick, Andrew, Lucas, Newton, Aaron, Tan and Chandan<br />
+[\[arXiv\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)
+
 ## 2026
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
 Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />
 *Proc. Conf. AAAI Artif. Intell.*, 2026<br />
 [\[paper\]](https://arxiv.org/abs/2508.08504)[\[code\]](https://github.com/jjfenglab/social-wayfinder) ***Oral presentation***
-
-**Human-AI co-design for clinical prediction models**<br />
-Jean, Avni, Patrick, Andrew, Lucas, Newton, Aaron, Tan and Chandan<br />
-*arXiv [cs.AI]*, 2026<br />
-[\[paper\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)
 
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
