@@ -10,9 +10,8 @@ I am an Associate Professor in the Department of Epidemiology and Biostatistics 
 I am also the data science lead on the [PROSPECT team](https://zsfg-prospect.github.io/), the digital innovation taskforce for the Zuckerberg San Francisco General Hospital.
 
 
-My research interests span the interpretability, reliability, and regulation of machine learning (ML) algorithms in healthcare.
-Recent projects include fairness auditing, performance monitoring, and safe updating of ML algorithms.
-My wide-ranging methodological interests include high-dimensional statistics, multiple hypothesis testing, causal inference, semiparametric theory, deep learning, and generative AI.
+Our lab works on developing methods to improve the safety, reliability, and interpretability of artificial intelligence (AI)/machine learning (ML) algorithms in healthcare.
+Recent projects include diagnosing performance drops in AI/ML algorithms, using Large Language Models (LLMs) for scaling regulatory science, and understanding the statistical limits of LLM-as-a-judge for evaluating generative AI systems.
 
 I completed my Ph.D. in Biostatistics under [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Erick Matsen](https://matsen.fhcrc.org/) at the University of Washington.
 Before that, I studied computer science at Stanford and was a software engineer at [Coursera](https://www.coursera.org/).
