@@ -1,6 +1,7 @@
 import bibtexparser
 
 SOFTWARE_DICT = {
+    "human-ai co-design for clinical prediction models": "https://github.com/jjfenglab/HACHI",
     "a hierarchical decomposition for explaining ml performance discrepancies": "https://github.com/jjfeng/HDPD",
     "bayesian concept bottleneck models with llm priors": "https://github.com/jjfeng/bc-llm",
     "monitoring machine learning (ml)-based risk prediction algorithms in the presence of confounding medical interventions": "https://github.com/jjfeng/monitoring_ML_CMI",

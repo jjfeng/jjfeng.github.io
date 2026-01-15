@@ -19,6 +19,11 @@ Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, 
 *Proc. Conf. AAAI Artif. Intell.*, 2026<br />
 [\[paper\]](https://arxiv.org/abs/2508.08504)[\[code\]](https://github.com/jjfenglab/social-wayfinder) ***Oral presentation***
 
+**Human-AI co-design for clinical prediction models**<br />
+Jean, Avni, Patrick, Andrew, Lucas, Newton, Aaron, Tan and Chandan<br />
+*arXiv [cs.AI]*, 2026<br />
+[\[paper\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)
+
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
