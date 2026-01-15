@@ -14,7 +14,7 @@ Vossler, Xia, Mai, Subbaswamy and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2505.21972)
 
 **Human-AI co-design for clinical prediction models**<br />
-Jean, Avni, Patrick, Andrew, Lucas, Newton, Aaron, Tan and Chandan<br />
+*Feng*, Kothari, Vossler, Bishara, Zier, Addo, Kornblith, Tan and Singh<br />
 [\[arXiv\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)
 
 ## 2026
