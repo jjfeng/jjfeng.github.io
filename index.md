@@ -6,12 +6,11 @@ title: Home
 
 <img align="right" src="headshot.png" style="margin:20px" height="280px" onmouseover="this.src='pocky_new.png';" onmouseout="this.src='headshot.png';">
 
-I am an Associate Professor in the Department of Epidemiology and Biostatistics at the University of California, San Francisco and the UCSF-UC Berkeley Joint Program in Computational Precision Health and a principal investigator at the [UCSF-Stanford Center of Excellence in Regulatory Science and Innovation (CERSI)](https://pharm.ucsf.edu/cersi).
-I am also the data science lead on the [PROSPECT team](https://zsfg-prospect.github.io/), the digital innovation taskforce for the Zuckerberg San Francisco General Hospital.
+I am an Associate Professor in the Department of Epidemiology and Biostatistics at the University of California, San Francisco and the UCSF-UC Berkeley Joint Program in Computational Precision Health.
 
+As a principal investigator at the [UCSF-Stanford Center of Excellence in Regulatory Science and Innovation (CERSI)](https://pharm.ucsf.edu/cersi), I also collaborate closely with researchers from the US Food and Drug Administration to develop methods that improve the safety, reliability, and interpretability of artificial intelligence (AI)/machine learning (ML) algorithms in healthcare. Recent projects include diagnosing performance drops in AI/ML algorithms, using Large Language Models (LLMs) for scaling regulatory science, and understanding the statistical limits of LLM-as-a-judge for evaluating generative AI systems.
 
-Our lab works on developing methods to improve the safety, reliability, and interpretability of artificial intelligence (AI)/machine learning (ML) algorithms in healthcare.
-Recent projects include diagnosing performance drops in AI/ML algorithms, using Large Language Models (LLMs) for scaling regulatory science, and understanding the statistical limits of LLM-as-a-judge for evaluating generative AI systems.
+I am also the data science lead on the [PROSPECT team](https://zsfg-prospect.github.io/), the digital innovation taskforce for the Zuckerberg San Francisco General Hospital. Recent projects by the PROSPECT team include the deployment of a readmission risk prediction model and the development of an LLM pipeline to summarize patient charts.
 
 I completed my Ph.D. in Biostatistics under [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Erick Matsen](https://matsen.fhcrc.org/) at the University of Washington.
 Before that, I studied computer science at Stanford and was a software engineer at [Coursera](https://www.coursera.org/).
