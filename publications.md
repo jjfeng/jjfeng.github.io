@@ -9,10 +9,6 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
-**LLMs Judging LLMs: A Simplex Perspective**<br />
-Vossler, Xia, Mai, Subbaswamy and *Feng*<br />
-[\[arXiv\]](https://arxiv.org/abs/2505.21972)
-
 **Human-AI co-design for clinical prediction models**<br />
 *Feng*, Kothari, Vossler, Bishara, Zier, Addo, Kornblith, Tan and Singh<br />
 [\[arXiv\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)
@@ -22,6 +18,11 @@ Vossler, Xia, Mai, Subbaswamy and *Feng*<br />
 Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />
 *Proc. Conf. AAAI Artif. Intell.*, 2026<br />
 [\[paper\]](https://arxiv.org/abs/2508.08504)[\[code\]](https://github.com/jjfenglab/social-wayfinder) ***Oral presentation***
+
+**LLMs Judging LLMs: A Simplex Perspective**<br />
+Vossler, Xia, Mai, Subbaswamy and *Feng*<br />
+*International Conference on Artificial Intelligence and Statistics (AISTATS)*, 2026<br />
+[\[paper\]](https://arxiv.org/abs/2505.21972)
 
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
