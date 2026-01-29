@@ -7,18 +7,16 @@ We're always seeking talented AI engineers and post-doctoral researchers to join
 If any of the positions below interest you, please reach out! Females and underrepresented groups are particularly encouraged to apply.
 
 -------
-# Senior AI Engineer for the PROSPECT Team
+# Postdoc or Senior AI Engineer for the PROSPECT Team
 
-Our team serves as the data science arm of the [PROSPECT lab](https://zsfg-prospect.github.io/), which is the digital innovation team at Zuckerberg San Francisco General Hospital. The mission of PROSPECT is to improve health outcomes and equity in vulnerable and underserved populations through the application of novel technologies and digital tools. Our team is composed of experts in machine learning, artificial intelligence, data science, informatics, building and analytics within the electronic health record, health equity and social determinants of health. We're looking for a senior AI engineer to join our team, who will help architect, implement, and scale AI technologies at the hospital. As part of this role, you'll have opportunities to support or even conduct AI research as well.
+Our team serves as the data science arm of the [PROSPECT lab](https://zsfg-prospect.github.io/), which is the digital innovation team at Zuckerberg San Francisco General Hospital. The mission of PROSPECT is to improve health outcomes and equity in vulnerable and underserved populations through the application of novel technologies and digital tools. Our team is composed of experts in machine learning, artificial intelligence, data science, informatics, building and analytics within the electronic health record, health equity and social determinants of health. We're looking for a postdoc or senior AI engineer to join our team, who will help architect, implement, and scale AI technologies at the hospital. As part of this role, you'll have opportunities to support or even conduct AI research as well.
 
 ## Primary Responsibilities
-* Develop and deploy production-grade AI applications that integrate directly into the EHR system
-* Build and maintain PHI-compliant data pipelines that process high volumes of clinical notes and multi-modal Electronic Health Record (EHR) data
-* Architect and implement cloud-based infrastructure (AWS or similar platforms) for deploying scalable AI applications
-* Design and maintain a standardized database for EHR data to support ML/AI applications across the team
+Responsibilities vary based on a postdoc vs engineering role but generally include:
+* Develop and deploy HIPAA compliant AI applications that integrate directly into the EHR system
+* Build data pipelines that process high volumes of clinical notes and multi-modal Electronic Health Record (EHR) data
 * Create robust infrastructure and tooling to enable and accelerate AI research efforts for the broader team
-* Develop ETL pipelines that extract, process, and analyze large-scale multi-modal EHR data
-* Ensure all systems meet HIPAA compliance and healthcare security standards
+* Conducts independent research on how to ensure the safety, reliability, and effectiveness of clinical AI tools
 * Collaborate closely with clinicians, informaticists, and interdisciplinary team members
 * Prepare and submit research manuscripts to ML/AI conferences and/or clinical AI journals
 * Design and implement open-source software packages for the research and clinical communities
