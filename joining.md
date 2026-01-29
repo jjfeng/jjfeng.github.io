@@ -16,7 +16,7 @@ Responsibilities vary based on a postdoc vs engineering role but generally inclu
 * Develop and deploy HIPAA compliant AI applications that integrate directly into the EHR system
 * Build data pipelines that process high volumes of clinical notes and multi-modal Electronic Health Record (EHR) data
 * Create robust infrastructure and tooling to enable and accelerate AI research efforts for the broader team
-* Conducts independent research on how to ensure the safety, reliability, and effectiveness of clinical AI tools
+* Conduct independent research on how to ensure the safety, reliability, and effectiveness of clinical AI tools
 * Collaborate closely with clinicians, informaticists, and interdisciplinary team members
 * Prepare and submit research manuscripts to ML/AI conferences and/or clinical AI journals
 * Design and implement open-source software packages for the research and clinical communities
