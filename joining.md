@@ -7,9 +7,9 @@ We're always seeking talented AI engineers and post-doctoral researchers to join
 If any of the positions below interest you, please reach out! Females and underrepresented groups are particularly encouraged to apply.
 
 -------
-# Postdoc or Senior AI Engineer for the PROSPECT Team
+# Postdoc or AI Engineer for the PROSPECT Team
 
-Our team serves as the data science arm of the [PROSPECT lab](https://zsfg-prospect.github.io/), which is the digital innovation team at Zuckerberg San Francisco General Hospital. The mission of PROSPECT is to improve health outcomes and equity in vulnerable and underserved populations through the application of novel technologies and digital tools. Our team is composed of experts in machine learning, artificial intelligence, data science, informatics, building and analytics within the electronic health record, health equity and social determinants of health. We're looking for a postdoc or senior AI engineer to join our team, who will help research, architect, implement, and scale AI technologies at the hospital.
+Our team serves as the data science arm of the [PROSPECT lab](https://zsfg-prospect.github.io/), which is the digital innovation team at Zuckerberg San Francisco General Hospital. The mission of PROSPECT is to improve health outcomes and equity in vulnerable and underserved populations through the application of novel technologies and digital tools. Our team is composed of experts in machine learning, artificial intelligence, data science, informatics, building and analytics within the electronic health record, health equity and social determinants of health. We're looking for a postdoc or AI engineer to join our team, who will help research, architect, implement, and scale AI technologies at the hospital.
 
 ## Primary Responsibilities
 Responsibilities vary based on a postdoc vs engineering role but generally include:
