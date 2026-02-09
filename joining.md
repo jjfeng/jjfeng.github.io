@@ -102,6 +102,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 * The names and email addresses of three references
 * A github repo of yours that you are most proud of
 * One representative publication
+* For data scientist applications, please submit your materials <a href="https://jobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=6495&siteid=5861&Areq=87814BR">here</a>.
 
 
 Screening of applicants will begin immediately and will continue as needed throughout the recruitment period.
