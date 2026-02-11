@@ -15,7 +15,7 @@ I am also the data science lead on the [PROSPECT team](https://zsfg-prospect.git
 I completed my Ph.D. in Biostatistics under [Noah Simon](https://faculty.washington.edu/nrsimon/) and [Erick Matsen](https://matsen.fhcrc.org/) at the University of Washington.
 Before that, I studied computer science at Stanford and was a software engineer at [Coursera](https://www.coursera.org/).
 
-[CV](cv.pdf) / [GitHub](https://github.com/jjfeng) / [Twitter](https://twitter.com/Jean_J_Feng) / [Google Scholar](https://scholar.google.com/citations?user=rKCO-dwAAAAJ&hl=en)
+[CV](cv.pdf) / [GitHub](https://github.com/jjfeng) / [Google Scholar](https://scholar.google.com/citations?user=rKCO-dwAAAAJ&hl=en) / [LinkedIn](https://www.linkedin.com/in/fengjean/) / [Twitter](https://twitter.com/Jean_J_Feng)  
 
 Email:
 <script type="text/javascript" language="javascript">
