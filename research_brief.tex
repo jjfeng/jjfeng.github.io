@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{natbib}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1ex}{0.5ex}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Feng Lab: Clinical AI Innovation and Research for All}}
+\end{center}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{virtuous_cycle_v2.png}
+\end{figure}
+
+Artificial intelligence (AI) is now transforming healthcare.
+The growing number of AI/ML-based medical devices approved by the FDA is increasing every year, and innovations like AI scribes are now being adopted widely across health systems.
+Done thoughtfully, AI can deliver better healthcare to everyone.
+Done poorly, AI can actually do more harm and, ultimately, risk bringing forth another AI winter, where the technology is again rejected by society.
+
+The goal of the Feng Lab is to develop AI tools and methods that will help the field overcome this critical juncture.
+We do this through a dual approach: half of the lab is dedicated to building AI tools that improve patient care and outcomes, while the other half of the lab researches new AI methods so that these technologies satisfy mathematical guarantees to ensure their safety and effectiveness.
+Through this, we ensure that the AI tools we deploy in the hospital are informed by the latest research in AI, and the AI research addresses the most critical problems faced in real-world settings.
+
+\textbf{Building AI Tools.}
+Our lab serves as the data science arm of PROSPECT \url{https://zsfg-prospect.github.io/}, the digital innovation taskforce at the Zuckerberg San Francisco General Hospital whose mission is to apply technology and digital tools to improve health outcomes and equity in vulnerable and underserved populations. 
+PROSPECT is a highly interdisciplinary team composed of experts in machine learning, artificial intelligence, data science, clinical informatics, hospital organization and management, health equity, and social determinants of health.
+Our AI-powered readmission prediction system helped ZSFG reduce their 30-day unplanned readmission rate from one of the highest  among California safety-net hospitals to one of the lowest---saving \$7.2 million in at-risk pay-for-performance funding \citep{Bennett...}.
+We have also developed and validated an AI-powered patient dashboard that automatically summarize complex medical charts to identify social needs, which is estimated to increase the efficiency of the social work team by over 50\%.
+Working with the hospital leadership team, we are now leveraging AI to help identify the most promising quality improvement initiatives to improve hospital flow, patient outcomes, and workplace satisfaction.
+
+\textbf{Researching new methods.}
+Working through UCSF-Stanford Center of Excellence in Regulatory Science and Innovation, our lab closely collaborates with researchers at the US Food and Drug Administration to develop statistical methods that improve the safety and reliability of AI devices, which are used to inform regulatory policies.
+Together, our team has written landmark papers on AI monitoring \citep{} and developed methods that are guaranteed to detect performance deterioration of AI models in a timely fashion \citep{}.
+We have also developed statistically rigorous methods for benchmarking generative AI tools \citep{}, which are now proliferating throughout health systems.
+Most recently, we released open-source AI pipelines for conducting research on regulatory science of AI medical devices at scale to democratize access to regulatory data and, ultimately, improve oversight and safety of these devices \citep{}.
+
+TODO: Some ending paragraph?
+
+\bibliographystyle{unsrt}
+\bibliography{research_brief}
+
+\end{document}
