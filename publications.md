@@ -34,6 +34,11 @@ Chen, *Feng*, Friesner, Chang, Kenny, Elia, Ni, Feng, Rabow, Braunstein, Boreta 
 *JNCI Cancer Spectrum*, 2026<br />
 [\[paper\]](https://doi.org/10.1093/jncics/pkag010)
 
+**Patient perspectives about deployment of artificial intelligence decision support tools in a safety-net healthcare system**<br />
+Phelps, Vossler, Kothari, Steineman, Goldman, Gasga, Ehrlich, Kanzaria, Adler-Milstein, *Feng*, Nong and Zier<br />
+*JAMIA Open*, 2026<br />
+[\[paper\]](https://doi.org/10.1093/jamiaopen/ooag029)
+
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
