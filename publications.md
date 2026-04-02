@@ -39,6 +39,11 @@ Phelps, Vossler, Kothari, Steineman, Goldman, Gasga, Ehrlich, Kanzaria, Adler-Mi
 *JAMIA Open*, 2026<br />
 [\[paper\]](https://doi.org/10.1093/jamiaopen/ooag029)
 
+**More than ``means to an end'': Supporting reasoning with transparently designed AI data science processes**<br />
+Sivaraman, Vossler, Perer, Hong and *Feng*<br />
+*ACM CHI 2026 Workshop on Tools for Thought*, 2026<br />
+[\[paper\]](https://ai-tools-for-thought.github.io/workshop/documents/chi26/Sivaraman_et_al_Supporting_Reasoning_with_Process_Transparency_TfT_CHI26.pdf)
+
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
