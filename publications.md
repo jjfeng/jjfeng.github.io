@@ -11,7 +11,7 @@ title: Publications
 
 **Human-AI co-design for clinical prediction models**<br />
 *Feng*, Kothari, Vossler, Bishara, Zier, Addo, Kornblith, Tan and Singh<br />
-[\[arXiv\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)
+[\[arXiv\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)[\[poster\]](poster_hachi.pdf)
 
 ## 2026
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />

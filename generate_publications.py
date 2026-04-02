@@ -34,6 +34,7 @@ POSTER_DICT = {
     "designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens": "clear_poster.pdf",
     "``who experiences large model decay and why?'' a hierarchical framework for diagnosing heterogeneous performance drift": "2025_07_16_icml_SHIFT_poster.pdf",
     "bayesian concept bottleneck models with llm priors": "poster_bc_llm.pdf",
+    "human-ai co-design for clinical prediction models": "poster_hachi.pdf",
 }
 
 def print_entries(entry_list):
