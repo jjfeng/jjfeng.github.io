@@ -23,6 +23,7 @@ SOFTWARE_DICT = {
     "who experiences large model decay and why? a hierarchical framework for diagnosing heterogeneous performance drift": "https://github.com/jjfeng/shift",
     "when the domain expert has no time and the llm developer has no clinical expertise: real-world lessons from llm co-design in a safety-net hospital": "https://github.com/jjfenglab/social-wayfinder",
     "scaling medical device regulatory science using large language models": "https://github.com/jjfenglab/LLM-FDA-device",
+    "llms judging llms: a simplex perspective": "https://github.com/jjfenglab/judging-llms-on-a-simplex",
 }
 TALK_DICT = {
     "towards a post-market monitoring framework for machine learning-based medical devices: a case study": "postmarket_monitoring_talk_short.pdf",
@@ -35,6 +36,7 @@ POSTER_DICT = {
     "``who experiences large model decay and why?'' a hierarchical framework for diagnosing heterogeneous performance drift": "2025_07_16_icml_SHIFT_poster.pdf",
     "bayesian concept bottleneck models with llm priors": "poster_bc_llm.pdf",
     "human-ai co-design for clinical prediction models": "poster_hachi.pdf",
+    "llms judging llms: a simplex perspective": "poster_llm_judge_simplex.pdf",
 }
 
 def print_entries(entry_list):

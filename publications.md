@@ -14,6 +14,11 @@ title: Publications
 [\[arXiv\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)[\[poster\]](poster_hachi.pdf)
 
 ## 2026
+**From fuzzy to formal: Scaling hospital Quality Improvement with AI**<br />
+Vossler, *Feng*, Sivaraman, Gallo, Kanzaria, Freiser, Ross, Ou, Marks, Ehrlich, Peabody and Zier<br />
+*arXiv [cs.AI]*, 2026<br />
+[\[paper\]](https://arxiv.org/abs/2604.20055)
+
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
 Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />
 *Proc. Conf. AAAI Artif. Intell.*, 2026<br />
@@ -22,7 +27,7 @@ Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, 
 **LLMs Judging LLMs: A Simplex Perspective**<br />
 Vossler, Xia, Mai, Subbaswamy and *Feng*<br />
 *International Conference on Artificial Intelligence and Statistics (AISTATS)*, 2026<br />
-[\[paper\]](https://arxiv.org/abs/2505.21972)
+[\[paper\]](https://arxiv.org/abs/2505.21972)[\[code\]](https://github.com/jjfenglab/judging-llms-on-a-simplex)[\[poster\]](poster_llm_judge_simplex.pdf)
 
 **Scaling Medical Device Regulatory Science using Large Language Models**<br />
 Li, He, Subbaswamy, Vossler, Gossmann, Singh and *Feng*<br />
