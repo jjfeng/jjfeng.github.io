@@ -66,10 +66,15 @@ for entry in bib_entries:
 
     title = entry["title"].replace("{", "").replace("}", "")
     authors = entry["author"].split(" and ")
+    # Get number of co-first authors (default 0)
+    cofirst_count = int(entry.get("cofirst", 0))
     last_names = []
-    for author in authors:
+    for i, author in enumerate(authors):
         last_name = author.split(", ")[0]
         last_name = "*%s*" % last_name if author == "Feng, Jean" else last_name
+        # Add dagger for co-first authors
+        if cofirst_count > 0 and i < cofirst_count:
+            last_name = last_name + "†"
         last_names.append(last_name)
 
     if len(last_names) > 1:
