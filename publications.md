@@ -13,8 +13,8 @@ title: Publications
 *Feng*, Kothari, Vossler, Bishara, Zier, Addo, Kornblith, Tan and Singh<br />
 [\[arXiv\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)[\[poster\]](poster_hachi.pdf)
 
-**From fuzzy to formal: Scaling hospital Quality Improvement with AI**<br />
-Vossler<sup>\*</sup>, *Feng*<sup>\*</sup>, Sivaraman, Gallo, Kanzaria, Freiser, Ross, Ou, Marks, Ehrlich, Peabody and Zier<br />
+**From Fuzzy to Formal: Scaling Hospital Quality Improvement with AI**<br />
+Vossler<sup>*</sup>, *Feng*<sup>*</sup>, Sivaraman, Gallo, Kanzaria, Freiser, Ross, Ou, Marks, Ehrlich, Peabody and Zier<br />
 [\[arXiv\]](https://arxiv.org/abs/2604.20055)
 
 ## 2026
