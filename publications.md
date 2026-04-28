@@ -51,7 +51,7 @@ Sivaraman, Vossler, Perer, Hong and *Feng*<br />
 **Clinical trials for continuously monitored and updated AI systems**<br />
 van Amsterdam<sup>\*</sup>, Oberst<sup>\*</sup>, *Feng*<sup>\*</sup>, Wiens, Tang, Joshi, Ranganath, Sendak, Shalit, Vogt, Beaulieu-Jones, Mamdani, Kent, Heagerty, Fleming and Goldenberg<br />
 *Nat. Med.*, 2026<br />
-[\[paper\]](https://www.nature.com/articles/s41591-026-04368-9)
+[\[paper\]](https://rdcu.be/ffPlI)
 
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
