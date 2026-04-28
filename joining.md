@@ -4,11 +4,10 @@ title: Joining
 ---
 
 We're always seeking talented AI engineers and post-doctoral researchers to join our research team.
-If any of the positions below interest you, please reach out! Females and underrepresented groups are particularly encouraged to apply.
+If you are interested, please reach out! Females and underrepresented groups are particularly encouraged to apply.
 
 
-## Applying
-If you are interested in either position, please submit the following materials to
+Please submit the following materials to
 <script type="text/javascript" language="javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
@@ -38,12 +37,6 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 * The names and email addresses of three references
 * A github repo of yours that you are most proud of
 * One representative publication
-* For data scientist applications, please submit your materials <a href="https://jobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=6495&siteid=5861&Areq=87814BR">here</a>.
-
-
-Screening of applicants will begin immediately and will continue as needed throughout the recruitment period.
-
-*Updated 01/04/2026*
 
 -------
 The University of California is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or protected veteran status.
