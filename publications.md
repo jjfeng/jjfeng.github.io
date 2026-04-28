@@ -48,6 +48,11 @@ Sivaraman, Vossler, Perer, Hong and *Feng*<br />
 *ACM CHI 2026 Workshop on Tools for Thought*, 2026<br />
 [\[paper\]](https://ai-tools-for-thought.github.io/workshop/documents/chi26/Sivaraman_et_al_Supporting_Reasoning_with_Process_Transparency_TfT_CHI26.pdf)
 
+**Clinical trials for continuously monitored and updated AI systems**<br />
+van Amsterdam<sup>\*</sup>, Oberst<sup>\*</sup>, *Feng*<sup>\*</sup>, Wiens, Tang, Joshi, Ranganath, Sendak, Shalit, Vogt, Beaulieu-Jones, Mamdani, Kent, Heagerty, Fleming and Goldenberg<br />
+*Nat. Med.*, 2026<br />
+[\[paper\]](https://www.nature.com/articles/s41591-026-04368-9)
+
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
