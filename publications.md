@@ -18,6 +18,11 @@ Vossler<sup>\*</sup>, *Feng*<sup>\*</sup>, Sivaraman, Gallo, Kanzaria, Freiser, 
 [\[arXiv\]](https://arxiv.org/abs/2604.20055)
 
 ## 2026
+**Adaptive auditing of AI systems with anytime-valid guarantees**<br />
+Zhou, Vossler, Sivaraman, Mai and *Feng*<br />
+*arXiv [cs.AI]*, 2026<br />
+[\[paper\]](https://arxiv.org/abs/2605.07002)[\[code\]](https://github.com/jjfenglab/safe-adaptive-testing)
+
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
 Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />
 *Proc. Conf. AAAI Artif. Intell.*, 2026<br />

@@ -24,6 +24,7 @@ SOFTWARE_DICT = {
     "when the domain expert has no time and the llm developer has no clinical expertise: real-world lessons from llm co-design in a safety-net hospital": "https://github.com/jjfenglab/social-wayfinder",
     "scaling medical device regulatory science using large language models": "https://github.com/jjfenglab/LLM-FDA-device",
     "llms judging llms: a simplex perspective": "https://github.com/jjfenglab/judging-llms-on-a-simplex",
+    "adaptive auditing of ai systems with anytime-valid guarantees": "https://github.com/jjfenglab/safe-adaptive-testing",
 }
 TALK_DICT = {
     "towards a post-market monitoring framework for machine learning-based medical devices: a case study": "postmarket_monitoring_talk_short.pdf",
