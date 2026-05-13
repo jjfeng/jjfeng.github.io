@@ -18,7 +18,7 @@ Vossler<sup>\*</sup>, *Feng*<sup>\*</sup>, Sivaraman, Gallo, Kanzaria, Freiser, 
 [\[arXiv\]](https://arxiv.org/abs/2604.20055)
 
 **Adaptive auditing of AI systems with anytime-valid guarantees**<br />
-Zhou, Vossler, Sivaraman, Mai and *Feng*<br />
+Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2605.07002)[\[code\]](https://github.com/jjfenglab/safe-adaptive-testing)
 
 ## 2026

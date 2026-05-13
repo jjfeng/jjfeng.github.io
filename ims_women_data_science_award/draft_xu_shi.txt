@@ -1,0 +1,53 @@
+To the IMS Award Committee:
+
+I am writing to nominate Dr. Jean Feng for the IMS Thelma and Marvin Zelen Emerging Women Leaders in Data Science Award. As an Associate Professor of Biostatistics at the University of Michigan and a close collaborator of Dr. Feng, I have had the privilege of witnessing firsthand her exceptional contributions to data science and her leadership in bridging statistics and artificial intelligence.
+
+Dr. Feng is an Associate Professor in the Department of Epidemiology and Biostatistics at the University of California, San Francisco (UCSF) and in the UCSF-UC Berkeley Joint Program in Computational Precision Health. She has established herself as a leader at the critical intersection of statistics and AI, with far-reaching impact on both methodology and practice.
+
+<!-- Things I want to touch on...
+
+(1) Jean is a leader developing methods that bring together statistics and AI. In the clinical space, she is known for her methodological leadership in developing statistical procedures for monitoring clinical AI systems, where she established the first causal framework for analyzing the complex dynamics of these systems. At the same time, she established best statistical practices for monitoring clinical AI systems, by writing one of the most cited reviews on how existing statistical process control methods can be leveraged to monitor clinical AI systems. Beyond the clinical space, Jean is one of the leaders in showing how statistics can improve generative AI models/large language models and vice versa. In the statistics for AI direction, she has, among others, used complex statistical theory with geometric arguments to improve scoring by LLM-as-a-judge systems, by fully integrating all sources of uncertainty, and more recently shown how AI practitioners can conduct highly flexible adaptive audits of their AI systems but still conduct statistical inference. In the AI for statistics direction, she has shown how LLM priors can be used in a statistically rigorous way to guide feature selection from unstructured data, which not just are high-dimensional but infinite-dimensional.
+
+(2) Jean's leadership in both statistics and AI is similarly highlighted in the roles she plays in both of these communities. In the statistics space, she is a guest editor at Biostatistics for a special collection of AI in biostatistics and an area chair for the new STAI-X conference that aims to accelerate statistical developments in AI. In the clinical AI space, she is a statistical editor of NEJM AI and an organizer for SAIL, where she received the service award this year. In the AI space, she is an area chair of Neurips, the top conference in AI/ML.
+
+(3) Jean is also dedicated to mentoring the next generation of leaders in statistical AI. She mentors faculty, including both junior statistical faculty and clinical AI faculty. She is an instructor at AI4ALL every summer, a nonprofit program helping female and underrepresented students engage and enter the field of AI. On a more personal note, I had reached out to Jean to learn more about how statisticians can better engage with clinical AI. Jean generously involved me in research projects with AI scribes, where I have been able to learn so much from her and appreciate how she is always keen to listen to her students and push them to think about both the broad significance/relevance of their work while ensuring statistical rigor.
+
+(4) I also want to highlight the respect for her in the research field. In reaching out to other researchers in this space, I have gotten enthusiastic support. Some quotes include: <see prior_promotion_materials folder, but exclude Ali and Nick Petrick> -->
+
+**Methodological Leadership Bridging Statistics and AI**
+
+Dr. Feng is a leader developing methods that show how AI can make statistics better and how statistics can make AI better. Her research program spans both directions of this exchange, with real-world impact in clinical AI and foundational contributions to statistical methodology.
+
+In the clinical AI space, Dr. Feng has established the methodological foundations for ensuring AI systems remain safe and effective after deployment. She developed the first causal framework for analyzing the complex dynamics of clinical AI systems, enabling practitioners to distinguish true performance degradation from shifts in patient populations. Her highly cited reviews (Nature Medicine, 2026; npj Digital Medicine, 2022) have become standard references for how statistical process control methods can be adapted to monitor clinical AI. This work has shaped regulatory policy—it has been cited in the Assurance Standards Guide by the Coalition for Health AI (CHAI), and the FDA invited her to present to international regulators at the AI Regulatory and International Symposium.
+
+Beyond clinical applications, Dr. Feng is pioneering how statistics and AI can fundamentally enhance each other. In the statistics-for-AI direction, she has developed rigorous frameworks for improving AI evaluation and governance: using geometric arguments to properly quantify uncertainty in LLM-as-a-judge systems (AISTATS, 2026), and enabling AI practitioners to conduct highly flexible adaptive audits while maintaining valid statistical inference. In the AI-for-statistics direction, her work on Bayesian Concept Bottleneck Models with LLM Priors (NeurIPS, 2025) is particularly foundational. This framework provides statisticians with a principled toolkit for analyzing unstructured data—images, text, and other modalities—in a manner analogous to fitting a GLM, even when no predefined features exist. By leveraging LLMs to extract interpretable concepts from raw data, she has opened the door for statisticians to rigorously model data types that were previously inaccessible to classical methods, while preserving the interpretability and uncertainty quantification that are hallmarks of statistical practice.
+
+**Leadership in Statistics and AI Communities**
+
+Dr. Feng's leadership in both statistics and AI is reflected in the prominent roles she plays across these communities. In the statistics space, she serves as Guest Editor at Biostatistics for a special collection on "Statistical Foundations of AI and Real-World Evidence Generation" and as Area Chair for STAI-X (Statistics and Trustworthy AI for Cross-Domain Acceleration), a new conference accelerating statistical developments in AI. In the clinical AI space, she serves as Statistical Editor of NEJM AI and as Program Committee member for the Symposium on Artificial Intelligence in Learning Health Systems (SAIL), where she received the Service Award in 2026. In the broader AI community, she serves as Area Chair for NeurIPS, the premier conference in AI/ML.
+
+**Mentorship and Commitment to Diversity**
+
+Dr. Feng is dedicated to mentoring the next generation of leaders in statistical AI. She mentors faculty at multiple career stages, including both junior statistical faculty and clinical AI faculty. She is a guest lecturer for UCSF's AI4ALL Summer program, a nonprofit helping female and underrepresented students engage with and enter the field of AI. Her talk at Kode with Klossy Summer Coding Camp reached over 5,000 students.
+
+On a more personal note, I reached out to Dr. Feng to learn more about how statisticians can better engage with clinical AI. She generously involved me in research projects on AI scribes, where I have learned so much from her. I have come to appreciate how she is always keen to listen to her students and push them to think about both the broad significance and relevance of their work while ensuring statistical rigor.
+
+**Recognition from the Research Community**
+
+In reaching out to other researchers in this space, I have received enthusiastic support for this nomination:
+
+James Zou (Associate Professor of Biomedical Data Science, Stanford University) wrote: "Dr. Feng is a rising scholar in developing statistical methods to ensure the reliability and equity of AI/ML-based algorithms in healthcare... Her papers combine classical monitoring procedures with causal inference tools in innovative yet practical ways." [Note: This letter was written three years ago; Dr. Feng has since firmly established herself as a leader in this space.]
+
+A colleague noted: "Dr. Feng possesses unique skills that differentiate her from other statistical collaborators... She is exceptionally skilled at both biostatistics and AI/ML. This skillset is so unique—it is rare in my experience to find individuals who can develop AI/ML interventions yet have the statistical expertise to design methods to test the effects of those interventions in healthcare."
+
+Another colleague wrote: "Jean is a great communicator and an excellent teacher... Her recognition as a leading scholar in this field and her teaching excellence are key reasons for her invitation to teach a Machine Learning Boot Camp at Columbia University."
+
+**Conclusion**
+
+Dr. Jean Feng exemplifies the qualities this award seeks to recognize. She has made substantial contributions to data science methodology, demonstrated outstanding leadership in both the statistics and AI communities, and shown exceptional commitment to mentoring and diversity. Her work addresses one of the most critical challenges of our time: ensuring that AI systems in healthcare are reliable, equitable, and beneficial. I give her my strongest recommendation for the IMS Thelma and Marvin Zelen Emerging Women Leaders in Data Science Award.
+
+Sincerely,
+
+Xu Shi, PhD
+Associate Professor of Biostatistics
+University of Michigan
