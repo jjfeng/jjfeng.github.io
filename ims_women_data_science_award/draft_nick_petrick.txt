@@ -28,18 +28,17 @@ Center for Devices and Radiological Health, U.S. Food and Drug Administration
 
 ---
 
-## SUGGESTED ADDITIONAL BULLET POINTS (2026 UPDATE)
-
-The following summarizes Dr. Feng's accomplishments since the original 2023 letter:
+## Updates since this letter
 
 ### Career Advancement
-- Accelerated promotion to Associate Professor at five years
+- Accelerated promotion to Associate Professor at five years (thanks to Nick)
 - Added joint appointment in the UCSF-UC Berkeley Joint Program in Computational Precision Health
 
 ### Publication Record
 - Numbers:
    - Per Jean's CV: 55 papers (29 first or last author)
-   - Per Google Scholar: 1698 citations, and a H-index=18.
+   - Per Google Scholar: 1699 citations and H-index=18
+- Publications at top statistical journals such as AOAS and Biometrics
 - Publications at top AI/ML venues such as NeurIPS, ICML, AISTATS, and AAAI. Many of these works showcase how statistical techniques can be used to enhance AI/ML models and vice versa.
 - Publications at top Clinical AI venues such as NEJM AI, npj Digital Medicine, and Nature Medicine. Many of these works encompass topics that highly pertinent to AI/ML device regulation:
    - "Not all clinical AI monitoring systems are created equal: Review and recommendations" in NEJM AI: Highlighted an urgent and important need for statistical thinking in designing clinical AI monitoring systems, since the operating characteristics of existing monitoring systems are unknown and likely vary widely. Demonstrated that trusting such systems is risky, because the lack of an alarm from a monitoring system may either be because the AI system is perfomring well OR the monitoring system lacks power to detect degradation.
@@ -58,19 +57,28 @@ The following summarizes Dr. Feng's accomplishments since the original 2023 lett
   - "LLMs Judging LLMs: A Simplex Perspective" (AISTATS 2026): Addresses the widespread (but often flawed) practice of LLM-as-a-judge. This work brings careful statistical thinking to understand the theoretical limits of this practice and how statistical methodology can improve the rigor of such analyses.
   - Latest preprint on "Adaptive auditing of AI systems with anytime-valid guarantees": Addresses the widespread (but also flawed) practice of opportunistically collected test cases for evaluating LLM/genAI systems. This work discusses how such practices can be made much more rigorous through a modern perspective with e-values.
 
-- Explainable AI:
-  - ICML 2018 and ICML 2020: developed computationally efficient methods for variable importance in AI models, particularly NN
-  - NeurIPS 2025: Established foundational work on how LLMs can be rigorously incorporated as a Bayesian prior to select/engineer features from unstructured data as inputs to an interpretable statistical model
+- Interpretable AI:
+  - ICML 2018 and ICML 2020: developed computationally efficient methods for nonparametric variable importance in AI models, particularly neural networks
+  - NeurIPS 2025: Established a formal framework on how LLMs can be rigorously incorporated as a Bayesian prior to select/engineer features from unstructured data as inputs to an interpretable statistical model
 
 ### Leadership in Clinical AI
 - Jean is the AI and Digital Innovation Lead for the Zuckerberg San Francisco General Hospital. Her team has received awards for spearheading AI in safety-net hospitals to improve patient outcomes:
   - The Joint Commission's Bernard J. Tyson National Award for Pursuit of Healthcare Equity (2024)
   - Quality Leaders Award in Equity at California Association of Public Hospitals and Health Systems Safety Net Institute (2024)
-- Jean also received the Service Award from the Symposium on Artificial Intelligence in Learning Health Systems (SAIL, 2026)
+- Organizer of Symposium on Artificial Intelligence in Learning Health Systems (SAIL) and recipient of the 2026 Service Award
 
 ### Editorial and Leadership Roles
 - Statistical Editor, New England Journal of Medicine AI (NEJM AI)
+- Area Chair, Statistics and Trustworthy AI for Cross (X)-Domain Acceleration: New conference to integrate statistics and AI spearheaded sponsored by the ASA Interest Group StatsUpAI
 - Area Chair, NeurIPS
 - Area Chair, Conference on Health, Inference, and Learning (CHIL)
 - Guest Editor, Biostatistics for the special collection on "Statistical Foundations of AI and Real-World Evidence Generation"
 - Guest Editor, Journal of Biopharmaceutical Statistics for the special collection on "AI/ML Use Cases in Medical Product Development"
+
+### Advancing equity and diversity in statistics and data science
+- Engagement with high-schools to promote statistics and AI in females and underrepresented groups:
+  - UCSF AI4ALL: high-school summer program promoting AI for underrepresented groups, where Jean gives an annual lecture on "Biostatistics + AI"
+  - Diversity in STEM Symposium for a local high school robotics team
+  - Kode for Klossy Summer program
+- Many female mentees, from high schoolers, graduate students, data scientists, and junior faculty
+- Research also encompasses fairness, such as AISTATS 2024 (oral presentation) "Is this model reliable for everyone? Testing for strong calibration"

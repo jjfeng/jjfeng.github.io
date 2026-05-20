@@ -68,69 +68,56 @@ meets the criteria for promotion to Associate Professor.
 
 ---
 
-## SUGGESTED ADDITIONAL BULLET POINTS (2026 UPDATE)
+## Things to consider adding/highlighting in this new letter for the IMS Women Leaders in Data Science Award:
 
-The following summarizes Dr. Feng's accomplishments since the original promotion letter:
+### Career Advancement
+- Accelerated promotion to Associate Professor at five years (thanks to Ali)
+- Added joint appointment in the UCSF-UC Berkeley Joint Program in Computational Precision Health
+- Publications at top statistical journals (AOAS and Biometrics), AI/ML venues (NeurIPS, ICML, AISTATS, and AAAI), clinical AI venues (NEJM AI, npj Digital Medicine), and clinical venues (Nature Medicine, JAMA)
 
-### Career Milestone
-- Successfully promoted to **Associate Professor** at UCSF (July 2025), with joint appointment in the UCSF-UC Berkeley Joint Program in Computational Precision Health
-- This promotion validates the assessment in my original letter and reflects her standing in the field
+### Methodological Leadership in the folowing research areas:
+- Post-market monitoring performance degradation AI systems: Impactful findings from her research group include
+  - Biometrics 2020: the potential for bio-creep if AI updates are approved through a sequence of non-inferiority tests
+  - AISTATS 2024: established the first causal framework for detecting AI performance degradation in settings with potential feedback loops
+  - Conference on Causal Learning and Reasoning 2024: highlighting that the need to rethink which estimands and null hypotheses to use when monitoring AI performance degradation, due to tradeoffs between interpretability, variance, robustness to assumptions, etc.
+  - ICML 2025 and NeurIPS 2025: introduce framework to diagnose which subgroups experience large model decay and why. This has been used now by her team to improve performance of multiple real-world clinical AI models at UCSF.
+  - Invitations to speak at multiple domestic and international regulator conferences, including internal FDA seminars, Centers of Excellence in Regulatory Science and Innovation (CERSI) Annual Symposium, AI Regulatory & International Symposium (AIRIS), and the Symposium for the Launch of the Center for External AI Validation in Healthcare by the Taiwan Ministry of Health and Welfare.
 
-### Continued Growth in Statistical and Methodological Research
-- Co-authored paper in **Nature Medicine** (2026) on clinical trials for continuously monitored AI systems—a rigorous statistical framework for adaptive algorithms that will be foundational for the field
-- Published methodological work in **ICML** (2025) on diagnosing heterogeneous performance drift in ML models, demonstrating continued excellence in statistical machine learning theory
-- Papers at **AISTATS** (2024, 2026) and **NeurIPS** (2024, 2025) on calibration testing, causal approaches to ML monitoring, and Bayesian concept bottleneck models—all with strong statistical foundations
-- Published in the **Conference on Causal Learning and Reasoning** (2024) on designing monitoring strategies through a causal lens
-- Her work continues to bridge rigorous statistical methodology with practical ML/AI applications in healthcare
+- Bringing statistical rigor to modern validation practices of genAI systems:
+  - "LLMs Judging LLMs: A Simplex Perspective" (AISTATS 2026): Addresses the widespread (but often flawed) practice of LLM-as-a-judge. This work brings careful statistical thinking to understand the theoretical limits of this practice and how statistical methodology can improve the rigor of such analyses.
+  - Latest preprint on "Adaptive auditing of AI systems with anytime-valid guarantees": Addresses the widespread (but also flawed) practice of opportunistically collected test cases for evaluating LLM/genAI systems. This work discusses how such practices can be made much more rigorous through a modern perspective with e-values.
 
-### Expanded Teaching Partnership and Excellence
-- Jean and I have **expanded our collaboration** at SISBID: she now teaches a new course on **Deep Learning and Artificial Intelligence** (2026–Present) in addition to our joint course on Supervised Machine Learning
-- This expansion reflects both her pedagogical skills and the demand for her expertise in training the next generation of biostatisticians in modern ML methods
-- She continues to teach the **Machine Learning Boot Camp at Columbia University** (2020–Present), now in its sixth year
-- Developed and teaches **Datsci 224: Understanding Machine Learning** at UCSF (2024–Present)
-- Invited **guest lecturer at Taiwan Smart Healthcare School** (2025), Ministry of Health and Welfare—demonstrating international recognition of her teaching
+- Interpretable AI:
+  - ICML 2018 and ICML 2020: developed computationally efficient methods for nonparametric variable importance in AI models, particularly neural networks
+  - NeurIPS 2025: Established a formal framework on how LLMs can be rigorously incorporated as a Bayesian prior to select/engineer features from unstructured data as inputs to an interpretable statistical model
 
-### Growth in Mentoring
-- Now supervises **two postdoctoral researchers** (up from one), multiple graduate students, and continues mentoring junior faculty
-- Added supervision of students in the UCSF-UC Berkeley Computational Precision Health program
-- Her mentees span biostatistics, biomedical informatics, and clinical research—reflecting her interdisciplinary impact
+### Teaching/Mentoring
+- Jean and I teach together through SISBID, and now she teaches a new course on "Deep Learning and Artificial Intelligence"
+- Developed and teaches "Datsci 224: Understanding Machine Learning" at UCSF to masters students, phd students, and clinicians
+- Mentors postdocs, graduate students, and junior faculty. Her mentees are diverse both in demographics (many of whom are female!) and training backgrounds, including (bio)statistics, biomedical informatics, computer science, and clinical research.
 
-### Recognition within the Biostatistics Community
-- **Statistical Editor, New England Journal of Medicine AI** (2024–Present)—as noted in my original letter, this role has continued and represents significant recognition of her methodological expertise
-- **Guest Editor** of a Special Collection on "Statistical Foundations of AI and Real-World Evidence Generation" for **Biostatistics** (2026)—a prestigious editorial role in our flagship journal
-- **Editor** of Special Issue for **Journal of Biopharmaceutical Statistics** (2023–2025)
-- Invited speaker at the **International Biometrics Conference** (2026) and **ENAR** (2026)
-- Invited to present at **Brown University's 30th Anniversary Biostatistics Symposium** (2024)
-- Seminar invitations at leading biostatistics departments including **University of Washington** (2025), **UC Riverside** (2026), and **Peking University** (2025)
+### Recognition within the (Bio)statistics Community
+- Statistical Editor, New England Journal of Medicine AI
+- Area Chair, Statistics and Trustworthy AI for Cross (X)-Domain Acceleration: New conference to integrate statistics and AI spearheaded sponsored by the ASA Interest Group StatsUpAI
+- Guest Editor, Biostatistics for the special collection on "Statistical Foundations of AI and Real-World Evidence Generation"
+- Guest Editor, Journal of Biopharmaceutical Statistics for the special collection on "AI/ML Use Cases in Medical Product Development"
 
-### Leadership in the ML/AI Community
-- **Area Chair, NeurIPS** (2025–Present)—the premier machine learning conference, reflecting her dual standing in both statistics and ML communities
-- **Area Chair, Conference on Health, Inference, and Learning (CHIL)** (2023–Present)
-- **Area Chair, STAI-X** (Statistics and Trustworthy AI for Cross-Domain Acceleration, 2026–Present)
-- **Program Committee, SAIL** (Symposium on Artificial Intelligence in Learning Health Systems, 2026–Present)
-- Received **Service Award from SAIL** (2026)
+### Leadership in the (clinical) ML/AI Community
+- Area Chair, NeurIPS
+- Area Chair, CHIL (Conference on health, inference, and learning)
+- Organizer of Symposium on Artificial Intelligence in Learning Health Systems (SAIL) and recipient of the 2026 Service Award
 
-### Invited Presentations (Selected, since original letter)
-- Over 30 invited talks since my original letter, including:
-  - **International Conference on Health Policy Statistics** (2025)
-  - **Joint Statistical Meetings** (2024)—on causal approaches to ML monitoring
-  - **International Conference on Econometrics and Statistics** (2024)
-  - **Microsoft Research** Deep Learning and Health Futures Seminar (2025)
-  - **Fred Hutchinson Cancer Center** Deep Learning Affinity Group (2025)
-  - **CDC AI Community of Practice** (2026)
+- Jean is the AI and Digital Innovation Lead for the Zuckerberg San Francisco General Hospital. She leads a team of data scientists and trainees, and collaborates throughout the hospital including with leadership, the hospital Quality improvement team, clinical staff, social work, and more. Her team has received awards for spearheading AI in safety-net hospitals to improve patient outcomes:
+  - The Joint Commission's Bernard J. Tyson National Award for Pursuit of Healthcare Equity (2024)
+  - Quality Leaders Award in Equity at California Association of Public Hospitals and Health Systems Safety Net Institute (2024)
 
-### Service to the Field
-- Continues extensive **referee service** for top journals: JAMA, Nature Medicine, Nature Digital Medicine, NEJM AI, Annals of Applied Statistics, Statistics in Medicine, JMLR, and others
-- Member of **UW School of Public Health AI Task Force** (2026)—contributing her expertise back to her alma mater
-- Member of **UCSF AI Oversight Committee** (2023–Present)
-- Serves on **UCSF Faculty Search Committee** (2025)
+- Member of UW School of Public Health AI Task Force, UCSF AI Oversight Committee
+- Organizer of UCSF AI seminar series
 
-### Awards Recognizing Broader Impact
-- **The Joint Commission's Bernard J. Tyson National Award for Pursuit of Healthcare Equity** (2024)
-- **Quality Leaders Award in Equity** at California Association of Public Hospitals (2024)
-- These awards recognize her work deploying AI responsibly in safety-net healthcare settings—demonstrating impact beyond methodological contributions
-
----
-
-**Summary**: Since my promotion letter, Jean has continued her impressive trajectory. She has published in the most prestigious venues (Nature Medicine, JAMA, NEJM AI, NeurIPS, ICML), taken on major editorial roles including Guest Editor at Biostatistics, expanded her teaching contributions at SISBID, and been recognized with leadership positions at top conferences (NeurIPS Area Chair). Her work exemplifies the best of modern biostatistics: rigorous methodology applied to consequential problems in healthcare AI. She has firmly established herself as a leader in our field.
-
+### Advancing equity and diversity in statistics and data science
+- Engagement with high-schools to promote statistics and AI in females and underrepresented groups:
+  - UCSF AI4ALL: high-school summer program promoting AI for underrepresented groups, where Jean gives an annual lecture on "Biostatistics + AI"
+  - Diversity in STEM Symposium for a local high school robotics team
+  - Kode for Klossy Summer program
+- Many female mentees, from high schoolers, graduate students, data scientists, and junior faculty
+- Research also encompasses fairness, such as AISTATS 2024 (oral presentation) "Is this model reliable for everyone? Testing for strong calibration"
