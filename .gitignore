@@ -1,4 +1,6 @@
 _site/*
+.DS_store
+*_underlined.bib
 .sass-cache/*
 Gemfile.lock
 *.aux

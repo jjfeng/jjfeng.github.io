@@ -1,0 +1,76 @@
+Previous letter from Nick (thank you!):
+
+November 17, 2023
+Advisory Committee Oversight and Management Staff
+U.S. Food and Drug Administration
+10903 New Hampshire Ave.
+Bldg. 32, Rm. 5103
+Silver Spring. 20993-0002.
+
+Subject:	Reference Letter for Dr. Jean Feng to serve on the FDA Digital Health Advisory Committee.
+Dear Madam/Sir,
+It is with pleasure I offer a letter of reference for Dr. Jean Feng to serve as a voting member of the FDA Digital Health Advisory Committee. I believe Dr. Feng is an outstanding young scientist with a strong research and publication record in the areas of statistics and machine learning development, assessment, and implementation. I find her to be technically excellent, dedicated to performing high quality research and a good communicator.
+I am the Deputy Director for the Division of Imaging, Diagnostics, and Software Reliability (DIDSR) within the Center for Devices and Radiological Health.  I first encountered Dr. Feng’s 2021 Biometrics publication focused on machine learning (ML) bio-creep as this work related to research interests within DIDSR. This initial interaction blossomed into Dr. Feng’s Stanford -UCSF 2020-2023 CERSI project entitled “Safe Algorithmic Change Protocols for Modifications to AI/ML-Based Software as a Medical Device.” I was part of the FDA’s team collaborating on this CERSI effort, partially funded by CDRH and the Digital Health Center of Excellence.
+Dr. Feng has a Ph.D. in Biostatistics from the University of Washington and is currently an Assistant Professor at the University of California, San Francisco Department of Epidemiology & Biostatistics.  She has taught multiple biostatistics courses on machine learning (ML) within the Health Data Science program.  These particular courses are timely as there is currently an  exponential growth in ML applications and also a strong need to bring statisticians and data scientists up to speed on the fundamentals of ML, especially deep learning methods, so they can better contribute their important expertise to the training and validation of these clinical tools.  
+I am most familiar with Dr. Feng’s research focused on ensuring medical ML performs as expected within healthcare settings both at the time of deployment and as differences in medical technologies, practice and even patient conditions evolve.  Dr. Feng has pursued collaborations to address this important but less understood aspect of ML development and implementation.  Her CERSI effort investigated approaches for ensuring acceptable ML model performance as part of an algorithm change protocol. Dr. Feng also has direct medical ML development experience. She teamed with collaborators from Zuckerberg San Francisco General Hospital to develop and evaluated a clinical risk prediction model that focuses on improving the quality of care provided to patients. Her research efforts tend to address problems related to the evaluation  and effective clinical deployment of medical ML. 
+Dr. Feng has a strong publication record for a young scientist.  A Google Scholar search shows X publications with X citations, and a H-index=X.  Forty of these (18 first author) have been published since 2020 when she started as an Assistant Professor at UCSF.  This indicates to me a prolific, well-organized scientist focused on completing and publishing her research.  Her work has been published in highly competitive conferences and journals such as the International Conference on Machine Learning, the International Conference on Neural Information Processing Systems, and Nature Digital Medicine. She has received more than twenty invitations in recent years to give invited talks at international conferences and other universities. She has also successfully competed and received a three-year Patient-Centered Outcomes Research Institute (PCORI) grant. This grant tackles an important, but still underappreciated, medical ML concern.  That is, understanding why an ML algorithm’s performance in the clinical setting may not match its performance achieved as part of pre-deployment testing.  This work addresses underperformance at the time of deployment as well as over time as clinical practice evolves. Dr. Feng plans to develop statistical methods to characterize the reliability of ML decision support algorithms and validate her methods through theoretical analyses, simulations, and real-world data as part of this grant.
+Dr. Feng is a talented and accomplished young scientist, mentor, and contributor to the ML and statistical communities.  I find her to be hardworking, very well organized and endowed with excellent scientific instincts allowing her to identify important, but often under-appreciated, challenges in ML deployment and evaluation .  Finally, her expertise in statistics, machine learning, and their intersection are relevant to important concerns in digital health. Please feel free to contact me by email or phone if you require any further information or clarification.
+
+Sincerely,
+
+
+
+
+Nicholas Petrick, PhD
+Deputy Director, Division of Imaging, Diagnostics, and Software Reliability
+Center for Devices and Radiological Health, U.S. Food and Drug Administration
+
+
+---
+
+## SUGGESTED ADDITIONAL BULLET POINTS (2026 UPDATE)
+
+The following summarizes Dr. Feng's accomplishments since the original 2023 letter:
+
+### Career Advancement
+- Accelerated promotion to Associate Professor at five years
+- Added joint appointment in the UCSF-UC Berkeley Joint Program in Computational Precision Health
+
+### Publication Record
+- Numbers:
+   - Per Jean's CV: 55 papers (29 first or last author)
+   - Per Google Scholar: 1698 citations, and a H-index=18.
+- Publications at top AI/ML venues such as NeurIPS, ICML, AISTATS, and AAAI. Many of these works showcase how statistical techniques can be used to enhance AI/ML models and vice versa.
+- Publications at top Clinical AI venues such as NEJM AI, npj Digital Medicine, and Nature Medicine. Many of these works encompass topics that highly pertinent to AI/ML device regulation:
+   - "Not all clinical AI monitoring systems are created equal: Review and recommendations" in NEJM AI: Highlighted an urgent and important need for statistical thinking in designing clinical AI monitoring systems, since the operating characteristics of existing monitoring systems are unknown and likely vary widely. Demonstrated that trusting such systems is risky, because the lack of an alarm from a monitoring system may either be because the AI system is perfomring well OR the monitoring system lacks power to detect degradation.
+   - "Scaling Medical Device Regulatory Science using Large Language Models" in npj Digital Medicine: Developed and validated LLM pipelines that can analyze unstructured regulatory documents describing the approval process of medical devices as well as post-market surveillance reports. Demonstrates how AI can be used to assist both regulators and researchers in regulatory science.
+   - "Clinical trials for continuously monitored and updated AI systems" in Nature Medicine: A perspective piece on how to run clinical trials for adaptive AI systems, where there is a tension between allowing the AI system to adapt and preventing potential biases in trial results. Highlights a potential path by distinguishing "monitoring/updating procedures that are integral to the AI intervention" versus "monitoring as part of the trial."
+
+### Methodological Leadership in the folowing research areas:
+- Post-market monitoring performance degradation AI systems: Impactful findings from her research group include
+  - Biometrics 2020: the potential for bio-creep if AI updates are approved through a sequence of non-inferiority tests
+  - AISTATS 2024: established the first causal framework for detecting AI performance degradation in settings with potential feedback loops
+  - Conference on Causal Learning and Reasoning 2024: highlighting that the need to rethink which estimands and null hypotheses to use when monitoring AI performance degradation, due to tradeoffs between interpretability, variance, robustness to assumptions, etc.
+  - ICML 2025 and NeurIPS 2025: introduce framework to diagnose which subgroups experience large model decay and why. This has been used now by her team to improve performance of multiple real-world clinical AI models at UCSF.
+  - Invitations to speak at multiple domestic and international regulator conferences, including internal FDA seminars, Centers of Excellence in Regulatory Science and Innovation (CERSI) Annual Symposium, AI Regulatory & International Symposium (AIRIS), and the Symposium for the Launch of the Center for External AI Validation in Healthcare by the Taiwan Ministry of Health and Welfare.
+
+- Bringing statistical rigor to modern validation practices of genAI systems:
+  - "LLMs Judging LLMs: A Simplex Perspective" (AISTATS 2026): Addresses the widespread (but often flawed) practice of LLM-as-a-judge. This work brings careful statistical thinking to understand the theoretical limits of this practice and how statistical methodology can improve the rigor of such analyses.
+  - Latest preprint on "Adaptive auditing of AI systems with anytime-valid guarantees": Addresses the widespread (but also flawed) practice of opportunistically collected test cases for evaluating LLM/genAI systems. This work discusses how such practices can be made much more rigorous through a modern perspective with e-values.
+
+- Explainable AI:
+  - ICML 2018 and ICML 2020: developed computationally efficient methods for variable importance in AI models, particularly NN
+  - NeurIPS 2025: Established foundational work on how LLMs can be rigorously incorporated as a Bayesian prior to select/engineer features from unstructured data as inputs to an interpretable statistical model
+
+### Leadership in Clinical AI
+- Jean is the AI and Digital Innovation Lead for the Zuckerberg San Francisco General Hospital. Her team has received awards for spearheading AI in safety-net hospitals to improve patient outcomes:
+  - The Joint Commission's Bernard J. Tyson National Award for Pursuit of Healthcare Equity (2024)
+  - Quality Leaders Award in Equity at California Association of Public Hospitals and Health Systems Safety Net Institute (2024)
+- Jean also received the Service Award from the Symposium on Artificial Intelligence in Learning Health Systems (SAIL, 2026)
+
+### Editorial and Leadership Roles
+- Statistical Editor, New England Journal of Medicine AI (NEJM AI)
+- Area Chair, NeurIPS
+- Area Chair, Conference on Health, Inference, and Learning (CHIL)
+- Guest Editor, Biostatistics for the special collection on "Statistical Foundations of AI and Real-World Evidence Generation"
+- Guest Editor, Journal of Biopharmaceutical Statistics for the special collection on "AI/ML Use Cases in Medical Product Development"

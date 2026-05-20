@@ -1,0 +1,136 @@
+Old letter from Ali (thank you!):
+
+I am pleased to provide this letter in support of Dr. Jean Feng’s promotion to Associate Professor
+at UCSF.
+Before presenting my assessment of Dr. Feng’s accomplishments, I will first discuss the extent of
+my prior interactions and familiarity with her work.
+Background: I am a Professor of Biostatistics and Statistics at the University of Washington (UW).
+I am also the Associate Chair for Research at the Department of Biostatistics. I have had the pleasure
+of knowing Dr. Feng since she joined the Department of Biostatistics at UW in 2015. During her
+time at UW, Jean was a star student and worked with my colleague and collaborator, Dr. Noah
+Simon (as well as Dr. Erick Matsen). My first scientific interactions with Jean were after she joined
+the working group that Dr. Simon and I run at UW Biostatistics. From the beginning, it was clear
+that Jean was an amazing scholar and soon became a leader among the students/trainees in the lab.
+I also had the pleasure of serving as a member of Jean’s dissertation committee and am thus quite
+familiar with her PhD research. Despite extensive interactions and familiarity with Jean’s work, my
+only collaboration with her has been via teaching: Jean and I co-taught a short course on machine
+learning and artificial intelligence (ML/AI) at the 6th Seattle Symposium in Biostatistics: Precision
+Health in the Age of Data Science. More recently, Jean and I extended this course and co-taught a
+2.5-day short course on Supervised Machine Learning for Biomedical Big Data at the Summer
+Institute in Statistics for Big Data (SISBID), which I direct.
+I will next provide my assessment in each of the requested criteria.
+Research accomplishments and promise: Even while working on her dissertation, it was clear
+that Jean was an outstanding researcher with broad interests, as she worked on several important
+and challenging problems in diverse scientific areas. Jean was also prolific, completing ten projects
+in less than four years! Jean’s ability to tackle diverse problems is to a large part due to her
+outstanding skills in various aspects of statistical machine learning – from modeling and
+computation to theory. However, an equally important factor is Jean’s ability to identify important
+and emerging biomedical questions.
+I have followed Jean’s work after she left UW, both because I strongly believe she is a rising star
+in the field of Biostatistics, and also because her work often develops elegant, yet practical solutions
+for interesting scientific problems. Jean’s most recent work on interpretability and reliability of
+machine learning methods for biomedical applications demonstrates her growth as a scholar. In this
+work, she has made important contributions to characterizing uncertainty of black-box ML/AI
+models and their safe/ethical use in biomedical studies. This is an important and emerging area of
+research that will provide Jean with great opportunities to apply her diverse skills to not only make
+important scientific contributions, but to also improve public health and medicine as ML/Al become
+mainstream in the field
+Jean's scholarly publications are impressive in quantity and quality and have already had a
+considerable impact on the field. Jean has also been successful in securing grant funding for her
+research. In addition to an (internal) UCSF grant, she has also obtained a PCORI grant along with
+a supplement that funds her current research.
+Excellence in teaching/mentoring: Jean is a great communicator and an excellent teacher. During
+her PhD, she gave many clear and inspiring presentations at our join lab meetings. She has also
+given multiple invited presentations at national and international conferences, including a talk at an
+invited session that I had organized for the 2023 Joint Statistical Meetings (JSM). As mentioned
+above, I have also witnessed Jean's effectiveness in teaching in a short course that we co-taught on
+ML/AI. Jean's recognition as a leading scholar in this field and her teaching excellence are likely
+key reasons for her invitation to teach a Machine Learning Boot Camp at Columbia University.
+Jean's current advising - one PhD student, one postdoc and one junior faculty (on K23 grant) - as
+well as her outreach activities (through mentoring high school students) make a clear case for her
+passion and skills for mentoring students and junior researchers.
+Local stature in the field: Jean is widely recognition within the Biostatistics community as evident
+from the impressive number of invited talks and seminars she has delivered, including talks at top
+Biostatistics departments. Jean's work has also been recognized by her recent funding from the
+PCORI program, indicating that a panel of reviewers deem her work innovative and significant.
+Service to the profession: Jean has provided service and leadership at various capacities, from
+organizing and chairing scientific sessions at multiple conferences to extensive referee services.
+She has also served on several committees at UCSF. These include committees focused on ML/AI
+as well as committees in the Department. More recently, Jean has been selected as one of the
+statistical reviewers for NEJM-AI, which further underscores the recognition of her work by the
+broader community. Overall, Jean seems to have provided extensive service to the University and
+community.
+Summary: In summary, I believe, Dr. Feng has had impressive achievements in research, teaching
+and is among the rising stars in the field of Biostatistics. I look forward to following her continued
+success and her growing impact in the field. Given these accomplishments, I believe Jean clearly
+meets the criteria for promotion to Associate Professor.
+
+
+---
+
+## SUGGESTED ADDITIONAL BULLET POINTS (2026 UPDATE)
+
+The following summarizes Dr. Feng's accomplishments since the original promotion letter:
+
+### Career Milestone
+- Successfully promoted to **Associate Professor** at UCSF (July 2025), with joint appointment in the UCSF-UC Berkeley Joint Program in Computational Precision Health
+- This promotion validates the assessment in my original letter and reflects her standing in the field
+
+### Continued Growth in Statistical and Methodological Research
+- Co-authored paper in **Nature Medicine** (2026) on clinical trials for continuously monitored AI systems—a rigorous statistical framework for adaptive algorithms that will be foundational for the field
+- Published methodological work in **ICML** (2025) on diagnosing heterogeneous performance drift in ML models, demonstrating continued excellence in statistical machine learning theory
+- Papers at **AISTATS** (2024, 2026) and **NeurIPS** (2024, 2025) on calibration testing, causal approaches to ML monitoring, and Bayesian concept bottleneck models—all with strong statistical foundations
+- Published in the **Conference on Causal Learning and Reasoning** (2024) on designing monitoring strategies through a causal lens
+- Her work continues to bridge rigorous statistical methodology with practical ML/AI applications in healthcare
+
+### Expanded Teaching Partnership and Excellence
+- Jean and I have **expanded our collaboration** at SISBID: she now teaches a new course on **Deep Learning and Artificial Intelligence** (2026–Present) in addition to our joint course on Supervised Machine Learning
+- This expansion reflects both her pedagogical skills and the demand for her expertise in training the next generation of biostatisticians in modern ML methods
+- She continues to teach the **Machine Learning Boot Camp at Columbia University** (2020–Present), now in its sixth year
+- Developed and teaches **Datsci 224: Understanding Machine Learning** at UCSF (2024–Present)
+- Invited **guest lecturer at Taiwan Smart Healthcare School** (2025), Ministry of Health and Welfare—demonstrating international recognition of her teaching
+
+### Growth in Mentoring
+- Now supervises **two postdoctoral researchers** (up from one), multiple graduate students, and continues mentoring junior faculty
+- Added supervision of students in the UCSF-UC Berkeley Computational Precision Health program
+- Her mentees span biostatistics, biomedical informatics, and clinical research—reflecting her interdisciplinary impact
+
+### Recognition within the Biostatistics Community
+- **Statistical Editor, New England Journal of Medicine AI** (2024–Present)—as noted in my original letter, this role has continued and represents significant recognition of her methodological expertise
+- **Guest Editor** of a Special Collection on "Statistical Foundations of AI and Real-World Evidence Generation" for **Biostatistics** (2026)—a prestigious editorial role in our flagship journal
+- **Editor** of Special Issue for **Journal of Biopharmaceutical Statistics** (2023–2025)
+- Invited speaker at the **International Biometrics Conference** (2026) and **ENAR** (2026)
+- Invited to present at **Brown University's 30th Anniversary Biostatistics Symposium** (2024)
+- Seminar invitations at leading biostatistics departments including **University of Washington** (2025), **UC Riverside** (2026), and **Peking University** (2025)
+
+### Leadership in the ML/AI Community
+- **Area Chair, NeurIPS** (2025–Present)—the premier machine learning conference, reflecting her dual standing in both statistics and ML communities
+- **Area Chair, Conference on Health, Inference, and Learning (CHIL)** (2023–Present)
+- **Area Chair, STAI-X** (Statistics and Trustworthy AI for Cross-Domain Acceleration, 2026–Present)
+- **Program Committee, SAIL** (Symposium on Artificial Intelligence in Learning Health Systems, 2026–Present)
+- Received **Service Award from SAIL** (2026)
+
+### Invited Presentations (Selected, since original letter)
+- Over 30 invited talks since my original letter, including:
+  - **International Conference on Health Policy Statistics** (2025)
+  - **Joint Statistical Meetings** (2024)—on causal approaches to ML monitoring
+  - **International Conference on Econometrics and Statistics** (2024)
+  - **Microsoft Research** Deep Learning and Health Futures Seminar (2025)
+  - **Fred Hutchinson Cancer Center** Deep Learning Affinity Group (2025)
+  - **CDC AI Community of Practice** (2026)
+
+### Service to the Field
+- Continues extensive **referee service** for top journals: JAMA, Nature Medicine, Nature Digital Medicine, NEJM AI, Annals of Applied Statistics, Statistics in Medicine, JMLR, and others
+- Member of **UW School of Public Health AI Task Force** (2026)—contributing her expertise back to her alma mater
+- Member of **UCSF AI Oversight Committee** (2023–Present)
+- Serves on **UCSF Faculty Search Committee** (2025)
+
+### Awards Recognizing Broader Impact
+- **The Joint Commission's Bernard J. Tyson National Award for Pursuit of Healthcare Equity** (2024)
+- **Quality Leaders Award in Equity** at California Association of Public Hospitals (2024)
+- These awards recognize her work deploying AI responsibly in safety-net healthcare settings—demonstrating impact beyond methodological contributions
+
+---
+
+**Summary**: Since my promotion letter, Jean has continued her impressive trajectory. She has published in the most prestigious venues (Nature Medicine, JAMA, NEJM AI, NeurIPS, ICML), taken on major editorial roles including Guest Editor at Biostatistics, expanded her teaching contributions at SISBID, and been recognized with leadership positions at top conferences (NeurIPS Area Chair). Her work exemplifies the best of modern biostatistics: rigorous methodology applied to consequential problems in healthcare AI. She has firmly established herself as a leader in our field.
+
