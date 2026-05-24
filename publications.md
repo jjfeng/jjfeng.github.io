@@ -9,10 +9,6 @@ title: Publications
 *Feng* and Simon<br />
 [\[arXiv\]](http://arxiv.org/abs/1711.07592)[\[code\]](https://github.com/jjfeng/spinn)
 
-**Human-AI co-design for clinical prediction models**<br />
-*Feng*, Kothari, Vossler, Bishara, Zier, Addo, Kornblith, Tan and Singh<br />
-[\[arXiv\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)[\[poster\]](poster_hachi.pdf)
-
 **From Fuzzy to Formal: Scaling Hospital Quality Improvement with AI**<br />
 Vossler<sup>\*</sup>, *Feng*<sup>\*</sup>, Sivaraman, Gallo, Kanzaria, Freiser, Ross, Ou, Marks, Ehrlich, Peabody and Zier<br />
 [\[arXiv\]](https://arxiv.org/abs/2604.20055)
@@ -56,6 +52,11 @@ Sivaraman, Vossler, Perer, Hong and *Feng*<br />
 van Amsterdam<sup>\*</sup>, Oberst<sup>\*</sup>, *Feng*<sup>\*</sup>, Wiens, Tang, Joshi, Ranganath, Sendak, Shalit, Vogt, Beaulieu-Jones, Mamdani, Kent, Heagerty, Fleming and Goldenberg<br />
 *Nat. Med.*, 2026<br />
 [\[paper\]](https://rdcu.be/ffPlI)
+
+**Human-AI co-design for clinical prediction models**<br />
+*Feng*<sup>\*</sup>, Kothari<sup>\*</sup>, Vossler, Bishara, Zier, Addo, Kornblith, Tan and Singh<br />
+*npj Digital Medicine*, 2026<br />
+[\[paper\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)[\[poster\]](poster_hachi.pdf)
 
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
