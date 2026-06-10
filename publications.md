@@ -26,7 +26,7 @@ Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, 
 **LLMs Judging LLMs: A Simplex Perspective**<br />
 Vossler, Xia, Mai, Subbaswamy and *Feng*<br />
 *International Conference on Artificial Intelligence and Statistics (AISTATS)*, 2026<br />
-[\[paper\]](https://arxiv.org/abs/2505.21972)[\[code\]](https://github.com/jjfenglab/judging-llms-on-a-simplex)[\[poster\]](poster_llm_judge_simplex.pdf)
+[\[paper\]](https://openreview.net/forum?id=HxmC9vLZE3)[\[code\]](https://github.com/jjfenglab/judging-llms-on-a-simplex)[\[poster\]](poster_llm_judge_simplex.pdf)
 
 **Scaling Medical Device Regulatory Science using Large Language Models**<br />
 Li, He, Subbaswamy, Vossler, Gossmann, Singh and *Feng*<br />
