@@ -56,7 +56,7 @@ van Amsterdam<sup>\*</sup>, Oberst<sup>\*</sup>, *Feng*<sup>\*</sup>, Wiens, Tan
 **Human-AI co-design for clinical prediction models**<br />
 *Feng*<sup>\*</sup>, Kothari<sup>\*</sup>, Vossler, Bishara, Zier, Addo, Kornblith, Tan and Singh<br />
 *npj Digital Medicine*, 2026<br />
-[\[paper\]](https://arxiv.org/abs/2601.09072)[\[code\]](https://github.com/jjfenglab/HACHI)[\[poster\]](poster_hachi.pdf)
+[\[paper\]](https://doi.org/10.1038/s41746-026-02838-5)[\[code\]](https://github.com/jjfenglab/HACHI)[\[poster\]](poster_hachi.pdf)
 
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
