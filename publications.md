@@ -15,7 +15,7 @@ Vossler<sup>\*</sup>, *Feng*<sup>\*</sup>, Sivaraman, Gallo, Kanzaria, Freiser, 
 
 **Adaptive auditing of AI systems with anytime-valid guarantees**<br />
 Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
-[\[arXiv\]](https://arxiv.org/abs/2605.07002)[\[code\]](https://github.com/jjfenglab/safe-adaptive-testing)
+[\[arXiv\]](https://arxiv.org/abs/2605.07002)[\[code\]](https://github.com/jjfenglab/safe-adaptive-testing) ***Stellar Abstract Award at STAI-X***
 
 ## 2026
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
@@ -57,6 +57,11 @@ van Amsterdam<sup>\*</sup>, Oberst<sup>\*</sup>, *Feng*<sup>\*</sup>, Wiens, Tan
 *Feng*<sup>\*</sup>, Kothari<sup>\*</sup>, Vossler, Bishara, Zier, Addo, Kornblith, Tan and Singh<br />
 *npj Digital Medicine*, 2026<br />
 [\[paper\]](https://doi.org/10.1038/s41746-026-02838-5)[\[code\]](https://github.com/jjfenglab/HACHI)[\[poster\]](poster_hachi.pdf)
+
+**STAVAT: Stratified Anytime-Valid Atom Sampling for LLM Tier Placement**<br />
+Vossler, Xia and *Feng*<br />
+*Statistics and Trustworthy AI for Cross (X)-Domain Acceleration (STAI-X)*, 2026<br />
+[\[paper\]](to appear)
 
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />

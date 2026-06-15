@@ -97,6 +97,8 @@ for entry in bib_entries:
             pub_str = "**%s**<br />\n%s<br />\n[\[%s\]](%s)" % (title, author_str, journal, url)
         if title.lower() in POSTER_DICT:
             pub_str += "[\[poster\]](%s)" % POSTER_DICT[title.lower()]
+        if "award" in entry:
+            pub_str += f" ***{entry['award']}***"
         parsed_entries["preprints"].append(pub_str)
     else:
         journal = convert_journal(entry["journal"])
