@@ -61,7 +61,7 @@ van Amsterdam<sup>\*</sup>, Oberst<sup>\*</sup>, *Feng*<sup>\*</sup>, Wiens, Tan
 **STAVAT: Stratified Anytime-Valid Atom Sampling for LLM Tier Placement**<br />
 Vossler, Xia and *Feng*<br />
 *Statistics and Trustworthy AI for Cross (X)-Domain Acceleration (STAI-X)*, 2026<br />
-[\[paper\]](to appear)
+[\[paper\]](to appear) ***Paper Award***
 
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
