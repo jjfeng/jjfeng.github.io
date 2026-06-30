@@ -21,7 +21,7 @@ Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
 **Expert Evaluation of Clinical AI Tools on Real Point-of-Care Clinical Queries**<br />
 *Feng*, Patel, Heagerty, Mai, Sivaraman, Vossler, Ouyang and Jena<br />
 *ArXiv*, 2026<br />
-[\[paper\]](https://arxiv.org/abs/2606.28960)
+[\[paper\]](https://arxiv.org/abs/2606.28960)[\[code\]](https://github.com/jjfenglab/Real-POCQi-statistics)[\[data\]](https://huggingface.co/datasets/jjfenglab/Real-POCQi)
 
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
 Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />

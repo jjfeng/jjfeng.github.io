@@ -25,9 +25,13 @@ SOFTWARE_DICT = {
     "scaling medical device regulatory science using large language models": "https://github.com/jjfenglab/LLM-FDA-device",
     "llms judging llms: a simplex perspective": "https://github.com/jjfenglab/judging-llms-on-a-simplex",
     "adaptive auditing of ai systems with anytime-valid guarantees": "https://github.com/jjfenglab/safe-adaptive-testing",
+    "expert evaluation of clinical ai tools on real point-of-care clinical queries": "https://github.com/jjfenglab/Real-POCQi-statistics",
 }
 TALK_DICT = {
     "towards a post-market monitoring framework for machine learning-based medical devices: a case study": "postmarket_monitoring_talk_short.pdf",
+}
+DATA_DICT = {
+    "expert evaluation of clinical ai tools on real point-of-care clinical queries": "https://huggingface.co/datasets/jjfenglab/Real-POCQi",
 }
 POSTER_DICT = {
     "sequential algorithmic modification with test data reuse": "adaptive_SRGP.pdf",
@@ -95,6 +99,8 @@ for entry in bib_entries:
         else:
             print("NOT FOUND", title)
             pub_str = "**%s**<br />\n%s<br />\n[\[%s\]](%s)" % (title, author_str, journal, url)
+        if title.lower() in DATA_DICT:
+            pub_str += "[\[data\]](%s)" % DATA_DICT[title.lower()]
         if title.lower() in POSTER_DICT:
             pub_str += "[\[poster\]](%s)" % POSTER_DICT[title.lower()]
         if "award" in entry:
@@ -120,6 +126,8 @@ for entry in bib_entries:
                 pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)[\[code\]](%s)" % (title, author_str, journal, url, software)
             else:
                 pub_str = "**%s**<br />\n%s<br />\n*%s*, In press<br />\n[\[paper\]](%s)" % (title, author_str, journal, url)
+        if title.lower() in DATA_DICT:
+            pub_str += "[\[data\]](%s)" % DATA_DICT[title.lower()]
         if title.lower() in POSTER_DICT:
             pub_str += "[\[poster\]](%s)" % POSTER_DICT[title.lower()]
         if title.lower() in TALK_DICT:
