@@ -87,7 +87,7 @@ for entry in bib_entries:
     else:
         author_str = last_names[0]
 
-    is_preprint = "journal" not in entry or entry["journal"] in ["arXiv", "bioRxiv"]
+    is_preprint = "journal" not in entry or entry["journal"] in ["arXiv", "bioRxiv", "ArXiv"]
     url = entry["url"]
 
     if is_preprint:
