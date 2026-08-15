@@ -76,6 +76,11 @@ Narang, Addo, Williams, Firnberg, *Feng* and Kornblith<br />
 *Npj Health Syst.*, 2026<br />
 [\[paper\]](https://doi.org/10.1038/s44401-026-00128-6)
 
+**Building a global research network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care: Protocol for a FAIR-EC study**<br />
+Hong, Liew, Yu, Barry, Blewer, Buckland, Cai, Cha, Chakraborty, Chen, Cheng, Chong, Djärv, Earnest, Engelhard, Fan, Feng, *Feng*, Fu, Goh, Goldstein, Gronsbell, Ho, Ho, Iwami, Joiner, Kornblith, Li, Lim, Liu, Liu, Lu, Luo, Ng, Ning, Okada, Park, Park, Razzak, Shen, Siddiqui, Steel, Tan, Teixayavong, Vakulenko-Lagun, Vissoci, Waligora, Wang, Wang, Wang, Wong, Xie, Yang, Zhang, Zhou, Zhou, Zhu, Neumar, Page, Vaughan, Ong and Liu<br />
+*JMIR Res. Protoc.*, 2026<br />
+[\[paper\]](https://doi.org/10.2196/74202)
+
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
