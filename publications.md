@@ -71,6 +71,11 @@ Vossler, Xia and *Feng*<br />
 *Statistics and Trustworthy AI for Cross (X)-Domain Acceleration (STAI-X)*, 2026<br />
 [\[paper\]](to appear) ***Paper Award***
 
+**Assessing acuity in pediatric emergency department triage: performance of a large language model**<br />
+Narang, Addo, Williams, Firnberg, *Feng* and Kornblith<br />
+*Npj Health Syst.*, 2026<br />
+[\[paper\]](https://doi.org/10.1038/s44401-026-00128-6)
+
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
