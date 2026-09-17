@@ -22,7 +22,7 @@ Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2606.28960)[\[code\]](https://github.com/jjfenglab/Real-POCQi-statistics)[\[data\]](https://huggingface.co/datasets/jjfenglab/Real-POCQi)
 
 **Expert-guided g-computation with large language models for estimating causal effects on timings: Applications to hospital quality improvement**<br />
-Vossler, Ouyang, Richard Guo, Huang, Shojaie, Zier, Xia and *Feng*<br />
+Vossler, Ouyang, Guo, Huang, Shojaie, Zier, Xia and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2608.10339)
 
 ## 2026
