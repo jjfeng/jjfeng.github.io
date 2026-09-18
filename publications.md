@@ -25,6 +25,10 @@ Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
 Vossler, Ouyang, Guo, Huang, Shojaie, Zier, Xia and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2608.10339)
 
+**``I know where to look,'' but does the LLM? Charting the gaps between clinical expert needs and unstructured data abstraction tools**<br />
+Sivaraman, Turnham, Bonano, Aresh, Dhanasekaran, Guo, Kubendran, Lin, Louie, Olazo, Shen, Vasudevan, Wong, Alsentzer, Fries, Odisho, Gordan, *Feng* and Hong<br />
+[\[arXiv\]](https://arxiv.org/abs/2609.19318)
+
 ## 2026
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
 Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />
