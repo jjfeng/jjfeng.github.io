@@ -26,7 +26,7 @@ Vossler, Ouyang, Guo, Huang, Shojaie, Zier, Xia and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2608.10339)
 
 **``I know where to look,'' but does the LLM? Charting the gaps between clinical expert needs and unstructured data abstraction tools**<br />
-Sivaraman, Turnham, Bonano, Aresh, Dhanasekaran, Guo, Kubendran, Lin, Louie, Olazo, Shen, Vasudevan, Wong, Alsentzer, Fries, Odisho, Gordan, *Feng* and Hong<br />
+Sivaraman, Turnham, Bonano, Aresh, Dhanasekaran, Guo, Kubendran, Lin, Louie, Olazo, Shen, Vasudevan, Wong, Alsentzer, Fries, Odisho, Gordan, *Feng*<sup>\*</sup> and Hong<sup>\*</sup><br />
 [\[arXiv\]](https://arxiv.org/abs/2609.19318)
 
 ## 2026

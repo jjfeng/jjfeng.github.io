@@ -73,12 +73,17 @@ for entry in bib_entries:
     authors = entry["author"].split(" and ")
     # Get number of co-first authors (default 0)
     cofirst_count = int(entry.get("cofirst", 0))
+    # Get number of co-last authors (default 0)
+    colast_count = int(entry.get("colast", 0))
     last_names = []
     for i, author in enumerate(authors):
         last_name = author.split(", ")[0]
         last_name = "*%s*" % last_name if author == "Feng, Jean" else last_name
         # Add superscript star for co-first authors
         if cofirst_count > 0 and i < cofirst_count:
+            last_name = last_name + "<sup>\*</sup>"
+        # Add superscript star for co-last authors
+        if colast_count > 0 and i >= len(authors) - colast_count:
             last_name = last_name + "<sup>\*</sup>"
         last_names.append(last_name)
 
