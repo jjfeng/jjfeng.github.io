@@ -27,7 +27,7 @@ Vossler, Ouyang, Guo, Huang, Shojaie, Zier, Xia and *Feng*<br />
 
 **``I know where to look,'' but does the LLM? Charting the gaps between clinical expert needs and unstructured data abstraction tools**<br />
 Sivaraman, Turnham, Bonano, Aresh, Dhanasekaran, Guo, Kubendran, Lin, Louie, Olazo, Shen, Vasudevan, Wong, Alsentzer, Fries, Odisho, Gordan, *Feng*<sup>\*</sup> and Hong<sup>\*</sup><br />
-[\[arXiv\]](https://arxiv.org/abs/2609.19318)
+[\[arXiv\]](https://arxiv.org/abs/2609.19318)[\[code\]](https://github.com/weill-cancer-hub-west-impact-ai/libretto)
 
 ## 2026
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
