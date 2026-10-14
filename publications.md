@@ -90,6 +90,11 @@ Hong, Liew, Yu, Barry, Blewer, Buckland, Cai, Cha, Chakraborty, Chen, Cheng, Cho
 *JMIR Res. Protoc.*, 2026<br />
 [\[paper\]](https://doi.org/10.2196/74202)
 
+**A proactive digital valve care pathway for management of severe aortic stenosis: The DETECT AS II study**<br />
+Forouzannia, Hempstead, Steineman, Duan, Vossler, *Feng*, Zhou, Zier and Elmariah<br />
+*JAMA Cardiol.*, 2026<br />
+[\[paper\]](https://jamanetwork.com/journals/jamacardiology/fullarticle/2855127)
+
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
