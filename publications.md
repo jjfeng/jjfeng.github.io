@@ -26,6 +26,11 @@ Sivaraman, Turnham, Bonano, Aresh, Dhanasekaran, Guo, Kubendran, Lin, Louie, Ola
 [\[arXiv\]](https://arxiv.org/abs/2609.19318)[\[code\]](https://github.com/weill-cancer-hub-west-impact-ai/libretto)
 
 ## 2026
+**Learning to detect shifts in unstructured data streams via monitoring-by-betting**<br />
+Zhou, Ouyang, Xia, Subbaswamy, Prinster, Saria, Garcia-Agundez, Pollet, Yazdany, Vossler and *Feng*<br />
+*arXiv [cs.LG]*, 2026<br />
+[\[paper\]](https://arxiv.org/abs/2610.17399)[\[code\]](https://github.com/jjfenglab/monitoring-by-betting)
+
 **Adaptive auditing of AI systems with anytime-valid guarantees**<br />
 Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
 *Adv. Neural Inf. Process. Syst.*, 2026<br />

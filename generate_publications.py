@@ -27,6 +27,7 @@ SOFTWARE_DICT = {
     "adaptive auditing of ai systems with anytime-valid guarantees": "https://github.com/jjfenglab/safe-adaptive-testing",
     "expert evaluation of clinical ai tools on real point-of-care clinical queries": "https://github.com/jjfenglab/Real-POCQi-statistics",
     "``i know where to look,'' but does the llm? charting the gaps between clinical expert needs and unstructured data abstraction tools": "https://github.com/weill-cancer-hub-west-impact-ai/libretto",
+    "learning to detect shifts in unstructured data streams via monitoring-by-betting": "https://github.com/jjfenglab/monitoring-by-betting",
 }
 TALK_DICT = {
     "towards a post-market monitoring framework for machine learning-based medical devices: a case study": "postmarket_monitoring_talk_short.pdf",
