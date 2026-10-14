@@ -25,12 +25,11 @@ Vossler, Ouyang, Guo, Huang, Shojaie, Zier, Xia and *Feng*<br />
 Sivaraman, Turnham, Bonano, Aresh, Dhanasekaran, Guo, Kubendran, Lin, Louie, Olazo, Shen, Vasudevan, Wong, Alsentzer, Fries, Odisho, Gordan, *Feng*<sup>\*</sup> and Hong<sup>\*</sup><br />
 [\[arXiv\]](https://arxiv.org/abs/2609.19318)[\[code\]](https://github.com/weill-cancer-hub-west-impact-ai/libretto)
 
-## 2026
 **Learning to detect shifts in unstructured data streams via monitoring-by-betting**<br />
 Zhou, Ouyang, Xia, Subbaswamy, Prinster, Saria, Garcia-Agundez, Pollet, Yazdany, Vossler and *Feng*<br />
-*arXiv [cs.LG]*, 2026<br />
-[\[paper\]](https://arxiv.org/abs/2610.17399)[\[code\]](https://github.com/jjfenglab/monitoring-by-betting)
+[\[arXiv\]](https://arxiv.org/abs/2610.17399)[\[code\]](https://github.com/jjfenglab/monitoring-by-betting)
 
+## 2026
 **Adaptive auditing of AI systems with anytime-valid guarantees**<br />
 Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
 *Adv. Neural Inf. Process. Syst.*, 2026<br />
