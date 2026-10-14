@@ -26,7 +26,7 @@ Sivaraman, Turnham, Bonano, Aresh, Dhanasekaran, Guo, Kubendran, Lin, Louie, Ola
 [\[arXiv\]](https://arxiv.org/abs/2609.19318)[\[code\]](https://github.com/weill-cancer-hub-west-impact-ai/libretto)
 
 **Learning to detect shifts in unstructured data streams via monitoring-by-betting**<br />
-Zhou, Ouyang, Xia, Subbaswamy, Prinster, Saria, Garcia-Agundez, Pollet, Yazdany, Vossler and *Feng*<br />
+Zhou, Ouyang, Xia, Subbaswamy, Prinster, Saria, Garcia-Agundez, Pollet, Yazdany, Vossler<sup>\*</sup> and *Feng*<sup>\*</sup><br />
 [\[arXiv\]](https://arxiv.org/abs/2610.17399)[\[code\]](https://github.com/jjfenglab/monitoring-by-betting)
 
 ## 2026
