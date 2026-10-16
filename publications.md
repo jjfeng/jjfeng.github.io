@@ -95,6 +95,11 @@ Forouzannia, Hempstead, Steineman, Duan, Vossler, *Feng*, Zhou, Zier and Elmaria
 *JAMA Cardiol.*, 2026<br />
 [\[paper\]](https://jamanetwork.com/journals/jamacardiology/fullarticle/2855127)
 
+**Clinical AI in 2025–2026 — six themes from the SAIL year in review**<br />
+Kim, Elia, Li, Healey, Erdman, Chandak, Argaw, Li, Black, Marwaha, Morales, Taylor, Kvedar, Brodeur, Beaulieu-Jones, Alsentzer, Hong and *Feng*<br />
+*NEJM AI*, 2026<br />
+[\[paper\]](https://ai.nejm.org/doi/full/10.1056/AIp2600817)
+
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
