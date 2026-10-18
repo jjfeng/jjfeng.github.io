@@ -29,6 +29,10 @@ Sivaraman, Turnham, Bonano, Aresh, Dhanasekaran, Guo, Kubendran, Lin, Louie, Ola
 Zhou, Ouyang, Xia, Subbaswamy, Prinster, Saria, Garcia-Agundez, Pollet, Yazdany, Vossler<sup>\*</sup> and *Feng*<sup>\*</sup><br />
 [\[arXiv\]](https://arxiv.org/abs/2610.17399)[\[code\]](https://github.com/jjfenglab/monitoring-by-betting)
 
+**A framework to monitor editing of Artificial Intelligence-generated medical documentation**<br />
+Garcia-Agundez, Zhou, Pourian, Blebea, Daneshpajouhnejad, Dente, Shi, Pollet, Xia, Shi, Thombley, Fenton, Murray, Adler-Milstein, Schmajuk, *Feng*<sup>\*</sup> and Yazdany<sup>\*</sup><br />
+[\[medRxiv\]](https://www.medrxiv.org/content/10.64898/2026.09.30.26364427v3)
+
 ## 2026
 **Adaptive auditing of AI systems with anytime-valid guarantees**<br />
 Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />

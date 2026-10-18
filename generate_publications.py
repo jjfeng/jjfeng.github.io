@@ -94,11 +94,16 @@ for entry in bib_entries:
     else:
         author_str = last_names[0]
 
-    is_preprint = "journal" not in entry or entry["journal"] in ["arXiv", "bioRxiv", "ArXiv"]
+    is_preprint = "journal" not in entry or entry["journal"] in ["arXiv", "bioRxiv", "ArXiv", "medRxiv"]
     url = entry["url"]
 
     if is_preprint:
-        journal = "bioRxiv" if ("journal" in entry and entry["journal"] == "bioRxiv") else "arXiv"
+        if "journal" in entry and entry["journal"] == "bioRxiv":
+            journal = "bioRxiv"
+        elif "journal" in entry and entry["journal"] == "medRxiv":
+            journal = "medRxiv"
+        else:
+            journal = "arXiv"
         if title.lower() in SOFTWARE_DICT:
             print("FOUND")
             software = SOFTWARE_DICT[title.lower()]
