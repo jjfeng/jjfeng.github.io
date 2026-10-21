@@ -104,6 +104,11 @@ Kim, Elia, Li, Healey, Erdman, Chandak, Argaw, Li, Black, Marwaha, Morales, Tayl
 *NEJM AI*, 2026<br />
 [\[paper\]](https://ai.nejm.org/doi/full/10.1056/AIp2600817)
 
+**Adjusted trend analysis in the adoption and outcomes of minimally invasive pancreaticoduodenectomy approaches: over a decade of contemporary U.S. data**<br />
+Foroutani, Chang, Kannan, Ganjouei, Wang, *Feng*, Thornblade, Hirose, Maker, Nakakura, Corvera, Alseidi and Adam<br />
+*Surg. Endosc.*, 2026<br />
+[\[paper\]](https://link.springer.com/article/10.1007/s00464-026-13444-7)
+
 ## 2025
 **Realistic CDSS drug dosing with end-to-end recurrent Q-learning for dual vasopressor control**<br />
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
