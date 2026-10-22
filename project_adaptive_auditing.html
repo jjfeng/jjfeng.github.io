@@ -1,0 +1,511 @@
+---
+layout: default
+title: Adaptive Auditing Demo
+nav_exclude: true
+---
+
+<style>
+  .proj-wrap { max-width: 960px; }
+  .proj-wrap h1 { margin-bottom: 0.25em; line-height: 1.15; }
+  .proj-meta { color: #555; margin-bottom: 1.2em; }
+  .proj-links { margin-bottom: 1.2em; }
+  .proj-links a { margin-right: 10px; }
+  .summary-fig { margin: 1em 0 1.5em; }
+  .summary-fig img { width: 100%; max-width: 920px; display: block; }
+  .duel-eq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 1em 0;
+  }
+  .duel-box {
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 14px 16px;
+    background: #fff;
+  }
+  .duel-box.model   { border-color: #d9823f; background: #fdf3eb; }
+  .duel-box.auditor { border-color: #4a7fc9; background: #ecf2fb; }
+  .duel-box h4 { margin: 0 0 8px; font-size: 0.98em; }
+  .duel-box.model h4   { color: #a85e22; }
+  .duel-box.auditor h4 { color: #2d5aa0; }
+  .duel-box p { margin: 4px 0; font-size: 0.95em; color: #222; }
+  .duel-box .note { font-size: 0.85em; color: #555; margin-top: 8px; }
+  @media (max-width: 640px) {
+    .duel-eq { grid-template-columns: 1fr; }
+  }
+  .demo-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px 20px 20px;
+    background: #fafafa;
+    margin: 1.5em 0;
+  }
+  .demo-top {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .demo-left { flex: 1 1 420px; min-width: 320px; }
+  .demo-right { flex: 1 1 380px; min-width: 300px; }
+  .cat-grid {
+    display: grid;
+    grid-template-columns: 90px repeat(3, 1fr);
+    gap: 6px;
+    margin-top: 10px;
+  }
+  .cat-head {
+    font-weight: 600;
+    text-align: center;
+    padding: 4px;
+    color: #333;
+    font-size: 0.9em;
+  }
+  .cat-row-label {
+    font-weight: 600;
+    text-align: right;
+    padding: 10px 6px;
+    color: #333;
+    font-size: 0.9em;
+    align-self: center;
+  }
+  .cat-cell {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    background: #fff;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+    text-align: center;
+    min-height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    user-select: none;
+  }
+  .cat-cell:hover { background: #eef5ff; border-color: #4a7fc9; }
+  .cat-cell.exhausted { background: #f0f0f0; color: #999; cursor: not-allowed; border-color: #ddd; }
+  .cat-cell.exhausted:hover { background: #f0f0f0; border-color: #ddd; }
+  .cell-count { font-size: 0.8em; color: #666; margin-top: 4px; }
+  .cell-badges { font-size: 0.85em; margin-top: 3px; letter-spacing: 1px; min-height: 1em; }
+  .badge-correct { color: #2a9d4a; }
+  .badge-wrong { color: #c0392b; }
+  .last-draw {
+    margin-top: 12px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid #ddd;
+    min-height: 42px;
+    font-size: 0.95em;
+  }
+  .last-draw .score-correct { color: #2a9d4a; font-weight: 600; }
+  .last-draw .score-wrong { color: #c0392b; font-weight: 600; }
+  .status-banner {
+    margin-top: 10px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .status-neutral { background: #eef2f7; color: #456; }
+  .status-rejected { background: #fde8e4; color: #a93523; border: 1px solid #e3a699; }
+  .status-passed   { background: #e6f3eb; color: #1f6b3a; border: 1px solid #a5d3b5; }
+  .controls { margin-top: 10px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .btn {
+    background: #4a7fc9; color: #fff; border: none;
+    padding: 7px 14px; border-radius: 5px; cursor: pointer;
+    font-size: 0.9em;
+  }
+  .btn:hover { background: #3a6cb2; }
+  .btn.secondary { background: #888; }
+  .btn.secondary:hover { background: #666; }
+  .setting-row { font-size: 0.9em; color: #333; }
+  .setting-row code { background: #eee; padding: 1px 4px; border-radius: 3px; }
+  .chart-wrap { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 10px; }
+  .chart-wrap svg { display: block; width: 100%; height: auto; }
+  .legend { font-size: 0.85em; color: #555; margin-top: 6px; }
+  .legend-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: middle; margin-right: 4px; }
+  details.howto { margin-top: 10px; }
+  details.howto summary { cursor: pointer; font-weight: 600; color: #4a7fc9; }
+  details.howto p, details.howto li { font-size: 0.92em; }
+</style>
+
+<div class="proj-wrap" markdown="0">
+
+<h1>Adaptive auditing of AI systems with anytime-valid guarantees</h1>
+
+<div class="proj-meta">
+  Siyu Zhou*, Patrick Vossler*, Venkatesh Sivaraman, Yifan Mai, Jean Feng<br />
+  <em>NeurIPS 2026</em>
+</div>
+
+<div class="proj-links">
+  <a href="https://arxiv.org/abs/2605.07002">[paper]</a>
+  <a href="https://github.com/jjfenglab/safe-adaptive-testing">[code]</a>
+  <a href="publications.html">[back to publications]</a>
+</div>
+
+<div class="summary-fig">
+  <img src="project_adaptive_auditing_summary.png"
+       alt="Overview figure: dueling hypothesis tests, testing by betting, and safe anytime-valid audit procedure." />
+</div>
+
+<h2>Summary</h2>
+
+<p>
+When auditing an LLM, practitioners often probe for failure modes using small, adaptively chosen test suites of 10&ndash;50 cases, where <em>which</em> cases to annotate next depends on past results. Classical statistics forbids this &mdash; the usual sample-size and sampling-scheme assumptions are violated. We ask: <strong>can we draw rigorous conclusions about model robustness from fully adaptive audits with as few as 20 observations?</strong>
+</p>
+
+<p>
+We propose formalizing an audit as two dueling hypothesis tests &mdash; a <em>model's null</em> (no failure mode exists in any subgroup of prevalence &ge; &epsilon;) and an <em>auditor's null</em> (this specific strategy would eventually find one) &mdash; and testing both using <strong>e-processes</strong>, which provide anytime-valid Type&nbsp;I error control under arbitrary adaptive sampling and optional stopping.
+</p>
+
+<div class="duel-eq">
+  <div class="duel-box model">
+    <h4>Model's perspective &mdash; no failure mode exists</h4>
+    <p>\(H_0^{\mathrm{mod}}:\ \forall S \in \mathcal{S}_\epsilon,\ V(S) \geq q\)</p>
+    <p>\(H_1^{\mathrm{mod}}:\ \exists S \in \mathcal{S}_\epsilon \text{ s.t. } V(S) < q\)</p>
+    <p class="note">Rejecting this null means the AI system <em>is not</em> globally robust.</p>
+  </div>
+  <div class="duel-box auditor">
+    <h4>Auditor's perspective &mdash; my audit will find one</h4>
+    <p>\(H_0^{\mathrm{aud},[m]}:\ \exists \tau \in [m],\ \forall t \geq \tau,\ V(S_t^\pi) < q\)</p>
+    <p>\(H_1^{\mathrm{aud},[m]}:\ \forall \tau \in [m],\ \exists t \geq \tau \text{ s.t. } V(S_t^\pi) \geq q\)</p>
+    <p class="note">Rejecting this null means the AI system <em>passed</em> this specific audit.</p>
+  </div>
+</div>
+
+<p style="font-size:0.92em;color:#555;">
+Here \(\mathcal{S}_\epsilon\) is the collection of subgroups with prevalence at least \(\epsilon\); \(V(S)\) is average accuracy on subgroup \(S\); \(q\) is the target performance threshold; \(S_t^\pi\) is the subgroup selected by the auditor's adaptive strategy \(\pi\) at step \(t\); and \(m\) is the auditor's budget. If the auditor is <em>asymptotically consistent</em>, Theorem&nbsp;1 of the paper shows these two nulls become complements as \(m \to \infty\) &mdash; the audit then becomes a true binary certification of robustness.
+</p>
+
+<h2>Try it yourself: find the LLM's blind spot</h2>
+
+<p>
+Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQA</a>-style science questions. Each question has a <em>domain</em> (Biology, Chemistry, Physics) and an <em>education level</em> (Undergraduate, Graduate, Post-graduate). We fixed the LLM's performance across the 9 strata, but <strong>only one stratum is a true failure mode</strong>. Your job: find it using as few annotations as possible, and let the e-process tell you when you have enough evidence to reject the model's null.
+</p>
+
+<p>
+We test the model's null \(H_0^{\mathrm{mod}}: \forall S \in \mathcal{S}_\epsilon,\ V(S) \geq q\) using the fixed-alternative likelihood-ratio e-process (Option&nbsp;1 of &sect;3.2.1):
+\(E_t = \prod_{k=1}^{t} p(Y_k;\, q{-}\delta) / p(Y_k;\, q).\)
+Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
+</p>
+
+<div class="demo-box">
+  <div class="setting-row">
+    Target threshold <code>q = 0.80</code>, alternative <code>q&minus;&delta; = 0.50</code>, significance level <code>&alpha; = 0.05</code> (reject when E<sub>t</sub> &ge; 20).
+  </div>
+
+  <div class="demo-top">
+    <div class="demo-left">
+      <div><strong>Pick a category to annotate the next observation:</strong></div>
+      <div class="cat-grid" id="catGrid"></div>
+      <div class="last-draw" id="lastDraw">Click any cell to sample a question from that category and reveal its score.</div>
+      <div class="status-banner status-neutral" id="statusBanner">
+        E<sub>t</sub> = 1.00 &nbsp; &middot; &nbsp; threshold 1/&alpha; = 20 &nbsp; &middot; &nbsp; 0 observations
+      </div>
+      <div class="controls">
+        <button class="btn secondary" id="resetBtn">Reset</button>
+        <span style="font-size:0.85em;color:#666;">(resets everything)</span>
+      </div>
+
+      <details class="howto">
+        <summary>How this works &mdash; and a hint</summary>
+        <p>
+          Each category is a subgroup with a hidden true accuracy. Click a cell to pull the next pre-generated question from that category and reveal whether the LLM got it right (<span class="score-correct">Y=1</span>) or wrong (<span class="score-wrong">Y=0</span>).
+        </p>
+        <p>
+          With <code>q=0.8</code> and <code>q&minus;&delta;=0.5</code>, each observation multiplies E<sub>t</sub> by:
+          <br />
+          &nbsp;&nbsp;&middot; <strong>0.625</strong> when the LLM is correct (= 0.5/0.8), or
+          <br />
+          &nbsp;&nbsp;&middot; <strong>2.5</strong> when the LLM is wrong (= 0.5/0.2).
+        </p>
+        <p>
+          Hint: an auditor who &quot;listens&quot; to past results should concentrate on cells that already look weak. Any strategy you like &mdash; stratified sweep, follow-the-worst, pure guessing &mdash; is a valid use of this e-process.
+        </p>
+      </details>
+    </div>
+
+    <div class="demo-right">
+      <div><strong>E-process</strong> (log scale)</div>
+      <div class="chart-wrap"><svg id="eproc" viewBox="0 0 420 260" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="legend">
+        <span class="legend-dot" style="background:#c0392b;"></span>E<sub>t</sub> for model's null &nbsp;
+        <span class="legend-dot" style="background:#888;"></span>rejection threshold 1/&alpha;
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Citation</h2>
+
+<pre style="background:#f6f6f6;padding:10px;border-radius:5px;overflow-x:auto;font-size:0.85em;">@inproceedings{Zhou2026-hn,
+  title     = {Adaptive auditing of {AI} systems with anytime-valid guarantees},
+  author    = {Zhou, Siyu and Vossler, Patrick and Sivaraman, Venkatesh
+               and Mai, Yifan and Feng, Jean},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026}
+}</pre>
+
+</div>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<script>
+(function () {
+  // --- Parameters ---------------------------------------------------------
+  var Q = 0.80;             // target threshold
+  var Q_ALT = 0.50;         // q - delta
+  var ALPHA = 0.05;
+  var THRESHOLD = 1 / ALPHA;        // 20
+  var MULT_CORRECT = Q_ALT / Q;     // 0.625
+  var MULT_WRONG = (1 - Q_ALT) / (1 - Q); // 2.5
+
+  // --- Fixed pre-labeled dataset -----------------------------------------
+  // Chemistry/Postgrad is the hidden failure mode. Other categories mostly pass.
+  // Each array is a pre-generated sequence of binary scores revealed in order.
+  var DATASET = {
+    "Biology|Undergrad":   [1,1,1,1,1,1,1,0,1,1,1,1,1,1,1],
+    "Biology|Grad":        [1,1,1,0,1,1,1,1,1,1,0,1,1,1,1],
+    "Biology|Postgrad":    [1,1,0,1,1,1,0,1,1,1,1,0,1,1,1],
+    "Chemistry|Undergrad": [1,1,0,1,1,1,1,0,1,1,1,0,1,1,1],
+    "Chemistry|Grad":      [1,0,1,0,1,0,1,1,0,0,1,0,1,0,0],
+    "Chemistry|Postgrad":  [0,0,0,1,0,0,0,0,1,0,0,0,1,0,0],
+    "Physics|Undergrad":   [1,1,1,1,0,1,1,1,1,1,0,1,1,1,1],
+    "Physics|Grad":        [1,1,0,1,1,1,0,1,1,1,1,0,1,1,1],
+    "Physics|Postgrad":    [1,0,1,1,0,1,1,0,1,1,0,1,1,1,0]
+  };
+
+  var DOMAINS = ["Biology", "Chemistry", "Physics"];
+  var LEVELS  = ["Undergrad", "Grad", "Postgrad"];
+
+  // --- State --------------------------------------------------------------
+  var state;
+  function freshState() {
+    var cells = {};
+    DOMAINS.forEach(function (d) {
+      LEVELS.forEach(function (l) {
+        cells[d + "|" + l] = { drawn: 0, correct: 0, history: [] };
+      });
+    });
+    return {
+      cells: cells,
+      eTrack: [1.0],   // E_0 = 1
+      logETrack: [0],
+      labels: [""],
+      rejected: false
+    };
+  }
+
+  // --- Rendering ----------------------------------------------------------
+  function buildGrid() {
+    var grid = document.getElementById("catGrid");
+    grid.innerHTML = "";
+    // top-left blank
+    var corner = document.createElement("div");
+    grid.appendChild(corner);
+    // column headers (education levels)
+    LEVELS.forEach(function (l) {
+      var h = document.createElement("div");
+      h.className = "cat-head";
+      h.textContent = l;
+      grid.appendChild(h);
+    });
+    // rows
+    DOMAINS.forEach(function (d) {
+      var rh = document.createElement("div");
+      rh.className = "cat-row-label";
+      rh.textContent = d;
+      grid.appendChild(rh);
+      LEVELS.forEach(function (l) {
+        var key = d + "|" + l;
+        var cell = document.createElement("div");
+        cell.className = "cat-cell";
+        cell.dataset.key = key;
+        cell.innerHTML =
+          '<div class="cell-badges"></div>' +
+          '<div class="cell-count">0 drawn</div>';
+        cell.addEventListener("click", function () { onCellClick(key); });
+        grid.appendChild(cell);
+      });
+    });
+  }
+
+  function renderCells() {
+    document.querySelectorAll(".cat-cell").forEach(function (cell) {
+      var key = cell.dataset.key;
+      var c = state.cells[key];
+      var total = DATASET[key].length;
+      var remaining = total - c.drawn;
+      var badges = c.history.map(function (y) {
+        return y === 1
+          ? '<span class="badge-correct">&#x2713;</span>'
+          : '<span class="badge-wrong">&#x2717;</span>';
+      }).join("");
+      cell.querySelector(".cell-badges").innerHTML = badges;
+      cell.querySelector(".cell-count").innerHTML =
+        c.drawn + " drawn &middot; " + c.correct + " correct &middot; " + remaining + " left";
+      if (remaining === 0 || state.rejected) {
+        cell.classList.add("exhausted");
+      } else {
+        cell.classList.remove("exhausted");
+      }
+    });
+  }
+
+  function renderBanner() {
+    var E = state.eTrack[state.eTrack.length - 1];
+    var n = state.eTrack.length - 1;
+    var el = document.getElementById("statusBanner");
+    if (state.rejected) {
+      el.className = "status-banner status-rejected";
+      el.innerHTML =
+        "Rejected the model's null! &nbsp; E<sub>t</sub> = " +
+        E.toFixed(2) + " &ge; 20 after " + n + " observations. " +
+        "The audit found statistical evidence that a failure mode exists.";
+    } else {
+      el.className = "status-banner status-neutral";
+      el.innerHTML =
+        "E<sub>t</sub> = " + E.toFixed(2) +
+        " &nbsp; &middot; &nbsp; threshold 1/&alpha; = 20 &nbsp; &middot; &nbsp; " +
+        n + " observation" + (n === 1 ? "" : "s");
+    }
+  }
+
+  // --- SVG chart ----------------------------------------------------------
+  function renderChart() {
+    var svg = document.getElementById("eproc");
+    // Dimensions
+    var W = 420, H = 260;
+    var pad = { l: 42, r: 10, t: 12, b: 32 };
+    var plotW = W - pad.l - pad.r;
+    var plotH = H - pad.t - pad.b;
+
+    var n = state.eTrack.length - 1; // #observations shown (x goes 0..n)
+    var xMax = Math.max(10, n);
+    var yMinLog = Math.log10(0.1);     // 0.1
+    var yMaxLog = Math.log10(100);     // 100
+    var thresholdLog = Math.log10(THRESHOLD); // ~1.301
+
+    function xScale(i) { return pad.l + (i / xMax) * plotW; }
+    function yScale(v) {
+      var lv = Math.log10(Math.max(v, 0.01));
+      lv = Math.max(yMinLog, Math.min(yMaxLog, lv));
+      // invert Y
+      return pad.t + plotH - ((lv - yMinLog) / (yMaxLog - yMinLog)) * plotH;
+    }
+
+    var parts = [];
+    // Background
+    parts.push('<rect x="' + pad.l + '" y="' + pad.t + '" width="' + plotW +
+      '" height="' + plotH + '" fill="#fff" stroke="#ddd"/>');
+
+    // Y gridlines + labels (log scale)
+    var yTicks = [0.1, 1, 10, 100];
+    yTicks.forEach(function (v) {
+      var y = yScale(v);
+      parts.push('<line x1="' + pad.l + '" x2="' + (pad.l + plotW) +
+        '" y1="' + y + '" y2="' + y + '" stroke="#eee"/>');
+      parts.push('<text x="' + (pad.l - 6) + '" y="' + (y + 4) +
+        '" text-anchor="end" font-size="10" fill="#555">' + v + '</text>');
+    });
+
+    // X ticks
+    var xTickCount = 5;
+    for (var i = 0; i <= xTickCount; i++) {
+      var xv = Math.round((xMax * i) / xTickCount);
+      var x = xScale(xv);
+      parts.push('<line x1="' + x + '" x2="' + x + '" y1="' + (pad.t + plotH) +
+        '" y2="' + (pad.t + plotH + 3) + '" stroke="#999"/>');
+      parts.push('<text x="' + x + '" y="' + (pad.t + plotH + 15) +
+        '" text-anchor="middle" font-size="10" fill="#555">' + xv + '</text>');
+    }
+
+    // Axis labels
+    parts.push('<text x="' + (pad.l + plotW / 2) + '" y="' + (H - 6) +
+      '" text-anchor="middle" font-size="11" fill="#333">Observations</text>');
+    parts.push('<text transform="translate(12,' + (pad.t + plotH / 2) +
+      ') rotate(-90)" text-anchor="middle" font-size="11" fill="#333">E_t</text>');
+
+    // Threshold line
+    var yT = yScale(THRESHOLD);
+    parts.push('<line x1="' + pad.l + '" x2="' + (pad.l + plotW) +
+      '" y1="' + yT + '" y2="' + yT +
+      '" stroke="#888" stroke-dasharray="4,3" stroke-width="1.5"/>');
+    parts.push('<text x="' + (pad.l + plotW - 4) + '" y="' + (yT - 4) +
+      '" text-anchor="end" font-size="10" fill="#666">1/&#945; = 20</text>');
+
+    // E-process line
+    var d = "";
+    state.eTrack.forEach(function (v, i) {
+      var x = xScale(i), y = yScale(v);
+      d += (i === 0 ? "M" : "L") + x.toFixed(1) + "," + y.toFixed(1) + " ";
+    });
+    parts.push('<path d="' + d + '" fill="none" stroke="#c0392b" stroke-width="2"/>');
+
+    // Dots at each point
+    state.eTrack.forEach(function (v, i) {
+      parts.push('<circle cx="' + xScale(i) + '" cy="' + yScale(v) +
+        '" r="2.2" fill="#c0392b"/>');
+    });
+
+    svg.innerHTML = parts.join("");
+  }
+
+  // --- Interaction --------------------------------------------------------
+  function onCellClick(key) {
+    if (state.rejected) return;
+    var c = state.cells[key];
+    var seq = DATASET[key];
+    if (c.drawn >= seq.length) return;
+    var y = seq[c.drawn];
+    c.drawn += 1;
+    c.correct += (y === 1 ? 1 : 0);
+    c.history.push(y);
+    var prevE = state.eTrack[state.eTrack.length - 1];
+    var nextE = prevE * (y === 1 ? MULT_CORRECT : MULT_WRONG);
+    state.eTrack.push(nextE);
+
+    // Last draw banner
+    var parts = key.split("|");
+    var ld = document.getElementById("lastDraw");
+    var scoreHtml = y === 1
+      ? '<span class="score-correct">correct (Y=1)</span>'
+      : '<span class="score-wrong">wrong (Y=0)</span>';
+    var mult = y === 1 ? MULT_CORRECT : MULT_WRONG;
+    ld.innerHTML =
+      "Sampled from <strong>" + parts[0] + " / " + parts[1] + "</strong>: " +
+      scoreHtml + " &nbsp;&rarr;&nbsp; E<sub>t</sub> &times;" + mult.toFixed(3) +
+      " = " + nextE.toFixed(3);
+
+    if (nextE >= THRESHOLD) {
+      state.rejected = true;
+    }
+
+    renderCells();
+    renderBanner();
+    renderChart();
+  }
+
+  function reset() {
+    state = freshState();
+    document.getElementById("lastDraw").textContent =
+      "Click any cell to sample a question from that category and reveal its score.";
+    renderCells();
+    renderBanner();
+    renderChart();
+  }
+
+  // --- Init ---------------------------------------------------------------
+  state = freshState();
+  buildGrid();
+  renderCells();
+  renderBanner();
+  renderChart();
+  document.getElementById("resetBtn").addEventListener("click", reset);
+})();
+</script>

@@ -37,7 +37,7 @@ Garcia-Agundez, Zhou, Pourian, Blebea, Daneshpajouhnejad, Dente, Shi, Pollet, Xi
 **Adaptive auditing of AI systems with anytime-valid guarantees**<br />
 Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
 *Adv. Neural Inf. Process. Syst.*, 2026<br />
-[\[paper\]](https://arxiv.org/abs/2605.07002)[\[code\]](https://github.com/jjfenglab/safe-adaptive-testing) ***Stellar Abstract Award at STAI-X***
+[\[paper\]](https://arxiv.org/abs/2605.07002)[\[code\]](https://github.com/jjfenglab/safe-adaptive-testing)[\[project\]](project_adaptive_auditing.html) ***Stellar Abstract Award at STAI-X***
 
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
 Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />

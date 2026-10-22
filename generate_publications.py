@@ -45,6 +45,9 @@ POSTER_DICT = {
     "human-ai co-design for clinical prediction models": "poster_hachi.pdf",
     "llms judging llms: a simplex perspective": "poster_llm_judge_simplex.pdf",
 }
+PROJECT_DICT = {
+    "adaptive auditing of ai systems with anytime-valid guarantees": "project_adaptive_auditing.html",
+}
 
 def print_entries(entry_list):
     return "\n\n".join(entry_list)
@@ -115,6 +118,8 @@ for entry in bib_entries:
             pub_str += "[\[data\]](%s)" % DATA_DICT[title.lower()]
         if title.lower() in POSTER_DICT:
             pub_str += "[\[poster\]](%s)" % POSTER_DICT[title.lower()]
+        if title.lower() in PROJECT_DICT:
+            pub_str += "[\[project\]](%s)" % PROJECT_DICT[title.lower()]
         if "award" in entry:
             pub_str += f" ***{entry['award']}***"
         parsed_entries["preprints"].append(pub_str)
@@ -144,6 +149,8 @@ for entry in bib_entries:
             pub_str += "[\[poster\]](%s)" % POSTER_DICT[title.lower()]
         if title.lower() in TALK_DICT:
             pub_str += "[\[slides\]](%s)" % TALK_DICT[title.lower()]
+        if title.lower() in PROJECT_DICT:
+            pub_str += "[\[project\]](%s)" % PROJECT_DICT[title.lower()]
         if "award" in entry:
             pub_str += f" ***{entry['award']}***"
         if year not in parsed_entries:
