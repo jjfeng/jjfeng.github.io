@@ -33,6 +33,10 @@ Zhou, Ouyang, Xia, Subbaswamy, Prinster, Saria, Garcia-Agundez, Pollet, Yazdany,
 Garcia-Agundez, Zhou, Pourian, Blebea, Daneshpajouhnejad, Dente, Shi, Pollet, Xia, Shi, Thombley, Fenton, Murray, Adler-Milstein, Schmajuk, *Feng*<sup>\*</sup> and Yazdany<sup>\*</sup><br />
 [\[medRxiv\]](https://www.medrxiv.org/content/10.64898/2026.09.30.26364427v3)
 
+**Indirect influences of artificial intelligence advice on complex sepsis treatment decisions**<br />
+Sivaraman, Levin, Mason, Talisa, Saria, *Feng*, King, Kahn and Perer<br />
+[\[arXiv\]](https://arxiv.org/abs/2610.24313)
+
 ## 2026
 **Adaptive auditing of AI systems with anytime-valid guarantees**<br />
 Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
