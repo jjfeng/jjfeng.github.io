@@ -119,7 +119,7 @@ for entry in bib_entries:
         if title.lower() in POSTER_DICT:
             pub_str += "[\[poster\]](%s)" % POSTER_DICT[title.lower()]
         if title.lower() in PROJECT_DICT:
-            pub_str += "[\[project\]](%s)" % PROJECT_DICT[title.lower()]
+            pub_str += "[\[demo\]](%s)" % PROJECT_DICT[title.lower()]
         if "award" in entry:
             pub_str += f" ***{entry['award']}***"
         parsed_entries["preprints"].append(pub_str)
@@ -150,7 +150,7 @@ for entry in bib_entries:
         if title.lower() in TALK_DICT:
             pub_str += "[\[slides\]](%s)" % TALK_DICT[title.lower()]
         if title.lower() in PROJECT_DICT:
-            pub_str += "[\[project\]](%s)" % PROJECT_DICT[title.lower()]
+            pub_str += "[\[demo\]](%s)" % PROJECT_DICT[title.lower()]
         if "award" in entry:
             pub_str += f" ***{entry['award']}***"
         if year not in parsed_entries:
