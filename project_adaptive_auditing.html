@@ -211,12 +211,12 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
   <div class="demo-top">
     <div class="demo-card demo-left">
       <b class="c-model">Model's Null:</b> The model's performance across any subgroup is at least <code>q = 0.80</code>.
-      <div><b>Instructions:</b> Act as an auditor and try to reject the model's null. Place bets on which category you think is a failure mode by sampling a question from that category to annotate. The bet is fixed at half your current wealth and pays 4:1 (fair odds under the null).</div>
+      <div><b>Instructions:</b> Act as an auditor and try to reject the model's null. Place bets on which category you think is a failure mode by sampling a question from that category to annotate.</div>
       <div class="cat-grid" id="catGrid"></div>
     </div>
 
     <div class="demo-card demo-right">
-      <div><strong>E-process</strong> (your wealth)</div>
+      <div><strong>E-process</strong>: Plot of your cumulative wealth. Each round, your bet is fixed at half your current wealth and pays 4:1 (fair odds under the null).</div>
       <div class="chart-wrap"><svg id="eproc" viewBox="0 0 420 420" preserveAspectRatio="xMidYMid meet"></svg></div>
       <div class="status-banner status-neutral" id="statusBanner">Your initial wealth is 1.</div>
       <div class="controls">
