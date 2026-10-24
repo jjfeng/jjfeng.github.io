@@ -217,7 +217,7 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
 
     <div class="demo-card demo-right">
       <div><strong>E-process</strong> (your wealth)</div>
-      <div class="chart-wrap"><svg id="eproc" viewBox="0 0 420 360" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="chart-wrap"><svg id="eproc" viewBox="0 0 420 420" preserveAspectRatio="xMidYMid meet"></svg></div>
       <div class="status-banner status-neutral" id="statusBanner">Your initial wealth is 1.</div>
       <div class="controls">
         <button class="btn secondary" id="resetBtn">Reset</button>
@@ -364,7 +364,7 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
   function renderChart() {
     var svg = document.getElementById("eproc");
     // Dimensions
-    var W = 420, H = 330;
+    var W = 420, H = 420;
     var pad = { l: 72, r: 16, t: 16, b: 58 };
     var plotW = W - pad.l - pad.r;
     var plotH = H - pad.t - pad.b;
