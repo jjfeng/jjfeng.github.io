@@ -211,7 +211,7 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
   <div class="demo-top">
     <div class="demo-card demo-left">
       <b class="c-model">Model's Null:</b> The model's performance across any subgroup is at least <code>q = 0.80</code>.
-      <div><b>Instructions:</b> Pick a category to annotate the next observation.</div>
+      <div><b>Instructions:</b> Place a bet on which category is a failure mode by sampling a question from that category to annotate.</div>
       <div class="cat-grid" id="catGrid"></div>
     </div>
 
@@ -356,10 +356,10 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
       el.textContent = "Your initial wealth is 1.";
     } else if (state.eTrack[n] > state.eTrack[n - 1]) {
       el.className = "status-banner status-neutral";
-      el.textContent = "You win the bet!";
+      el.textContent = "LLM was incorrect. You win the bet!";
     } else {
       el.className = "status-banner status-neutral";
-      el.textContent = "You lose the bet!";
+      el.textContent = "LLM was correct. You lose the bet!";
     }
   }
 
