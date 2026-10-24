@@ -101,7 +101,6 @@ nav_exclude: true
   .cat-cell:hover { background: #eef5ff; border-color: #4a7fc9; }
   .cat-cell.exhausted { background: #f0f0f0; color: #999; cursor: not-allowed; border-color: #ddd; }
   .cat-cell.exhausted:hover { background: #f0f0f0; border-color: #ddd; }
-  .cell-count { font-size: 0.8em; color: #666; margin-top: 4px; }
   .cell-badges { font-size: 0.85em; margin-top: 3px; letter-spacing: 1px; min-height: 1em; word-break: break-all; overflow-wrap: anywhere; }
   .badge-correct { color: #2a9d4a; }
   .badge-wrong { color: #c0392b; }
@@ -242,7 +241,7 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
     <div class="demo-card demo-right">
       <div><strong>E-process</strong>: Plot of your cumulative wealth. Each round, your bet is fixed at half your current wealth and pays 4:1 (fair odds under the null).</div>
       <div class="chart-wrap"><svg id="eproc" viewBox="0 0 420 420" preserveAspectRatio="xMidYMid meet"></svg></div>
-      <div class="status-banner status-neutral" id="statusBanner">Your initial wealth is 1.</div>
+      <div class="status-banner status-neutral" id="statusBanner">Your initial wealth is 1. Click a category.</div>
       <div class="controls">
         <button class="btn secondary" id="resetBtn">Reset</button>
       </div>
@@ -276,19 +275,19 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
   var MULT_CORRECT = 1 - STAKE;                 // 0.5  (lose the stake)
   var MULT_WRONG = 1 + STAKE * Q / (1 - Q);     // 3    (win 4x the stake)
 
-  // --- Fixed pre-labeled dataset -----------------------------------------
+  // --- Model accuracy per category ---------------------------------------
   // Chemistry/High school is the hidden failure mode. Other categories mostly pass.
-  // Each array is a pre-generated sequence of binary scores revealed in order.
-  var DATASET = {
-    "Biology|Elementary school": [1,1,1,1,1,1,1,0,1,1,1,1,1,1,1],
-    "Biology|Middle school": [1,1,1,0,1,1,1,1,1,1,0,1,1,1,1],
-    "Biology|High school": [1,1,0,1,1,1,0,1,1,1,1,0,1,1,1],
-    "Chemistry|Elementary school": [1,1,0,1,1,1,1,0,1,1,1,0,1,1,1],
-    "Chemistry|Middle school": [1,0,1,0,1,0,1,1,0,0,1,0,1,0,0],
-    "Chemistry|High school": [0,0,0,1,0,0,0,0,1,0,0,0,1,0,0],
-    "Physics|Elementary school": [1,1,1,1,0,1,1,1,1,1,0,1,1,1,1],
-    "Physics|Middle school": [1,1,0,1,1,1,0,1,1,1,1,0,1,1,1],
-    "Physics|High school": [1,0,1,1,0,1,1,0,1,1,0,1,1,1,0]
+  // Each sample is drawn fresh: correct (1) with probability ACCURACY[key].
+  var ACCURACY = {
+    "Biology|Elementary school": 0.93,
+    "Biology|Middle school": 0.87,
+    "Biology|High school": 0.80,
+    "Chemistry|Elementary school": 0.80,
+    "Chemistry|Middle school": 0.47,
+    "Chemistry|High school": 0.20,
+    "Physics|Elementary school": 0.87,
+    "Physics|Middle school": 0.80,
+    "Physics|High school": 0.67
   };
 
   var DOMAINS = ["Biology", "Chemistry", "Physics"];
@@ -339,8 +338,7 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
         cell.className = "cat-cell";
         cell.dataset.key = key;
         cell.innerHTML =
-          '<div class="cell-badges"></div>' +
-          '<div class="cell-count"></div>';
+          '<div class="cell-badges"></div>';
         cell.addEventListener("click", function () { onCellClick(key); });
         grid.appendChild(cell);
       });
@@ -351,16 +349,13 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
     document.querySelectorAll(".cat-cell").forEach(function (cell) {
       var key = cell.dataset.key;
       var c = state.cells[key];
-      var total = DATASET[key].length;
-      var remaining = total - c.drawn;
       var badges = c.history.map(function (y) {
         return y === 1
           ? '<span title="LLM wins">🤖</span>'
           : '<span title="Auditor wins">🕵️</span>';
       }).join("");
       cell.querySelector(".cell-badges").innerHTML = badges;
-      cell.querySelector(".cell-count").textContent = remaining + " left";
-      if (remaining === 0 || state.rejected) {
+      if (state.rejected) {
         cell.classList.add("exhausted");
       } else {
         cell.classList.remove("exhausted");
@@ -373,10 +368,10 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
     var n = state.eTrack.length - 1;
     if (state.rejected) {
       el.className = "status-banner status-passed";
-      el.textContent = "🏆 Rejected the null! You have sufficient statistical evidence that the LLM has a failure mode. 🏆";
+      el.textContent = "🏆 Auditor wins! You have rejected the null and shown sufficient statistical evidence that the LLM has a failure mode. 🏆";
     } else if (n === 0) {
       el.className = "status-banner status-neutral";
-      el.textContent = "Your initial wealth is 1.";
+      el.textContent = "Your initial wealth is 1. Click a category.";
     } else if (state.eTrack[n] > state.eTrack[n - 1]) {
       el.className = "status-banner status-neutral";
       el.innerHTML = 'LLM was incorrect. You win this round! 😄';
@@ -474,9 +469,7 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
   function onCellClick(key) {
     if (state.rejected) return;
     var c = state.cells[key];
-    var seq = DATASET[key];
-    if (c.drawn >= seq.length) return;
-    var y = seq[c.drawn];
+    var y = Math.random() < ACCURACY[key] ? 1 : 0;
     c.drawn += 1;
     c.correct += (y === 1 ? 1 : 0);
     c.history.push(y);
