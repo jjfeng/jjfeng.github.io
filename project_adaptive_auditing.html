@@ -371,11 +371,14 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
 
     var n = state.eTrack.length - 1; // #observations shown (x goes 0..n)
     var xMax = Math.max(20, n);
-    var yMax = 40;
+    var yMinLog = Math.log10(0.1);
+    var yMaxLog = Math.log10(100);
 
     function xScale(i) { return pad.l + (i / xMax) * plotW; }
     function yScale(v) {
-      return pad.t + plotH - (Math.min(v, yMax) / yMax) * plotH;
+      var lv = Math.log10(Math.max(v, 1e-6));
+      lv = Math.max(yMinLog, Math.min(yMaxLog, lv));
+      return pad.t + plotH - ((lv - yMinLog) / (yMaxLog - yMinLog)) * plotH;
     }
 
     var parts = [];
@@ -383,10 +386,8 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
     parts.push('<rect x="' + pad.l + '" y="' + pad.t + '" width="' + plotW +
       '" height="' + plotH + '" fill="#fff" stroke="#ddd"/>');
 
-    // Y gridlines + labels (absolute scale)
-    var yStep = 10;
-    var yTicks = [];
-    for (var t = 0; t <= yMax; t += yStep) yTicks.push(t);
+    // Y gridlines + labels (log scale)
+    var yTicks = [0.1, 1, 10, 100];
     yTicks.forEach(function (v) {
       var y = yScale(v);
       parts.push('<line x1="' + pad.l + '" x2="' + (pad.l + plotW) +
