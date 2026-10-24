@@ -234,7 +234,7 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
     <div class="demo-card demo-left">
       <b class="c-model">Model's Null:</b> The model's accuracy across any subgroup is at least <code>q = 0.80</code>.
       <div><b>Instructions:</b> Act as an auditor and try to reject the model's null. Place bets on which category you think is a failure mode by clicking it. A question from that category will then be sampled and scored.</div>
-      <div class="grid-legend">🤖 = LLM was correct, so LLM wins </br> 🕵️ = LLM was incorrect, so Auditor wins</div>
+      <div class="grid-legend">🤖 = LLM was correct, so LLM wins this round</br> 🕵️ = LLM was incorrect, so Auditor wins this round</div>
       <div class="cat-grid" id="catGrid"></div>
     </div>
 
@@ -438,7 +438,7 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
     parts.push('<text x="' + (pad.l + plotW / 2) + '" y="' + (H - 8) +
       '" text-anchor="middle" font-size="21" fill="#333">Observations</text>');
     parts.push('<text transform="translate(20,' + (pad.t + plotH / 2) +
-      ') rotate(-90)" text-anchor="middle" font-size="21" fill="#333">E_t</text>');
+      ') rotate(-90)" text-anchor="middle" font-size="21" fill="#333">E_t (wealth)</text>');
 
     // Threshold line
     var yT = yScale(THRESHOLD);
