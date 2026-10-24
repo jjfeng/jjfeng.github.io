@@ -14,10 +14,14 @@ nav_exclude: true
   .summary-fig img { width: 100%; max-width: 920px; display: block; }
   .duel-eq {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    grid-template-columns: 70px minmax(0, 0.9fr) minmax(0, 1.1fr) 70px;
+    gap: 12px;
+    align-items: center;
     margin: 1em 0;
   }
+  .duel-eq .duel-img { width: 100%; height: auto; display: block; }
+  .duel-eq .duel-box { min-width: 0; overflow-x: auto; }
+  .duel-eq .img-auditor { justify-self: end; }
   .duel-box {
     border: 2px solid;
     border-radius: 8px;
@@ -26,32 +30,40 @@ nav_exclude: true
   }
   .duel-box.model   { border-color: #d9823f; background: #fdf3eb; }
   .duel-box.auditor { border-color: #4a7fc9; background: #ecf2fb; }
+  .c-model { color: #a85e22; font-weight: 600; }
+  .c-auditor { color: #2d5aa0; font-weight: 600; }
   .duel-box h4 { margin: 0 0 8px; font-size: 0.98em; }
   .duel-box.model h4   { color: #a85e22; }
   .duel-box.auditor h4 { color: #2d5aa0; }
   .duel-box p { margin: 4px 0; font-size: 0.95em; color: #222; }
   .duel-box .note { font-size: 0.85em; color: #555; margin-top: 8px; }
   @media (max-width: 640px) {
-    .duel-eq { grid-template-columns: 1fr; }
+    .duel-eq { grid-template-columns: 1fr 1fr; }
+    .duel-eq .duel-img { max-width: 90px; margin: 0 auto; }
+    .duel-eq .img-model { grid-column: 1; grid-row: 1; }
+    .duel-eq .img-auditor { grid-column: 2; grid-row: 1; }
+    .duel-eq .duel-box { grid-column: 1 / -1; }
   }
-  .demo-box {
+  .demo-box { margin: 1.5em 0; }
+  .demo-card {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px 20px 20px;
     background: #fafafa;
-    margin: 1.5em 0;
   }
   .demo-top {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 20px;
+    align-items: stretch;
   }
-  .demo-left { flex: 1 1 420px; min-width: 320px; }
-  .demo-right { flex: 1 1 380px; min-width: 300px; }
+  .demo-left, .demo-right { min-width: 0; }
+  @media (max-width: 760px) {
+    .demo-top { grid-template-columns: 1fr; }
+  }
   .cat-grid {
     display: grid;
-    grid-template-columns: 90px repeat(3, 1fr);
+    grid-template-columns: 70px repeat(3, minmax(0, 1fr));
     gap: 6px;
     margin-top: 10px;
   }
@@ -64,8 +76,8 @@ nav_exclude: true
   }
   .cat-row-label {
     font-weight: 600;
-    text-align: right;
-    padding: 10px 6px;
+    text-align: left;
+    padding: 10px 6px 10px 0;
     color: #333;
     font-size: 0.9em;
     align-self: center;
@@ -88,7 +100,7 @@ nav_exclude: true
   .cat-cell.exhausted { background: #f0f0f0; color: #999; cursor: not-allowed; border-color: #ddd; }
   .cat-cell.exhausted:hover { background: #f0f0f0; border-color: #ddd; }
   .cell-count { font-size: 0.8em; color: #666; margin-top: 4px; }
-  .cell-badges { font-size: 0.85em; margin-top: 3px; letter-spacing: 1px; min-height: 1em; }
+  .cell-badges { font-size: 0.85em; margin-top: 3px; letter-spacing: 1px; min-height: 1em; word-break: break-all; overflow-wrap: anywhere; }
   .badge-correct { color: #2a9d4a; }
   .badge-wrong { color: #c0392b; }
   .last-draw {
@@ -138,7 +150,7 @@ nav_exclude: true
 
 <div class="proj-meta">
   Siyu Zhou*, Patrick Vossler*, Venkatesh Sivaraman, Yifan Mai, Jean Feng<br />
-  <em>NeurIPS 2026</em>
+  <em>NeurIPS 2026, <b>Stellar Abstract Award at <a href="https://statsupai.org/STAIX2026/index.html">STAI-X 2026</a></b></em>
 </div>
 
 <div class="proj-links">
@@ -155,86 +167,63 @@ nav_exclude: true
 <h2>Summary</h2>
 
 <p>
-When auditing an LLM, practitioners often probe for failure modes using small, adaptively chosen test suites of 10&ndash;50 cases, where <em>which</em> cases to annotate next depends on past results. Classical statistics forbids this &mdash; the usual sample-size and sampling-scheme assumptions are violated. We ask: <strong>can we draw rigorous conclusions about model robustness from fully adaptive audits with as few as 20 observations?</strong>
+When auditing generative AI systems, the dominant practice in industry is to probe for failure modes using small, adaptively chosen test suites of 10–50 cases (e.g., <a href="https://x.com/jxnlco/status/1963295889121837466">here</a>, <a href="https://hamel.dev/blog/posts/evals-faq/">here</a>, and <a href="https://www.anthropic.com/research/demystifying-evals-for-ai-agents">here</a>). Because the sampling scheme and stopping rules are decided interactively in the midst of data collection, classical statistical assumptions are violated, inflating Type I errors under standard frameworks. But is there a statistical justification for the current practice? <b>Can we actually draw statistically rigorous conclusions about model robustness from fully adaptive audits, sometimes with as few as 20 observations?</b>
 </p>
 
 <p>
-We propose formalizing an audit as two dueling hypothesis tests &mdash; a <em>model's null</em> (no failure mode exists in any subgroup of prevalence &ge; &epsilon;) and an <em>auditor's null</em> (this specific strategy would eventually find one) &mdash; and testing both using <strong>e-processes</strong>, which provide anytime-valid Type&nbsp;I error control under arbitrary adaptive sampling and optional stopping.
+This is a tricky problem, since there is a fundamental asymmetry in auditing: while failing a sequence of tests may be sufficient to prove that a system is not robust, passing a targeted test suite does not necessarily certify global robustness.
+To address this, we'll actually need <i>two</i> hypothesis tests, not just one. We call them "dueling" hypothesis tests: there is the <i><span class="c-model">model's null</span></i>, which asserts the model has no failure mode, versus the <i><span class="c-auditor">auditor's null</span></i>, which asserts the auditor has some arbitrarily adaptive strategy that will uncover a failure mode. While these two hypothesis tests aren't exact opposites in practice, we can prove something interesting from a theoretical perspective: if the auditor is sufficiently powerful, these two hypotheses become asymptotic inverses so an AI system passing a stringent audit does indeed certify its global robustness. This theoretical result has two implications: (i) get a strong auditor and (ii) be wary of claims of AI system robustness if it has only undergone weak/limited testing.
+</p>
+
+<p>
+With this dueling hypothesis framework in place, the question is how we can actually test these hypotheses as fast and as adaptively as possible.
+Here we leverage recent work in testing-by-betting from Safe Anytime-Valid Inference (SAVI) (<a href="https://doi.org/10.1111/rssa.12647">Shafer, 2021</a>; <a href="https://arxiv.org/abs/2410.23614">Ramdas &amp; Wang, 2025</a>), where the idea is that we can conduct a hypothesis test by playing a betting game. For testing the <span class="c-model">model's null</span>, the auditor adaptively places bets on which subgroup/queries it thinks the model performs poorly on. Winning the bet increases their wealth; losing the bet decreases their wealth. At the same time, the game is designed such that there is no winning under the null hypothesis, regardless of what strategy the auditor tries to use. So if an auditor is able to accumulate enough wealth, there is sufficient evidence to reject the null. Formally, this cumulative wealth process is cast as an e-process, which gives us finite-sample bounds on the probability that the e-process will cross a given threshold. We can setup a similar game for testing the <span class="c-auditor">auditor's null</span>.
 </p>
 
 <div class="duel-eq">
+  <img class="duel-img img-model" src="resources/model.png" alt="Cartoon robot holding a checklist, representing the model." />
   <div class="duel-box model">
-    <h4>Model's perspective &mdash; no failure mode exists</h4>
-    <p>\(H_0^{\mathrm{mod}}:\ \forall S \in \mathcal{S}_\epsilon,\ V(S) \geq q\)</p>
-    <p>\(H_1^{\mathrm{mod}}:\ \exists S \in \mathcal{S}_\epsilon \text{ s.t. } V(S) < q\)</p>
-    <p class="note">Rejecting this null means the AI system <em>is not</em> globally robust.</p>
+    <h4>Model's null &mdash; no failure mode exists</h4>
+    <p>\(H_0:\ \forall S \in \mathcal{S}_\epsilon,\ V(S) \geq q\)</p>
+    <p>\(H_1:\ \exists S \in \mathcal{S}_\epsilon \text{ s.t. } V(S) < q\)</p>
   </div>
   <div class="duel-box auditor">
-    <h4>Auditor's perspective &mdash; my audit will find one</h4>
-    <p>\(H_0^{\mathrm{aud},[m]}:\ \exists \tau \in [m],\ \forall t \geq \tau,\ V(S_t^\pi) < q\)</p>
-    <p>\(H_1^{\mathrm{aud},[m]}:\ \forall \tau \in [m],\ \exists t \geq \tau \text{ s.t. } V(S_t^\pi) \geq q\)</p>
-    <p class="note">Rejecting this null means the AI system <em>passed</em> this specific audit.</p>
+    <h4>Auditor's null &mdash; my audit strategy will find one</h4>
+    <p>\(H_0^{m}:\ \exists \tau \le m,\ \forall t \geq \tau,\ V(S_t^\pi) < q\)</p>
+    <p>\(H_1^{m}:\ \forall \tau \le m,\ \exists t \geq \tau \text{ s.t. } V(S_t^\pi) \geq q\)</p>
   </div>
+  <img class="duel-img img-auditor" src="resources/auditor.png" alt="Cartoon doctor with a stethoscope looking skeptical, representing the auditor." />
 </div>
 
-<p style="font-size:0.92em;color:#555;">
-Here \(\mathcal{S}_\epsilon\) is the collection of subgroups with prevalence at least \(\epsilon\); \(V(S)\) is average accuracy on subgroup \(S\); \(q\) is the target performance threshold; \(S_t^\pi\) is the subgroup selected by the auditor's adaptive strategy \(\pi\) at step \(t\); and \(m\) is the auditor's budget. If the auditor is <em>asymptotically consistent</em>, Theorem&nbsp;1 of the paper shows these two nulls become complements as \(m \to \infty\) &mdash; the audit then becomes a true binary certification of robustness.
+<p style="font-size:0.9em;color:#555;">
+  <i>
+The formal definitions of the dueling hypothesis tests: \(\mathcal{S}_\epsilon\) is the collection of subgroups with prevalence at least \(\epsilon\); \(V(S)\) is average accuracy on subgroup \(S\); \(q\) is the target performance threshold; \(S_t^\pi\) is the subgroup selected by the auditor's adaptive strategy \(\pi\) at step \(t\); and \(m\) is the auditor's budget.
+</i>
 </p>
 
-<h2>Try it yourself: find the LLM's blind spot</h2>
+<h2>Try it yourself: audit the LLM!</h2>
 
 <p>
-Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQA</a>-style science questions. Each question has a <em>domain</em> (Biology, Chemistry, Physics) and an <em>education level</em> (Undergraduate, Graduate, Post-graduate). We fixed the LLM's performance across the 9 strata, but <strong>only one stratum is a true failure mode</strong>. Your job: find it using as few annotations as possible, and let the e-process tell you when you have enough evidence to reject the model's null.
-</p>
-
-<p>
-We test the model's null \(H_0^{\mathrm{mod}}: \forall S \in \mathcal{S}_\epsilon,\ V(S) \geq q\) using the fixed-alternative likelihood-ratio e-process (Option&nbsp;1 of &sect;3.2.1):
-\(E_t = \prod_{k=1}^{t} p(Y_k;\, q{-}\delta) / p(Y_k;\, q).\)
-Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
+Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQA</a>-style science questions. Each question has a <em>domain</em> (Biology, Chemistry, Physics) and an <em>education level</em> (Undergraduate, Graduate, Post-graduate). Your task is to figure out if there is a strata that our fake LLM does poorly on. Try to do this in as few tries as possible! To control the Type I error rate at \(\alpha=0.05\), rejection of the null requires the e-process exceeding \(1/\alpha=20\).
 </p>
 
 <div class="demo-box">
-  <div class="setting-row">
-    Target threshold <code>q = 0.80</code>, alternative <code>q&minus;&delta; = 0.50</code>, significance level <code>&alpha; = 0.05</code> (reject when E<sub>t</sub> &ge; 20).
-  </div>
-
   <div class="demo-top">
-    <div class="demo-left">
-      <div><strong>Pick a category to annotate the next observation:</strong></div>
+    <div class="demo-card demo-left">
+      <b class="c-model">Model's Null:</b> The model's performance across any subgroup is at least <code>q = 0.80</code>.
+      <div><b>Instructions:</b> Pick a category to annotate the next observation.</div>
       <div class="cat-grid" id="catGrid"></div>
-      <div class="last-draw" id="lastDraw">Click any cell to sample a question from that category and reveal its score.</div>
-      <div class="status-banner status-neutral" id="statusBanner">
-        E<sub>t</sub> = 1.00 &nbsp; &middot; &nbsp; threshold 1/&alpha; = 20 &nbsp; &middot; &nbsp; 0 observations
-      </div>
-      <div class="controls">
-        <button class="btn secondary" id="resetBtn">Reset</button>
-        <span style="font-size:0.85em;color:#666;">(resets everything)</span>
-      </div>
-
-      <details class="howto">
-        <summary>How this works &mdash; and a hint</summary>
-        <p>
-          Each category is a subgroup with a hidden true accuracy. Click a cell to pull the next pre-generated question from that category and reveal whether the LLM got it right (<span class="score-correct">Y=1</span>) or wrong (<span class="score-wrong">Y=0</span>).
-        </p>
-        <p>
-          With <code>q=0.8</code> and <code>q&minus;&delta;=0.5</code>, each observation multiplies E<sub>t</sub> by:
-          <br />
-          &nbsp;&nbsp;&middot; <strong>0.625</strong> when the LLM is correct (= 0.5/0.8), or
-          <br />
-          &nbsp;&nbsp;&middot; <strong>2.5</strong> when the LLM is wrong (= 0.5/0.2).
-        </p>
-        <p>
-          Hint: an auditor who &quot;listens&quot; to past results should concentrate on cells that already look weak. Any strategy you like &mdash; stratified sweep, follow-the-worst, pure guessing &mdash; is a valid use of this e-process.
-        </p>
-      </details>
     </div>
 
-    <div class="demo-right">
-      <div><strong>E-process</strong> (log scale)</div>
-      <div class="chart-wrap"><svg id="eproc" viewBox="0 0 420 260" preserveAspectRatio="xMidYMid meet"></svg></div>
+    <div class="demo-card demo-right">
+      <div><strong>E-process</strong></div>
+      <div class="chart-wrap"><svg id="eproc" viewBox="0 0 420 360" preserveAspectRatio="xMidYMid meet"></svg></div>
       <div class="legend">
-        <span class="legend-dot" style="background:#c0392b;"></span>E<sub>t</sub> for model's null &nbsp;
-        <span class="legend-dot" style="background:#888;"></span>rejection threshold 1/&alpha;
+        <span class="legend-dot" style="background:#d9823f;"></span>E<sub>t</sub> for model's null &nbsp;
+      </div>
+      <div class="status-banner status-neutral" id="statusBanner">Your initial wealth is 1.</div>
+      <div class="controls">
+        <button class="btn secondary" id="resetBtn">Reset</button>
       </div>
     </div>
   </div>
@@ -328,7 +317,7 @@ Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
         cell.dataset.key = key;
         cell.innerHTML =
           '<div class="cell-badges"></div>' +
-          '<div class="cell-count">0 drawn</div>';
+          '<div class="cell-count"></div>';
         cell.addEventListener("click", function () { onCellClick(key); });
         grid.appendChild(cell);
       });
@@ -347,8 +336,7 @@ Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
           : '<span class="badge-wrong">&#x2717;</span>';
       }).join("");
       cell.querySelector(".cell-badges").innerHTML = badges;
-      cell.querySelector(".cell-count").innerHTML =
-        c.drawn + " drawn &middot; " + c.correct + " correct &middot; " + remaining + " left";
+      cell.querySelector(".cell-count").textContent = remaining + " left";
       if (remaining === 0 || state.rejected) {
         cell.classList.add("exhausted");
       } else {
@@ -358,21 +346,20 @@ Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
   }
 
   function renderBanner() {
-    var E = state.eTrack[state.eTrack.length - 1];
-    var n = state.eTrack.length - 1;
     var el = document.getElementById("statusBanner");
+    var n = state.eTrack.length - 1;
     if (state.rejected) {
-      el.className = "status-banner status-rejected";
-      el.innerHTML =
-        "Rejected the model's null! &nbsp; E<sub>t</sub> = " +
-        E.toFixed(2) + " &ge; 20 after " + n + " observations. " +
-        "The audit found statistical evidence that a failure mode exists.";
+      el.className = "status-banner status-neutral";
+      el.textContent = "❗ Rejected the null! ❗";
+    } else if (n === 0) {
+      el.className = "status-banner status-neutral";
+      el.textContent = "Your initial wealth is 1.";
+    } else if (state.eTrack[n] > state.eTrack[n - 1]) {
+      el.className = "status-banner status-neutral";
+      el.textContent = "You win the bet!";
     } else {
       el.className = "status-banner status-neutral";
-      el.innerHTML =
-        "E<sub>t</sub> = " + E.toFixed(2) +
-        " &nbsp; &middot; &nbsp; threshold 1/&alpha; = 20 &nbsp; &middot; &nbsp; " +
-        n + " observation" + (n === 1 ? "" : "s");
+      el.textContent = "You lose the bet!";
     }
   }
 
@@ -380,23 +367,18 @@ Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
   function renderChart() {
     var svg = document.getElementById("eproc");
     // Dimensions
-    var W = 420, H = 260;
-    var pad = { l: 42, r: 10, t: 12, b: 32 };
+    var W = 420, H = 330;
+    var pad = { l: 72, r: 16, t: 16, b: 58 };
     var plotW = W - pad.l - pad.r;
     var plotH = H - pad.t - pad.b;
 
     var n = state.eTrack.length - 1; // #observations shown (x goes 0..n)
-    var xMax = Math.max(10, n);
-    var yMinLog = Math.log10(0.1);     // 0.1
-    var yMaxLog = Math.log10(100);     // 100
-    var thresholdLog = Math.log10(THRESHOLD); // ~1.301
+    var xMax = Math.max(20, n);
+    var yMax = 40;
 
     function xScale(i) { return pad.l + (i / xMax) * plotW; }
     function yScale(v) {
-      var lv = Math.log10(Math.max(v, 0.01));
-      lv = Math.max(yMinLog, Math.min(yMaxLog, lv));
-      // invert Y
-      return pad.t + plotH - ((lv - yMinLog) / (yMaxLog - yMinLog)) * plotH;
+      return pad.t + plotH - (Math.min(v, yMax) / yMax) * plotH;
     }
 
     var parts = [];
@@ -404,14 +386,16 @@ Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
     parts.push('<rect x="' + pad.l + '" y="' + pad.t + '" width="' + plotW +
       '" height="' + plotH + '" fill="#fff" stroke="#ddd"/>');
 
-    // Y gridlines + labels (log scale)
-    var yTicks = [0.1, 1, 10, 100];
+    // Y gridlines + labels (absolute scale)
+    var yStep = 10;
+    var yTicks = [];
+    for (var t = 0; t <= yMax; t += yStep) yTicks.push(t);
     yTicks.forEach(function (v) {
       var y = yScale(v);
       parts.push('<line x1="' + pad.l + '" x2="' + (pad.l + plotW) +
         '" y1="' + y + '" y2="' + y + '" stroke="#eee"/>');
-      parts.push('<text x="' + (pad.l - 6) + '" y="' + (y + 4) +
-        '" text-anchor="end" font-size="10" fill="#555">' + v + '</text>');
+      parts.push('<text x="' + (pad.l - 10) + '" y="' + (y + 7) +
+        '" text-anchor="end" font-size="19" fill="#555">' + v + '</text>');
     });
 
     // X ticks
@@ -420,24 +404,24 @@ Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
       var xv = Math.round((xMax * i) / xTickCount);
       var x = xScale(xv);
       parts.push('<line x1="' + x + '" x2="' + x + '" y1="' + (pad.t + plotH) +
-        '" y2="' + (pad.t + plotH + 3) + '" stroke="#999"/>');
-      parts.push('<text x="' + x + '" y="' + (pad.t + plotH + 15) +
-        '" text-anchor="middle" font-size="10" fill="#555">' + xv + '</text>');
+        '" y2="' + (pad.t + plotH + 4) + '" stroke="#999"/>');
+      parts.push('<text x="' + x + '" y="' + (pad.t + plotH + 24) +
+        '" text-anchor="middle" font-size="19" fill="#555">' + xv + '</text>');
     }
 
     // Axis labels
-    parts.push('<text x="' + (pad.l + plotW / 2) + '" y="' + (H - 6) +
-      '" text-anchor="middle" font-size="11" fill="#333">Observations</text>');
-    parts.push('<text transform="translate(12,' + (pad.t + plotH / 2) +
-      ') rotate(-90)" text-anchor="middle" font-size="11" fill="#333">E_t</text>');
+    parts.push('<text x="' + (pad.l + plotW / 2) + '" y="' + (H - 8) +
+      '" text-anchor="middle" font-size="21" fill="#333">Observations</text>');
+    parts.push('<text transform="translate(20,' + (pad.t + plotH / 2) +
+      ') rotate(-90)" text-anchor="middle" font-size="21" fill="#333">E_t</text>');
 
     // Threshold line
     var yT = yScale(THRESHOLD);
     parts.push('<line x1="' + pad.l + '" x2="' + (pad.l + plotW) +
       '" y1="' + yT + '" y2="' + yT +
       '" stroke="#888" stroke-dasharray="4,3" stroke-width="1.5"/>');
-    parts.push('<text x="' + (pad.l + plotW - 4) + '" y="' + (yT - 4) +
-      '" text-anchor="end" font-size="10" fill="#666">1/&#945; = 20</text>');
+    parts.push('<text x="' + (pad.l + plotW - 4) + '" y="' + (yT - 8) +
+      '" text-anchor="end" font-size="19" fill="#666">1/&#945; = 20</text>');
 
     // E-process line
     var d = "";
@@ -445,12 +429,12 @@ Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
       var x = xScale(i), y = yScale(v);
       d += (i === 0 ? "M" : "L") + x.toFixed(1) + "," + y.toFixed(1) + " ";
     });
-    parts.push('<path d="' + d + '" fill="none" stroke="#c0392b" stroke-width="2"/>');
+    parts.push('<path d="' + d + '" fill="none" stroke="#d9823f" stroke-width="2"/>');
 
     // Dots at each point
     state.eTrack.forEach(function (v, i) {
       parts.push('<circle cx="' + xScale(i) + '" cy="' + yScale(v) +
-        '" r="2.2" fill="#c0392b"/>');
+        '" r="2.2" fill="#d9823f"/>');
     });
 
     svg.innerHTML = parts.join("");
@@ -470,18 +454,6 @@ Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
     var nextE = prevE * (y === 1 ? MULT_CORRECT : MULT_WRONG);
     state.eTrack.push(nextE);
 
-    // Last draw banner
-    var parts = key.split("|");
-    var ld = document.getElementById("lastDraw");
-    var scoreHtml = y === 1
-      ? '<span class="score-correct">correct (Y=1)</span>'
-      : '<span class="score-wrong">wrong (Y=0)</span>';
-    var mult = y === 1 ? MULT_CORRECT : MULT_WRONG;
-    ld.innerHTML =
-      "Sampled from <strong>" + parts[0] + " / " + parts[1] + "</strong>: " +
-      scoreHtml + " &nbsp;&rarr;&nbsp; E<sub>t</sub> &times;" + mult.toFixed(3) +
-      " = " + nextE.toFixed(3);
-
     if (nextE >= THRESHOLD) {
       state.rejected = true;
     }
@@ -493,8 +465,6 @@ Reject when \(E_t \geq 1/\alpha\). Scores are binary (correct / incorrect).
 
   function reset() {
     state = freshState();
-    document.getElementById("lastDraw").textContent =
-      "Click any cell to sample a question from that category and reveal its score.";
     renderCells();
     renderBanner();
     renderChart();
