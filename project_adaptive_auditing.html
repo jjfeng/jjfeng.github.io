@@ -72,7 +72,9 @@ nav_exclude: true
     text-align: center;
     padding: 4px;
     color: #333;
-    font-size: 0.9em;
+    font-size: 0.85em;
+    white-space: nowrap;
+    line-height: 1.2;
   }
   .cat-row-label {
     font-weight: 600;
@@ -148,6 +150,11 @@ nav_exclude: true
   details.howto { margin-top: 10px; }
   details.howto summary { cursor: pointer; font-weight: 600; color: #4a7fc9; }
   details.howto p, details.howto li { font-size: 0.92em; }
+  details.hint { display: inline-block; margin: 8px 0; padding: 4px 12px; border: 1px solid #4a7bd0; border-radius: 6px; background: #eef3fc; color: #4a7bd0; max-width: 100%; }
+  details.hint summary { cursor: pointer; font-weight: 600; user-select: none; }
+  details.hint:not([open]):hover { background: #dce7fa; }
+  details.hint[open] { padding-bottom: 8px; }
+  details.hint[open] summary { margin-bottom: 4px; }
 </style>
 
 <div class="proj-wrap" markdown="0">
@@ -218,8 +225,10 @@ The formal definitions of the dueling hypothesis tests: \(\mathcal{S}_\epsilon\)
 <h2>Try it yourself: audit the LLM!</h2>
 
 <p>
-Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQA</a>-style science questions. Each question has a <em>domain</em> (Biology, Chemistry, Physics) and an <em>education level</em> (Undergraduate, Graduate, Post-graduate). Your task is to figure out if there is a category that our fake LLM does poorly on. Try to do this in as few tries as possible! To control the Type I error rate at \(\alpha=0.05\), rejection of the null requires the e-process exceeding \(1/\alpha=20\).
+Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQA</a>-style science questions. Each question has a <em>domain</em> (Biology, Chemistry, Physics) and a <em>school level</em> (elementary school, middle school, high school). Your task is to figure out if there is a category that our hypothetical LLM does poorly on. Try to do this in as few tries as possible! To control the Type I error rate at \(\alpha=0.05\), rejection of the null requires the e-process exceeding \(1/\alpha=20\).
 </p>
+
+<details class="hint"><summary>💡 Need a hint? Click to reveal</summary><i>Try sampling from each subgroup once before you use your intuition to focus on specific categories.</i></details>
 
 <div class="demo-box">
   <div class="demo-top">
@@ -268,22 +277,22 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
   var MULT_WRONG = 1 + STAKE * Q / (1 - Q);     // 3    (win 4x the stake)
 
   // --- Fixed pre-labeled dataset -----------------------------------------
-  // Chemistry/Postgrad is the hidden failure mode. Other categories mostly pass.
+  // Chemistry/High school is the hidden failure mode. Other categories mostly pass.
   // Each array is a pre-generated sequence of binary scores revealed in order.
   var DATASET = {
-    "Biology|Undergrad":   [1,1,1,1,1,1,1,0,1,1,1,1,1,1,1],
-    "Biology|Grad":        [1,1,1,0,1,1,1,1,1,1,0,1,1,1,1],
-    "Biology|Postgrad":    [1,1,0,1,1,1,0,1,1,1,1,0,1,1,1],
-    "Chemistry|Undergrad": [1,1,0,1,1,1,1,0,1,1,1,0,1,1,1],
-    "Chemistry|Grad":      [1,0,1,0,1,0,1,1,0,0,1,0,1,0,0],
-    "Chemistry|Postgrad":  [0,0,0,1,0,0,0,0,1,0,0,0,1,0,0],
-    "Physics|Undergrad":   [1,1,1,1,0,1,1,1,1,1,0,1,1,1,1],
-    "Physics|Grad":        [1,1,0,1,1,1,0,1,1,1,1,0,1,1,1],
-    "Physics|Postgrad":    [1,0,1,1,0,1,1,0,1,1,0,1,1,1,0]
+    "Biology|Elementary school": [1,1,1,1,1,1,1,0,1,1,1,1,1,1,1],
+    "Biology|Middle school": [1,1,1,0,1,1,1,1,1,1,0,1,1,1,1],
+    "Biology|High school": [1,1,0,1,1,1,0,1,1,1,1,0,1,1,1],
+    "Chemistry|Elementary school": [1,1,0,1,1,1,1,0,1,1,1,0,1,1,1],
+    "Chemistry|Middle school": [1,0,1,0,1,0,1,1,0,0,1,0,1,0,0],
+    "Chemistry|High school": [0,0,0,1,0,0,0,0,1,0,0,0,1,0,0],
+    "Physics|Elementary school": [1,1,1,1,0,1,1,1,1,1,0,1,1,1,1],
+    "Physics|Middle school": [1,1,0,1,1,1,0,1,1,1,1,0,1,1,1],
+    "Physics|High school": [1,0,1,1,0,1,1,0,1,1,0,1,1,1,0]
   };
 
   var DOMAINS = ["Biology", "Chemistry", "Physics"];
-  var LEVELS  = ["Undergrad", "Grad", "Postgrad"];
+  var LEVELS  = ["Elementary school", "Middle school", "High school"];
 
   // --- State --------------------------------------------------------------
   var state;
@@ -314,7 +323,8 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
     LEVELS.forEach(function (l) {
       var h = document.createElement("div");
       h.className = "cat-head";
-      h.textContent = l;
+      // put "school" on its own line so every header wraps the same way
+      h.innerHTML = l.replace(" school", "<br>school");
       grid.appendChild(h);
     });
     // rows
