@@ -210,8 +210,8 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
 <div class="demo-box">
   <div class="demo-top">
     <div class="demo-card demo-left">
-      <b class="c-model">Model's Null:</b> The model's performance across any subgroup is at least <code>q = 0.80</code>.
-      <div><b>Instructions:</b> Act as an auditor and try to reject the model's null. Place bets on which category you think is a failure mode by sampling a question from that category to annotate.</div>
+      <b class="c-model">Model's Null:</b> The model's performance across any subgroup is at least <code>q = 0.80</code>. The game's return here is 4:1 if you win a betting round.
+      <div><b>Instructions:</b> Act as an auditor and try to reject the model's null. Place bets on which category you think is a failure mode by sampling a question from that category to annotate. We've fixed the betting amount to stake half your wealth each time.</div>
       <div class="cat-grid" id="catGrid"></div>
     </div>
 
@@ -245,11 +245,12 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
 (function () {
   // --- Parameters ---------------------------------------------------------
   var Q = 0.80;             // target threshold
-  var Q_ALT = 0.50;         // q - delta
+  var STAKE = 0.50;         // fraction of current wealth bet on "LLM is wrong"
   var ALPHA = 0.05;
   var THRESHOLD = 1 / ALPHA;        // 20
-  var MULT_CORRECT = Q_ALT / Q;     // 0.625
-  var MULT_WRONG = (1 - Q_ALT) / (1 - Q); // 2.5
+  // Fair bet at the null boundary (P(wrong) = 1 - Q): odds Q/(1-Q) = 4:1
+  var MULT_CORRECT = 1 - STAKE;                 // 0.5  (lose the stake)
+  var MULT_WRONG = 1 + STAKE * Q / (1 - Q);     // 3    (win 4x the stake)
 
   // --- Fixed pre-labeled dataset -----------------------------------------
   // Chemistry/Postgrad is the hidden failure mode. Other categories mostly pass.
