@@ -210,8 +210,8 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
 <div class="demo-box">
   <div class="demo-top">
     <div class="demo-card demo-left">
-      <b class="c-model">Model's Null:</b> The model's performance across any subgroup is at least <code>q = 0.80</code>. The game's return here is 4:1 if you win a betting round.
-      <div><b>Instructions:</b> Act as an auditor and try to reject the model's null. Place bets on which category you think is a failure mode by sampling a question from that category to annotate. We've fixed the betting amount to stake half your wealth each time.</div>
+      <b class="c-model">Model's Null:</b> The model's performance across any subgroup is at least <code>q = 0.80</code>.
+      <div><b>Instructions:</b> Act as an auditor and try to reject the model's null. Place bets on which category you think is a failure mode by sampling a question from that category to annotate. The bet is fixed at half your current wealth and pays 4:1 (fair odds under the null).</div>
       <div class="cat-grid" id="catGrid"></div>
     </div>
 
