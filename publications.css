@@ -1,15 +1,75 @@
+.pub-filters {
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.filter-label {
+    font-weight: bold;
+    min-width: 50px;
+}
+
 .filter-btn {
-    padding: 10px 15px;
-    margin-right: 10px;
-    border: none;
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    background-color: #fff;
     cursor: pointer;
+    font-size: 14px;
+}
+
+.filter-btn::after {
+    content: " (" attr(data-count) ")";
+    color: #888;
 }
 
 .filter-btn:hover {
     background-color: #f0f0f0;
 }
 
+.filter-btn.active {
+    background-color: #2a7ae2;
+    border-color: #2a7ae2;
+    color: #fff;
+}
+
+.filter-btn.active::after {
+    color: #e0ecfb;
+}
+
+.filter-btn:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.filter-count {
+    font-size: 14px;
+    color: #666;
+}
+
 .publication {
     margin-bottom: 20px;
 }
 
+.pub-tag {
+    display: inline-block;
+    font-size: 12px;
+    padding: 1px 8px;
+    margin: 4px 4px 0 0;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    color: #555;
+}
+
+.pub-cat-methods { background-color: #dbe9fb; color: #1d4f91; }
+.pub-cat-prospect { background-color: #dcf2e3; color: #1f6b3a; }
+.pub-cat-applied { background-color: #fbecd6; color: #8a5300; }
+.pub-cat-perspective { background-color: #ece3f7; color: #5b3a8a; }

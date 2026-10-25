@@ -49,6 +49,127 @@ PROJECT_DICT = {
     "adaptive auditing of ai systems with anytime-valid guarantees": "project_adaptive_auditing.html",
 }
 
+# Paper type: a paper can have more than one (e.g. a methods paper developed with PROSPECT)
+CATEGORY_LABELS = {
+    "methods": "Methods",
+    "prospect": "Applied: PROSPECT",
+    "applied": "Applied: other",
+    "perspective": "Review / perspective",
+}
+TOPIC_LABELS = {
+    "monitor": "Monitoring & updating",
+    "eval": "Evaluation & auditing",
+    "llm": "LLMs & generative AI",
+    "interp": "Interpretability",
+    "causal": "Causal inference & decisions",
+    "regulatory": "Regulatory science",
+    "hci": "Human-AI interaction",
+    "prediction": "Clinical prediction models",
+    "hdml": "High-dimensional statistics",
+    "bio": "Computational biology",
+    "outcomes": "Clinical outcomes research",
+}
+# Keyed by bibtex ID: (categories, topics)
+TAG_DICT = {
+    "Feng2019-nw": (["methods"], ["hdml", "interp"]),
+    "Zou2025-iq": (["methods"], ["causal"]),
+    "Vossler2026-ew": (["prospect"], ["llm"]),
+    "Feng2026-ib": (["applied"], ["eval", "llm"]),
+    "Vossler2026-eb": (["methods", "prospect"], ["causal", "llm"]),
+    "Sivaraman2026-cc": (["applied"], ["llm", "hci"]),
+    "Zhou2026-zy": (["methods"], ["monitor", "llm"]),
+    "Garcia-Agundez2026-mz": (["applied"], ["monitor", "llm"]),
+    "Sivaraman2026-rz": (["applied"], ["hci"]),
+    "Zhou2026-hn": (["methods"], ["eval"]),
+    "Williamson2020-lx": (["methods"], ["interp"]),
+    "Davidsen2019-pq": (["methods"], ["bio"]),
+    "Feng2019-zi": (["methods"], ["bio"]),
+    "Feng2018-qn": (["methods"], ["hdml"]),
+    "Feng2018-ez": (["methods"], ["interp"]),
+    "Feng2020-ml": (["methods"], ["hdml"]),
+    "Feng2019-lq": (["methods"], ["monitor", "regulatory"]),
+    "Feng2019-aa": (["methods"], ["bio"]),
+    "Feng2021-mf": (["methods"], ["monitor", "regulatory"]),
+    "Feng2019-of": (["methods"], ["eval"]),
+    "Feng_2022-wf": (["methods"], ["monitor"]),
+    "Feng2020-ti": (["methods"], ["hdml"]),
+    "Lazzareschi2022-qq": (["perspective"], ["outcomes"]),
+    "Feng2022-mk": (["perspective"], ["monitor"]),
+    "Esteva2022-ys": (["applied"], ["prediction"]),
+    "Feng2022-xg": (["methods"], ["monitor", "regulatory"]),
+    "Feng2024-in": (["methods"], ["monitor", "causal"]),
+    "Singh2023-ln": (["methods"], ["eval"]),
+    "Feng2023-in": (["methods", "applied"], ["monitor", "regulatory"]),
+    "Wang2023-uf": (["applied"], ["prediction"]),
+    "Sabbagh2023-hi": (["applied"], ["prediction"]),
+    "Zamirpour2023-zw": (["applied"], ["prediction"]),
+    "Miller2023-he": (["applied"], ["outcomes"]),
+    "Sabbagh2023-aw": (["applied"], ["prediction"]),
+    "Lin2023-zp": (["applied"], ["outcomes"]),
+    "Steverson2023-hu": (["prospect"], ["prediction"]),
+    "Haghighat2023-jc": (["applied"], ["outcomes"]),
+    "Feng2022-az": (["methods"], ["monitor", "causal"]),
+    "Feng2023-ua": (["methods"], ["eval"]),
+    "Wang2024-ko": (["applied"], ["prediction"]),
+    "Friesner2024-ly": (["applied"], ["prediction"]),
+    "Feng2024-ln": (["methods"], ["monitor", "interp"]),
+    "Caudal2024-ou": (["applied"], ["bio"]),
+    "Feng2025-rq": (["perspective"], ["monitor"]),
+    "Bennett2025-xk": (["prospect"], ["prediction"]),
+    "Kalimouttou2025-yd": (["applied"], ["causal"]),
+    "Chang2025-yp": (["applied"], ["outcomes"]),
+    "Singh2025-mu": (["methods"], ["monitor", "interp"]),
+    "Ni2025-wx": (["perspective"], []),
+    "Kolla2025-xl": (["applied"], ["monitor"]),
+    "Foroutani2025-kr": (["applied"], ["outcomes"]),
+    "Feng2025-um": (["methods"], ["interp", "llm"]),
+    "Kothari2026-zo": (["prospect"], ["llm", "hci"]),
+    "Obra2025-br": (["applied"], ["eval"]),
+    "Vossler2025-uw": (["methods"], ["eval", "llm"]),
+    "Li2026-sg": (["applied"], ["regulatory", "llm"]),
+    "Chen2026-yo": (["applied"], ["llm"]),
+    "Phelps2026-dh": (["prospect"], ["hci"]),
+    "Sivaraman2026-sf": (["perspective"], ["hci"]),
+    "van-Amsterdam2026-az": (["perspective"], ["monitor", "regulatory"]),
+    "Jean2026-wm": (["methods", "prospect"], ["interp", "llm", "hci"]),
+    "Vossler2026-jm": (["methods"], ["eval", "llm"]),
+    "Narang2026-cj": (["applied"], ["eval", "llm"]),
+    "Hong2026-ds": (["applied"], ["eval"]),
+    "Forouzannia2026-ho": (["applied"], ["prediction"]),
+    "Kim2026-vx": (["perspective"], []),
+    "Foroutani2026-ip": (["applied"], ["outcomes"]),
+}
+
+def wrap_tags(entry, pub_str):
+    if entry["ID"] not in TAG_DICT:
+        print("WARNING: no tags for", entry["ID"])
+    categories, topics = TAG_DICT.get(entry["ID"], ([], []))
+    badges = "".join(
+        '<span class="pub-tag pub-cat-%s">%s</span>' % (c, CATEGORY_LABELS[c]) for c in categories
+    ) + "".join(
+        '<span class="pub-tag pub-topic">%s</span>' % TOPIC_LABELS[t] for t in topics
+    )
+    return '<div class="publication" data-categories="%s" data-topics="%s" markdown="1">\n%s<br />\n%s\n</div>' % (
+        " ".join(categories), " ".join(topics), pub_str, badges)
+
+def filter_controls():
+    cat_btns = ['<button class="filter-btn active" data-group="category" data-filter="all">All</button>']
+    cat_btns += ['<button class="filter-btn" data-group="category" data-filter="%s">%s</button>' % (k, v) for k, v in CATEGORY_LABELS.items()]
+    topic_btns = ['<button class="filter-btn active" data-group="topic" data-filter="all">All topics</button>']
+    topic_btns += ['<button class="filter-btn" data-group="topic" data-filter="%s">%s</button>' % (k, v) for k, v in TOPIC_LABELS.items()]
+    return """<link rel="stylesheet" type="text/css" href="publications.css">
+<script src="publications_filter.js"></script>
+
+<div class="pub-filters">
+<div class="filter-row"><span class="filter-label">Type</span>%s</div>
+<div class="filter-row"><span class="filter-label">Topic</span>%s</div>
+<div class="filter-count"></div>
+</div>
+""" % ("".join(cat_btns), "".join(topic_btns))
+
+def print_section(header, entry_list):
+    return '\n\n<div class="pub-section" markdown="1">\n\n## %s\n\n%s\n\n</div>\n' % (header, print_entries(entry_list))
+
 def print_entries(entry_list):
     return "\n\n".join(entry_list)
 
@@ -122,7 +243,7 @@ for entry in bib_entries:
             pub_str += "[\[demo\]](%s)" % PROJECT_DICT[title.lower()]
         if "award" in entry:
             pub_str += f" ***{entry['award']}***"
-        parsed_entries["preprints"].append(pub_str)
+        parsed_entries["preprints"].append(wrap_tags(entry, pub_str))
     else:
         journal = convert_journal(entry["journal"])
         year = None if ("note" in entry and entry["note"] == "In press") else int(entry["year"])
@@ -155,7 +276,7 @@ for entry in bib_entries:
             pub_str += f" ***{entry['award']}***"
         if year not in parsed_entries:
             parsed_entries[year] = []
-        parsed_entries[year].append(pub_str)
+        parsed_entries[year].append(wrap_tags(entry, pub_str))
 
 output_lines = [
 """---
@@ -163,22 +284,13 @@ layout: default
 title: Publications
 ---
 """]
-#<link rel="stylesheet" type="text/css" href="publications.css">
-#<script src="publications_filter.js"></script>
-#
-#
-#<button class="filter-btn" data-filter="all">All</button>
-#<button class="filter-btn" data-filter="methods">Methods</button>
-#<button class="filter-btn" data-filter="applied">Applied</button>
+output_lines.append(filter_controls())
 
 if None in parsed_entries:
-    output_lines.append("\n## In press\n")
-    output_lines.append(print_entries(parsed_entries[None]))
-output_lines.append("\n\n## Preprints\n")
-output_lines.append(print_entries(parsed_entries["preprints"]))
+    output_lines.append(print_section("In press", parsed_entries[None]))
+output_lines.append(print_section("Preprints", parsed_entries["preprints"]))
 for year in sorted(years, reverse=True):
-    output_lines.append("\n\n## %d\n" % year)
-    output_lines.append(print_entries(parsed_entries[year]))
+    output_lines.append(print_section("%d" % year, parsed_entries[year]))
 with open(OUTFILE, "w") as outfile:
     outfile.writelines(output_lines)
 
