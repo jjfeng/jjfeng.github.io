@@ -6,8 +6,8 @@ title: Publications
 <script src="publications_filter.js"></script>
 
 <div class="pub-filters">
-<div class="filter-row"><span class="filter-label">Type</span><button class="filter-btn active" data-group="category" data-filter="all">All</button><button class="filter-btn" data-group="category" data-filter="methods">Methods</button><button class="filter-btn" data-group="category" data-filter="prospect">Applied: PROSPECT</button><button class="filter-btn" data-group="category" data-filter="applied">Applied: other</button><button class="filter-btn" data-group="category" data-filter="perspective">Review / perspective</button></div>
-<div class="filter-row"><span class="filter-label">Topic</span><button class="filter-btn active" data-group="topic" data-filter="all">All topics</button><button class="filter-btn" data-group="topic" data-filter="monitor">Monitoring & updating</button><button class="filter-btn" data-group="topic" data-filter="eval">Evaluation & auditing</button><button class="filter-btn" data-group="topic" data-filter="llm">LLMs & generative AI</button><button class="filter-btn" data-group="topic" data-filter="interp">Interpretability</button><button class="filter-btn" data-group="topic" data-filter="causal">Causal inference & decisions</button><button class="filter-btn" data-group="topic" data-filter="regulatory">Regulatory science</button><button class="filter-btn" data-group="topic" data-filter="hci">Human-AI interaction</button><button class="filter-btn" data-group="topic" data-filter="prediction">Clinical prediction models</button><button class="filter-btn" data-group="topic" data-filter="hdml">High-dimensional statistics</button><button class="filter-btn" data-group="topic" data-filter="bio">Computational biology</button><button class="filter-btn" data-group="topic" data-filter="outcomes">Clinical outcomes research</button></div>
+<div class="filter-row"><span class="filter-label">Type</span><button class="filter-btn active" data-group="category" data-filter="all">All</button><button class="filter-btn" data-group="category" data-filter="methods">Methods</button><button class="filter-btn" data-group="category" data-filter="applied">Applied</button><button class="filter-btn" data-group="category" data-filter="review">Review</button><button class="filter-btn" data-group="category" data-filter="perspective">Perspective</button></div>
+<div class="filter-row"><span class="filter-label">Topic</span><button class="filter-btn active" data-group="topic" data-filter="all">All topics</button><button class="filter-btn" data-group="topic" data-filter="prospect">PROSPECT</button><button class="filter-btn" data-group="topic" data-filter="monitor">Monitoring & updating</button><button class="filter-btn" data-group="topic" data-filter="eval">Evaluation & auditing</button><button class="filter-btn" data-group="topic" data-filter="llm">LLMs & generative AI</button><button class="filter-btn" data-group="topic" data-filter="interp">Interpretability</button><button class="filter-btn" data-group="topic" data-filter="causal">Causal inference & decisions</button><button class="filter-btn" data-group="topic" data-filter="regulatory">Regulatory science</button><button class="filter-btn" data-group="topic" data-filter="hci">Human-AI interaction</button><button class="filter-btn" data-group="topic" data-filter="prediction">Clinical prediction models</button><button class="filter-btn" data-group="topic" data-filter="hdml">High-dimensional statistics</button><button class="filter-btn" data-group="topic" data-filter="bio">Computational biology</button><button class="filter-btn" data-group="topic" data-filter="outcomes">Clinical outcomes research</button></div>
 <div class="filter-count"></div>
 </div>
 
@@ -16,32 +16,32 @@ title: Publications
 
 ## Preprints
 
-<div class="publication" data-categories="prospect" data-topics="llm" markdown="1">
+<div class="publication" data-categories="applied" data-topics="prospect llm" markdown="1">
 **From Fuzzy to Formal: Scaling Hospital Quality Improvement with AI**<br />
 Vossler<sup>\*</sup>, *Feng*<sup>\*</sup>, Sivaraman, Gallo, Kanzaria, Freiser, Ross, Ou, Marks, Ehrlich, Peabody and Zier<br />
 [\[arXiv\]](https://arxiv.org/abs/2604.20055)<br />
-<span class="pub-tag pub-cat-prospect">Applied: PROSPECT</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="eval llm" markdown="1">
 **Expert Evaluation of Clinical AI Tools on Real Point-of-Care Clinical Queries**<br />
 *Feng*, Patel, Heagerty, Mai, Sivaraman, Vossler, Ouyang and Jena<br />
 [\[arXiv\]](https://arxiv.org/abs/2606.28960)[\[code\]](https://github.com/jjfenglab/Real-POCQi-statistics)[\[data\]](https://huggingface.co/datasets/jjfenglab/Real-POCQi)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Evaluation & auditing</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Evaluation & auditing</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
 </div>
 
-<div class="publication" data-categories="methods prospect" data-topics="causal llm" markdown="1">
+<div class="publication" data-categories="methods" data-topics="prospect causal llm" markdown="1">
 **Expert-guided g-computation with large language models for estimating causal effects on timings: Applications to hospital quality improvement**<br />
 Vossler, Ouyang, Guo, Huang, Shojaie, Zier, Xia and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2608.10339)<br />
-<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-cat-prospect">Applied: PROSPECT</span><span class="pub-tag pub-topic">Causal inference & decisions</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">Causal inference & decisions</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="llm hci" markdown="1">
 **``I know where to look,'' but does the LLM? Charting the gaps between clinical expert needs and unstructured data abstraction tools**<br />
 Sivaraman, Turnham, Bonano, Aresh, Dhanasekaran, Guo, Kubendran, Lin, Louie, Olazo, Shen, Vasudevan, Wong, Alsentzer, Fries, Odisho, Gordan, *Feng*<sup>\*</sup> and Hong<sup>\*</sup><br />
 [\[arXiv\]](https://arxiv.org/abs/2609.19318)[\[code\]](https://github.com/weill-cancer-hub-west-impact-ai/libretto)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">LLMs & generative AI</span><span class="pub-tag pub-topic">Human-AI interaction</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">LLMs & generative AI</span><span class="pub-tag pub-topic">Human-AI interaction</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="monitor llm" markdown="1">
@@ -55,14 +55,14 @@ Zhou, Ouyang, Xia, Subbaswamy, Prinster, Saria, Garcia-Agundez, Pollet, Yazdany,
 **A framework to monitor editing of Artificial Intelligence-generated medical documentation**<br />
 Garcia-Agundez, Zhou, Pourian, Blebea, Daneshpajouhnejad, Dente, Shi, Pollet, Xia, Shi, Thombley, Fenton, Murray, Adler-Milstein, Schmajuk, *Feng*<sup>\*</sup> and Yazdany<sup>\*</sup><br />
 [\[medRxiv\]](https://www.medrxiv.org/content/10.64898/2026.09.30.26364427v3)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="hci" markdown="1">
 **Indirect influences of artificial intelligence advice on complex sepsis treatment decisions**<br />
 Sivaraman, Levin, Mason, Talisa, Saria, *Feng*, King, Kahn and Perer<br />
 [\[arXiv\]](https://arxiv.org/abs/2610.24313)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Human-AI interaction</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Human-AI interaction</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="hdml interp" markdown="1">
@@ -87,12 +87,12 @@ Zhou<sup>\*</sup>, Vossler<sup>\*</sup>, Sivaraman, Mai and *Feng*<br />
 <span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Evaluation & auditing</span>
 </div>
 
-<div class="publication" data-categories="prospect" data-topics="llm hci" markdown="1">
+<div class="publication" data-categories="applied" data-topics="prospect llm hci" markdown="1">
 **When the domain expert has no time and the LLM developer has no clinical expertise: Real-world lessons from LLM co-design in a safety-net hospital**<br />
 Kothari, Vossler, Digitale, Forouzannia, Rosenberg, Lee, Bryant, Molina, Marks, Zier and *Feng*<br />
 *Proc. Conf. AAAI Artif. Intell.*, 2026<br />
 [\[paper\]](https://ojs.aaai.org/index.php/AAAI/article/view/41219)[\[code\]](https://github.com/jjfenglab/social-wayfinder) ***Oral presentation***<br />
-<span class="pub-tag pub-cat-prospect">Applied: PROSPECT</span><span class="pub-tag pub-topic">LLMs & generative AI</span><span class="pub-tag pub-topic">Human-AI interaction</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">LLMs & generative AI</span><span class="pub-tag pub-topic">Human-AI interaction</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="eval llm" markdown="1">
@@ -108,7 +108,7 @@ Vossler, Xia, Mai, Subbaswamy and *Feng*<br />
 Li, He, Subbaswamy, Vossler, Gossmann, Singh and *Feng*<br />
 *NPJ Digit. Med.*, 2026<br />
 [\[paper\]](https://doi.org/10.1038/s41746-026-02353-7)[\[code\]](https://github.com/jjfenglab/LLM-FDA-device)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Regulatory science</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Regulatory science</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="llm" markdown="1">
@@ -116,15 +116,15 @@ Li, He, Subbaswamy, Vossler, Gossmann, Singh and *Feng*<br />
 Chen, *Feng*, Friesner, Chang, Kenny, Elia, Ni, Feng, Rabow, Braunstein, Boreta and Hong<br />
 *JNCI Cancer Spectrum*, 2026<br />
 [\[paper\]](https://doi.org/10.1093/jncics/pkag010)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
 </div>
 
-<div class="publication" data-categories="prospect" data-topics="hci" markdown="1">
+<div class="publication" data-categories="applied" data-topics="prospect hci" markdown="1">
 **Patient perspectives about deployment of artificial intelligence decision support tools in a safety-net healthcare system**<br />
 Phelps, Vossler, Kothari, Steineman, Goldman, Gasga, Ehrlich, Kanzaria, Adler-Milstein, *Feng*, Nong and Zier<br />
 *JAMIA Open*, 2026<br />
 [\[paper\]](https://doi.org/10.1093/jamiaopen/ooag029)<br />
-<span class="pub-tag pub-cat-prospect">Applied: PROSPECT</span><span class="pub-tag pub-topic">Human-AI interaction</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">Human-AI interaction</span>
 </div>
 
 <div class="publication" data-categories="perspective" data-topics="hci" markdown="1">
@@ -132,7 +132,7 @@ Phelps, Vossler, Kothari, Steineman, Goldman, Gasga, Ehrlich, Kanzaria, Adler-Mi
 Sivaraman, Vossler, Perer, Hong and *Feng*<br />
 *ACM CHI 2026 Workshop on Tools for Thought*, 2026<br />
 [\[paper\]](https://ai-tools-for-thought.github.io/workshop/documents/chi26/Sivaraman_et_al_Supporting_Reasoning_with_Process_Transparency_TfT_CHI26.pdf)<br />
-<span class="pub-tag pub-cat-perspective">Review / perspective</span><span class="pub-tag pub-topic">Human-AI interaction</span>
+<span class="pub-tag pub-cat-perspective">Perspective</span><span class="pub-tag pub-topic">Human-AI interaction</span>
 </div>
 
 <div class="publication" data-categories="perspective" data-topics="monitor regulatory" markdown="1">
@@ -140,15 +140,15 @@ Sivaraman, Vossler, Perer, Hong and *Feng*<br />
 van Amsterdam<sup>\*</sup>, Oberst<sup>\*</sup>, *Feng*<sup>\*</sup>, Wiens, Tang, Joshi, Ranganath, Sendak, Shalit, Vogt, Beaulieu-Jones, Mamdani, Kent, Heagerty, Fleming and Goldenberg<br />
 *Nat. Med.*, 2026<br />
 [\[paper\]](https://rdcu.be/ffPlI)<br />
-<span class="pub-tag pub-cat-perspective">Review / perspective</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">Regulatory science</span>
+<span class="pub-tag pub-cat-perspective">Perspective</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">Regulatory science</span>
 </div>
 
-<div class="publication" data-categories="methods prospect" data-topics="interp llm hci" markdown="1">
+<div class="publication" data-categories="methods" data-topics="prospect interp llm hci" markdown="1">
 **Human-AI co-design for clinical prediction models**<br />
 *Feng*<sup>\*</sup>, Kothari<sup>\*</sup>, Vossler, Bishara, Zier, Addo, Kornblith, Tan and Singh<br />
 *npj Digital Medicine*, 2026<br />
 [\[paper\]](https://doi.org/10.1038/s41746-026-02838-5)[\[code\]](https://github.com/jjfenglab/HACHI)[\[poster\]](poster_hachi.pdf)<br />
-<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-cat-prospect">Applied: PROSPECT</span><span class="pub-tag pub-topic">Interpretability</span><span class="pub-tag pub-topic">LLMs & generative AI</span><span class="pub-tag pub-topic">Human-AI interaction</span>
+<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">Interpretability</span><span class="pub-tag pub-topic">LLMs & generative AI</span><span class="pub-tag pub-topic">Human-AI interaction</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="eval llm" markdown="1">
@@ -164,7 +164,7 @@ Vossler, Xia and *Feng*<br />
 Narang, Addo, Williams, Firnberg, *Feng* and Kornblith<br />
 *Npj Health Syst.*, 2026<br />
 [\[paper\]](https://doi.org/10.1038/s44401-026-00128-6)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Evaluation & auditing</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Evaluation & auditing</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="eval" markdown="1">
@@ -172,7 +172,7 @@ Narang, Addo, Williams, Firnberg, *Feng* and Kornblith<br />
 Hong, Liew, Yu, Barry, Blewer, Buckland, Cai, Cha, Chakraborty, Chen, Cheng, Chong, Djärv, Earnest, Engelhard, Fan, Feng, *Feng*, Fu, Goh, Goldstein, Gronsbell, Ho, Ho, Iwami, Joiner, Kornblith, Li, Lim, Liu, Liu, Lu, Luo, Ng, Ning, Okada, Park, Park, Razzak, Shen, Siddiqui, Steel, Tan, Teixayavong, Vakulenko-Lagun, Vissoci, Waligora, Wang, Wang, Wang, Wong, Xie, Yang, Zhang, Zhou, Zhou, Zhu, Neumar, Page, Vaughan, Ong and Liu<br />
 *JMIR Res. Protoc.*, 2026<br />
 [\[paper\]](https://doi.org/10.2196/74202)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Evaluation & auditing</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Evaluation & auditing</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="prediction" markdown="1">
@@ -180,15 +180,15 @@ Hong, Liew, Yu, Barry, Blewer, Buckland, Cai, Cha, Chakraborty, Chen, Cheng, Cho
 Forouzannia, Hempstead, Steineman, Duan, Vossler, *Feng*, Zhou, Zier and Elmariah<br />
 *JAMA Cardiol.*, 2026<br />
 [\[paper\]](https://jamanetwork.com/journals/jamacardiology/fullarticle/2855127)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
-<div class="publication" data-categories="perspective" data-topics="" markdown="1">
+<div class="publication" data-categories="review" data-topics="" markdown="1">
 **Clinical AI in 2025–2026 — six themes from the SAIL year in review**<br />
 Kim, Elia, Li, Healey, Erdman, Chandak, Argaw, Li, Black, Marwaha, Morales, Taylor, Kvedar, Brodeur, Beaulieu-Jones, Alsentzer, Hong and *Feng*<br />
 *NEJM AI*, 2026<br />
 [\[paper\]](https://ai.nejm.org/doi/full/10.1056/AIp2600817)<br />
-<span class="pub-tag pub-cat-perspective">Review / perspective</span>
+<span class="pub-tag pub-cat-review">Review</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="outcomes" markdown="1">
@@ -196,7 +196,7 @@ Kim, Elia, Li, Healey, Erdman, Chandak, Argaw, Li, Black, Marwaha, Morales, Tayl
 Foroutani, Chang, Kannan, Ganjouei, Wang, *Feng*, Thornblade, Hirose, Maker, Nakakura, Corvera, Alseidi and Adam<br />
 *Surg. Endosc.*, 2026<br />
 [\[paper\]](https://link.springer.com/article/10.1007/s00464-026-13444-7)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
 </div>
 
 </div>
@@ -214,20 +214,20 @@ Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
 <span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Causal inference & decisions</span>
 </div>
 
-<div class="publication" data-categories="perspective" data-topics="monitor" markdown="1">
+<div class="publication" data-categories="review" data-topics="monitor" markdown="1">
 **Not all clinical AI monitoring systems are created equal: Review and recommendations**<br />
 *Feng*, Xia, Singh and Pirracchio<br />
 *NEJM AI*, 2025<br />
 [\[paper\]](https://ai.nejm.org/stoken/default+domain/WHP5GAV5DNNC8FSNKFSD/full?redirectUri=doi/full/10.1056/AIra2400657)<br />
-<span class="pub-tag pub-cat-perspective">Review / perspective</span><span class="pub-tag pub-topic">Monitoring & updating</span>
+<span class="pub-tag pub-cat-review">Review</span><span class="pub-tag pub-topic">Monitoring & updating</span>
 </div>
 
-<div class="publication" data-categories="prospect" data-topics="prediction" markdown="1">
+<div class="publication" data-categories="applied" data-topics="prospect prediction" markdown="1">
 **Reducing readmissions in the safety net through AI and automation**<br />
 Bennett, *Feng*, Goldman, Kothari, Gottlieb, Durstenfeld, Marks, Ehrlich, Davis and Zier<br />
 *Am. J. Manag. Care*, 2025<br />
 [\[paper\]](https://doi.org/10.37765/ajmc.2025.89697)<br />
-<span class="pub-tag pub-cat-prospect">Applied: PROSPECT</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="causal" markdown="1">
@@ -235,7 +235,7 @@ Bennett, *Feng*, Goldman, Kothari, Gottlieb, Durstenfeld, Marks, Ehrlich, Davis 
 Kalimouttou, Kennedy, *Feng*, Singh, Saria, Angus, Seymour and Pirracchio<br />
 *JAMA*, 2025<br />
 [\[paper\]](https://doi.org/10.1001/jama.2025.3046)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Causal inference & decisions</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Causal inference & decisions</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="outcomes" markdown="1">
@@ -243,7 +243,7 @@ Kalimouttou, Kennedy, *Feng*, Singh, Saria, Angus, Seymour and Pirracchio<br />
 Chang, Chen, *Feng*, Friesner, Mohindra, Boreta, Rabow, Braunstein, Benson and Hong<br />
 *JAMA Netw. Open*, 2025<br />
 [\[paper\]](https://doi.org/10.1001/jamanetworkopen.2025.6366)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="monitor interp" markdown="1">
@@ -254,12 +254,12 @@ Singh, Xia, Gossmann, Chuang, Hong and *Feng*<br />
 <span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">Interpretability</span>
 </div>
 
-<div class="publication" data-categories="perspective" data-topics="" markdown="1">
+<div class="publication" data-categories="review" data-topics="" markdown="1">
 **The state of the art in artificial intelligence and digital pathology in prostate cancer**<br />
 Ni, Kouzy, Sabbagh, Rooney, *Feng*, Castillo, Gadoue, El Kouzi, Hoffman, Yuan, Madabhushi and Mohamad<br />
 *Nat. Rev. Urol.*, 2025<br />
 [\[paper\]](http://dx.doi.org/10.1038/s41585-025-01070-2)<br />
-<span class="pub-tag pub-cat-perspective">Review / perspective</span>
+<span class="pub-tag pub-cat-review">Review</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="monitor" markdown="1">
@@ -267,7 +267,7 @@ Ni, Kouzy, Sabbagh, Rooney, *Feng*, Castillo, Gadoue, El Kouzi, Hoffman, Yuan, M
 Kolla, Linn, Navathe, Kreisler, Roberts, Park, Singh, *Feng*, Chen and Parikh<br />
 *JAMA Health Forum*, 2025<br />
 [\[paper\]](http://dx.doi.org/10.1001/jamahealthforum.2025.2717)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Monitoring & updating</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Monitoring & updating</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="outcomes" markdown="1">
@@ -275,7 +275,7 @@ Kolla, Linn, Navathe, Kreisler, Roberts, Park, Singh, *Feng*, Chen and Parikh<br
 Foroutani, Gonzalez, Wang, Aburayya, Ganjouei, *Feng*, Thornblade, Hirose, Maker, Nakakura, Corvera, Alseidi and Adam<br />
 *Cancers (Basel)*, 2025<br />
 [\[paper\]](https://doi.org/10.3390/cancers17183015)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="interp llm" markdown="1">
@@ -291,7 +291,7 @@ Foroutani, Gonzalez, Wang, Aburayya, Ganjouei, *Feng*, Thornblade, Hirose, Maker
 Obra, Singh, Watkins, *Feng*, Obermeyer and Kornblith<br />
 *NPJ Digit. Med.*, 2025<br />
 [\[paper\]](https://doi.org/10.1038/s41746-025-02119-7)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Evaluation & auditing</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Evaluation & auditing</span>
 </div>
 
 </div>
@@ -325,12 +325,12 @@ Obra, Singh, Watkins, *Feng*, Obermeyer and Kornblith<br />
 <span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Evaluation & auditing</span>
 </div>
 
-<div class="publication" data-categories="applied" data-topics="prediction" markdown="1">
+<div class="publication" data-categories="review" data-topics="prediction" markdown="1">
 **Machine Learning Improves Prediction of Postoperative Outcomes After Gastrointestinal Surgery: A Systematic Review and Meta-analysis**<br />
 Wang, Tozzi, Ganjouei, Romero-Hernandez, *Feng*, Calthorpe, Castro, Davis, Withers, Zhou, Chaudhary, Adam, Berrevoet, Alseidi and Rashidian<br />
 *J. Gastrointest. Surg.*, 2024<br />
 [\[paper\]](https://doi.org/10.1016/j.gassur.2024.03.006)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-review">Review</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="prediction" markdown="1">
@@ -338,7 +338,7 @@ Wang, Tozzi, Ganjouei, Romero-Hernandez, *Feng*, Calthorpe, Castro, Davis, Withe
 Friesner, *Feng*, Kalnicki, Garg, Ohri and Hong<br />
 *JAMA Oncol*, 2024<br />
 [\[paper\]](http://dx.doi.org/10.1001/jamaoncol.2024.0014)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="monitor interp" markdown="1">
@@ -354,7 +354,7 @@ Singh, Xia, Subbaswamy, Gossmann and *Feng*<br />
 Caudal, Liu, Pang, Maison, Nakasuka, *Feng*, Schwarzer-Sperber, Schwarzer, Moffatt, Henrich, Padmanabhan, Connolly, Wu and Tseng<br />
 *JACC Clin. Electrophysiol.*, 2024<br />
 [\[paper\]](https://doi.org/10.1016/j.jacep.2024.08.013)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Computational biology</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Computational biology</span>
 </div>
 
 </div>
@@ -377,7 +377,7 @@ Singh, Xia, Kim, Pirracchio, Chunara and *Feng*<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
 *Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems*, 2023<br />
 [\[paper\]](http://arxiv.org/abs/2311.11463)[\[poster\]](poster_neurips_regml_workshop.pdf)[\[slides\]](postmarket_monitoring_talk_short.pdf) ***Oral presentation***<br />
-<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">Regulatory science</span>
+<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">Regulatory science</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="prediction" markdown="1">
@@ -385,7 +385,7 @@ Singh, Xia, Kim, Pirracchio, Chunara and *Feng*<br />
 Wang, *Feng*, Gomes, Calthorpe, Ashraf Ganjouei, Romero-Hernandez, Benedetti Cacciaguerra, Hibi, Abdelgadir Adam, Alseidi, Abu Hilal, Rashidian and International Post-Hepatectomy Liver Failure Study Group<br />
 *Ann. Surg.*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1097/SLA.0000000000005916)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="prediction" markdown="1">
@@ -393,7 +393,7 @@ Wang, *Feng*, Gomes, Calthorpe, Ashraf Ganjouei, Romero-Hernandez, Benedetti Cac
 Sabbagh, Tilki, *Feng*, Huland, Graefen, Wiegel, B{\"o}hmer, Hong, Valdes, Cowan, Cooperberg, Feng, Mohammad, Shelan, D'Amico, Carroll and Mohamad<br />
 *European Urology Focus*, 2023<br />
 [\[paper\]](https://www.sciencedirect.com/science/article/pii/S2405456923001761)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="prediction" markdown="1">
@@ -401,7 +401,7 @@ Sabbagh, Tilki, *Feng*, Huland, Graefen, Wiegel, B{\"o}hmer, Hong, Valdes, Cowan
 Zamirpour, Hubbard, *Feng*, Butte, Pirracchio and Bishara<br />
 *Bioengineering*, 2023<br />
 [\[paper\]](https://www.mdpi.com/2306-5354/10/8/932)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="outcomes" markdown="1">
@@ -409,7 +409,7 @@ Zamirpour, Hubbard, *Feng*, Butte, Pirracchio and Bishara<br />
 Miller, Romero-Hernandez, Conroy, Calthorpe, Yilma, Mohamedaly, Kelly, *Feng*, Hirose, Kirkwood, Maker, Corvera, Nakakura, Alseidi and Adam<br />
 *World J. Surg.*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1007/s00268-022-06835-z)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="prediction" markdown="1">
@@ -417,7 +417,7 @@ Miller, Romero-Hernandez, Conroy, Calthorpe, Yilma, Mohamedaly, Kelly, *Feng*, H
 Sabbagh, Washington, Tilki, Hong, *Feng*, Valdes, Chen, Wu, Huland, Graefen, Wiegel, Bohmer, Cowan, Cooperberg, Feng, Roach, Trock, Partin, D'Amico, Carroll and Mohamad<br />
 *Eur Urol Oncol*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1016/j.euo.2023.02.006)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="outcomes" markdown="1">
@@ -425,15 +425,15 @@ Sabbagh, Washington, Tilki, Hong, *Feng*, Valdes, Chen, Wu, Huland, Graefen, Wie
 Lin, Conroy, Romero-Hernandez, Yilma, *Feng*, Hirose, Nakakura, Maker, Corvera, Kirkwood, Alseidi and Adam<br />
 *J. Gastrointest. Surg.*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1007/s11605-022-05577-6)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
 </div>
 
-<div class="publication" data-categories="prospect" data-topics="prediction" markdown="1">
+<div class="publication" data-categories="applied" data-topics="prospect prediction" markdown="1">
 **Predictors of All-Cause Thirty-Day Readmissions in Patients with Heart Failure at an Urban Safety Net Hospital: The Importance of Social Determinants of Health**<br />
 Steverson, Marano, Chen, Ma, Stern, *Feng*, Gennatas, Marks, Durstenfeld, Davis, Hsue and Zier<br />
 *American Journal of Medicine Open*, 2023<br />
 [\[paper\]](http://dx.doi.org/10.1016/j.ajmo.2023.100060)<br />
-<span class="pub-tag pub-cat-prospect">Applied: PROSPECT</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="outcomes" markdown="1">
@@ -441,7 +441,7 @@ Steverson, Marano, Chen, Ma, Stern, *Feng*, Gennatas, Marks, Durstenfeld, Davis,
 Haghighat, Ramakrishna, Salazar, *Feng*, Chiang, Moffatt and Tseng<br />
 *JAMA Intern. Med.*, 2023<br />
 [\[paper\]](https://dx.doi.org/10.1001/jamainternmed.2023.5475)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
 </div>
 
 </div>
@@ -472,7 +472,7 @@ Haghighat, Ramakrishna, Salazar, *Feng*, Chiang, Moffatt and Tseng<br />
 Lazzareschi, Mehta, Dember, Bernholz, Turan, Sharma, Kheterpal, Parikh, Ali, Schulman, Ryan, *Feng*, Simon, Pirracchio, Rossignol and Legrand<br />
 *Nephrol. Dial. Transplant*, 2022<br />
 [\[paper\]](http://dx.doi.org/10.1093/ndt/gfac003)<br />
-<span class="pub-tag pub-cat-perspective">Review / perspective</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
+<span class="pub-tag pub-cat-perspective">Perspective</span><span class="pub-tag pub-topic">Clinical outcomes research</span>
 </div>
 
 <div class="publication" data-categories="perspective" data-topics="monitor" markdown="1">
@@ -480,7 +480,7 @@ Lazzareschi, Mehta, Dember, Bernholz, Turan, Sharma, Kheterpal, Parikh, Ali, Sch
 *Feng*, Phillips, Malenica, Bishara, Hubbard, Celi and Pirracchio<br />
 *npj Digital Medicine*, 2022<br />
 [\[paper\]](https://www.nature.com/articles/s41746-022-00611-y)<br />
-<span class="pub-tag pub-cat-perspective">Review / perspective</span><span class="pub-tag pub-topic">Monitoring & updating</span>
+<span class="pub-tag pub-cat-perspective">Perspective</span><span class="pub-tag pub-topic">Monitoring & updating</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="prediction" markdown="1">
@@ -488,7 +488,7 @@ Lazzareschi, Mehta, Dember, Bernholz, Turan, Sharma, Kheterpal, Parikh, Ali, Sch
 Esteva, *Feng*, van der Wal, Huang, Simko, DeVries, Chen, Schaeffer, Morgan, Sun, Ghorbani, Naik, Nathawani, Socher, Michalski, Roach, Pisansky, Monson, Naz, Wallace, Ferguson, Bahary, Zou, Lungren, Yeung, Ross, Sandler, Tran, Spratt, Pugh, Feng and Mohamad<br />
 *npj Digital Medicine*, 2022<br />
 [\[paper\]](https://www.nature.com/articles/s41746-022-00613-w)<br />
-<span class="pub-tag pub-cat-applied">Applied: other</span><span class="pub-tag pub-topic">Clinical prediction models</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical prediction models</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="monitor regulatory" markdown="1">
