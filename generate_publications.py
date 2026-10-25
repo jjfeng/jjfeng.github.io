@@ -62,7 +62,7 @@ TOPIC_LABELS = {
     "eval": "Evaluation & auditing",
     "llm": "LLMs & generative AI",
     "interp": "Interpretability",
-    "causal": "Causal inference & decisions",
+    "causal": "Causal inference",
     "regulatory": "Regulatory science",
     "hci": "Human-AI interaction",
     "prediction": "Clinical prediction models",

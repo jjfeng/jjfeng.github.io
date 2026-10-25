@@ -7,7 +7,7 @@ title: Publications
 
 <div class="pub-filters">
 <div class="filter-row"><span class="filter-label">Type</span><button class="filter-btn active" data-group="category" data-filter="all">All</button><button class="filter-btn" data-group="category" data-filter="methods">Methods</button><button class="filter-btn" data-group="category" data-filter="applied">Applied</button><button class="filter-btn" data-group="category" data-filter="review">Review</button><button class="filter-btn" data-group="category" data-filter="perspective">Perspective</button></div>
-<div class="filter-row"><span class="filter-label">Topic</span><button class="filter-btn active" data-group="topic" data-filter="all">All topics</button><button class="filter-btn" data-group="topic" data-filter="prospect">PROSPECT</button><button class="filter-btn" data-group="topic" data-filter="monitor">Monitoring & updating</button><button class="filter-btn" data-group="topic" data-filter="eval">Evaluation & auditing</button><button class="filter-btn" data-group="topic" data-filter="llm">LLMs & generative AI</button><button class="filter-btn" data-group="topic" data-filter="interp">Interpretability</button><button class="filter-btn" data-group="topic" data-filter="causal">Causal inference & decisions</button><button class="filter-btn" data-group="topic" data-filter="regulatory">Regulatory science</button><button class="filter-btn" data-group="topic" data-filter="hci">Human-AI interaction</button><button class="filter-btn" data-group="topic" data-filter="prediction">Clinical prediction models</button><button class="filter-btn" data-group="topic" data-filter="hdml">High-dimensional statistics</button><button class="filter-btn" data-group="topic" data-filter="bio">Computational biology</button><button class="filter-btn" data-group="topic" data-filter="outcomes">Clinical outcomes research</button></div>
+<div class="filter-row"><span class="filter-label">Topic</span><button class="filter-btn active" data-group="topic" data-filter="all">All topics</button><button class="filter-btn" data-group="topic" data-filter="prospect">PROSPECT</button><button class="filter-btn" data-group="topic" data-filter="monitor">Monitoring & updating</button><button class="filter-btn" data-group="topic" data-filter="eval">Evaluation & auditing</button><button class="filter-btn" data-group="topic" data-filter="llm">LLMs & generative AI</button><button class="filter-btn" data-group="topic" data-filter="interp">Interpretability</button><button class="filter-btn" data-group="topic" data-filter="causal">Causal inference</button><button class="filter-btn" data-group="topic" data-filter="regulatory">Regulatory science</button><button class="filter-btn" data-group="topic" data-filter="hci">Human-AI interaction</button><button class="filter-btn" data-group="topic" data-filter="prediction">Clinical prediction models</button><button class="filter-btn" data-group="topic" data-filter="hdml">High-dimensional statistics</button><button class="filter-btn" data-group="topic" data-filter="bio">Computational biology</button><button class="filter-btn" data-group="topic" data-filter="outcomes">Clinical outcomes research</button></div>
 <div class="filter-count"></div>
 </div>
 
@@ -34,7 +34,7 @@ Vossler<sup>\*</sup>, *Feng*<sup>\*</sup>, Sivaraman, Gallo, Kanzaria, Freiser, 
 **Expert-guided g-computation with large language models for estimating causal effects on timings: Applications to hospital quality improvement**<br />
 Vossler, Ouyang, Guo, Huang, Shojaie, Zier, Xia and *Feng*<br />
 [\[arXiv\]](https://arxiv.org/abs/2608.10339)<br />
-<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">Causal inference & decisions</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">Causal inference</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="llm hci" markdown="1">
@@ -211,7 +211,7 @@ Foroutani, Chang, Kannan, Ganjouei, Wang, *Feng*, Thornblade, Hirose, Maker, Nak
 Zou, *Feng*, Kalimouttou, Zhang, Seymour and Pirracchio<br />
 *NeurIPS 2025 Workshop on Learning from Time Series for Health*, 2025<br />
 [\[paper\]](https://arxiv.org/pdf/2510.01508)<br />
-<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Causal inference & decisions</span>
+<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Causal inference</span>
 </div>
 
 <div class="publication" data-categories="review" data-topics="monitor" markdown="1">
@@ -235,7 +235,7 @@ Bennett, *Feng*, Goldman, Kothari, Gottlieb, Durstenfeld, Marks, Ehrlich, Davis 
 Kalimouttou, Kennedy, *Feng*, Singh, Saria, Angus, Seymour and Pirracchio<br />
 *JAMA*, 2025<br />
 [\[paper\]](https://doi.org/10.1001/jama.2025.3046)<br />
-<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Causal inference & decisions</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Causal inference</span>
 </div>
 
 <div class="publication" data-categories="applied" data-topics="outcomes" markdown="1">
@@ -306,7 +306,7 @@ Obra, Singh, Watkins, *Feng*, Obermeyer and Kornblith<br />
 *Feng*, Subbaswamy, Gossmann, Singh, Sahiner, Kim, Pennello, Petrick, Pirracchio and Xia<br />
 *Conference on Causal Learning and Reasoning*, 2024<br />
 [\[paper\]](https://proceedings.mlr.press/v236/feng24a.html)[\[code\]](https://github.com/jjfeng/monitoring_causally)[\[poster\]](clear_poster.pdf)<br />
-<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">Causal inference & decisions</span>
+<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">Causal inference</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="monitor causal" markdown="1">
@@ -314,7 +314,7 @@ Obra, Singh, Watkins, *Feng*, Obermeyer and Kornblith<br />
 *Feng*, Gossmann, Pennello, Petrick, Sahiner and Pirracchio<br />
 *AISTATS*, 2024<br />
 [\[paper\]](https://proceedings.mlr.press/v238/feng24b.html)[\[code\]](https://github.com/jjfeng/monitoring_ML_CMI)<br />
-<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">Causal inference & decisions</span>
+<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">Monitoring & updating</span><span class="pub-tag pub-topic">Causal inference</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="eval" markdown="1">
