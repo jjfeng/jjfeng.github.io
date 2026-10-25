@@ -224,7 +224,7 @@ The formal definitions of the dueling hypothesis tests: \(\mathcal{S}_\epsilon\)
 <h2>Try it yourself: audit the LLM!</h2>
 
 <p>
-Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQA</a>-style science questions. Each question has a <em>domain</em> (Biology, Chemistry, Physics) and a <em>school level</em> (elementary school, middle school, high school). Your task is to figure out if there is a category that our hypothetical LLM does poorly on. Try to do this in as few tries as possible! To control the Type I error rate at \(\alpha=0.05\), rejection of the null requires the e-process exceeding \(1/\alpha=20\).
+Imagine an LLM is being tested on a dataset of<a href="https://arxiv.org/abs/2311.12022">GPQA</a>-style science questions, where there are questions from <em>domains</em> (Biology, Chemistry, Physics) and <em>school levels</em> (elementary school, middle school, high school). Your task is to figure out if there is a category that our hypothetical LLM does poorly on. Try to do this in as few tries as possible! To control the Type I error rate at \(\alpha=0.05\), rejection of the null requires the e-process exceeding \(1/\alpha=20\).
 </p>
 
 <details class="hint"><summary>💡 Need a hint? Click to reveal</summary><i>Try sampling from each subgroup once before you use your intuition to focus on specific categories.</i></details>
@@ -368,7 +368,7 @@ Imagine an LLM is being tested on <a href="https://arxiv.org/abs/2311.12022">GPQ
     var n = state.eTrack.length - 1;
     if (state.rejected) {
       el.className = "status-banner status-passed";
-      el.textContent = "🏆 Auditor wins! You have rejected the null and shown sufficient statistical evidence that the LLM has a failure mode. 🏆";
+      el.textContent = "🏆 Auditor wins! You have rejected the null and shown sufficient statistical evidence that there is some failure mode with accuracy less than 80%. 🏆";
     } else if (n === 0) {
       el.className = "status-banner status-neutral";
       el.textContent = "Your initial wealth is 1. Click a category.";
