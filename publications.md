@@ -65,6 +65,13 @@ Sivaraman, Levin, Mason, Talisa, Saria, *Feng*, King, Kahn and Perer<br />
 <span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Human-AI interaction</span>
 </div>
 
+<div class="publication" data-categories="" data-topics="" markdown="1">
+**Learning the electronic health record at the minute-scale**<br />
+Narang, Addo, Bains, Firnberg, Tat, Hooft, Arrubla, Abed, Singh, Kamaleswaran, *Feng* and Kornblith<br />
+[\[medRxiv\]](https://www.medrxiv.org/content/10.64898/2026.10.04.26364562v1)<br />
+
+</div>
+
 <div class="publication" data-categories="methods" data-topics="hdml interp" markdown="1">
 **Sparse-Input Neural Networks for High-dimensional Nonparametric Regression and Classification**<br />
 *Feng* and Simon<br />
