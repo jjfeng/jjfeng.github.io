@@ -68,7 +68,7 @@ Sivaraman, Levin, Mason, Talisa, Saria, *Feng*, King, Kahn and Perer<br />
 <div class="publication" data-categories="" data-topics="" markdown="1">
 **Learning the electronic health record at the minute-scale**<br />
 Narang, Addo, Bains, Firnberg, Tat, Hooft, Arrubla, Abed, Singh, Kamaleswaran, *Feng* and Kornblith<br />
-[\[medRxiv\]](https://www.medrxiv.org/content/10.64898/2026.10.04.26364562v1)<br />
+[\[medRxiv\]](https://www.medrxiv.org/content/10.64898/2026.10.04.26364562v1)[\[code\]](https://github.com/Kornblith-Lab/MINT-public)<br />
 
 </div>
 
