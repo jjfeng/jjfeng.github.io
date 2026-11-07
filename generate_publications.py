@@ -82,7 +82,7 @@ TAG_DICT = {
     "Zhou2026-zy": (["methods"], ["monitor", "llm"]),
     "Garcia-Agundez2026-mz": (["applied"], ["monitor", "llm"]),
     "Sivaraman2026-rz": (["applied"], ["hci"]),
-    "Zhou2026-hn": (["methods"], ["eval"]),
+    "Zhou2026-hn": (["methods"], ["eval", "llm"]),
     "Williamson2020-lx": (["methods"], ["interp"]),
     "Davidsen2019-pq": (["methods"], ["bio"]),
     "Feng2019-zi": (["methods"], ["bio"]),
@@ -140,6 +140,7 @@ TAG_DICT = {
     "Forouzannia2026-ho": (["applied"], ["prediction"]),
     "Kim2026-vx": (["review"], []),
     "Foroutani2026-ip": (["applied"], ["outcomes"]),
+    "Narang2026-mw": (["methods", "applied"], ["prediction", "llm"]),
 }
 
 def wrap_tags(entry, pub_str):
