@@ -65,11 +65,11 @@ Sivaraman, Levin, Mason, Talisa, Saria, *Feng*, King, Kahn and Perer<br />
 <span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Human-AI interaction</span>
 </div>
 
-<div class="publication" data-categories="methods applied" data-topics="prediction llm" markdown="1">
+<div class="publication" data-categories="applied" data-topics="prediction llm" markdown="1">
 **Learning the electronic health record at the minute-scale**<br />
 Narang, Addo, Bains, Firnberg, Tat, Hooft, Arrubla, Abed, Singh, Kamaleswaran, *Feng* and Kornblith<br />
 [\[medRxiv\]](https://www.medrxiv.org/content/10.64898/2026.10.04.26364562v1)[\[code\]](https://github.com/Kornblith-Lab/MINT-public)<br />
-<span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical prediction models</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">Clinical prediction models</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
 </div>
 
 <div class="publication" data-categories="methods" data-topics="hdml interp" markdown="1">
