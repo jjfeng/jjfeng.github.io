@@ -14,14 +14,22 @@ title: Publications
 
 <div class="pub-section" markdown="1">
 
-## Preprints
+## In press
 
-<div class="publication" data-categories="applied" data-topics="prospect llm" markdown="1">
-**From Fuzzy to Formal: Scaling Hospital Quality Improvement with AI**<br />
+<div class="publication" data-categories="applied" data-topics="prospect llm hci" markdown="1">
+**AI-Assisted Hypothesis Generation for Hospital Quality Improvement**<br />
 Vossler<sup>\*</sup>, *Feng*<sup>\*</sup>, Sivaraman, Gallo, Kanzaria, Freiser, Ross, Ou, Marks, Ehrlich, Peabody and Zier<br />
-[\[arXiv\]](https://arxiv.org/abs/2604.20055)<br />
-<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">LLMs & generative AI</span>
+*npj Health Systems*, In press<br />
+[\[paper\]](https://arxiv.org/abs/2604.20055)<br />
+<span class="pub-tag pub-cat-applied">Applied</span><span class="pub-tag pub-topic">PROSPECT</span><span class="pub-tag pub-topic">LLMs & generative AI</span><span class="pub-tag pub-topic">Human-AI interaction</span>
 </div>
+
+</div>
+
+
+<div class="pub-section" markdown="1">
+
+## Preprints
 
 <div class="publication" data-categories="applied" data-topics="eval llm" markdown="1">
 **Expert Evaluation of Clinical AI Tools on Real Point-of-Care Clinical Queries**<br />

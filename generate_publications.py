@@ -141,6 +141,7 @@ TAG_DICT = {
     "Kim2026-vx": (["review"], []),
     "Foroutani2026-ip": (["applied"], ["outcomes"]),
     "Narang2026-mw": (["applied"], ["prediction", "llm"]),
+    "Vossler2027-ew": (["applied"], ["prospect", "llm", "hci"]),
 }
 
 def wrap_tags(entry, pub_str):
