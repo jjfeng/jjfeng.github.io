@@ -30,7 +30,7 @@ The position requires an MS or PhD in computer science, data science, or a relat
 * Has experience with natural language processing and processing clinical notes (strongly preferred)
 * Has interest in methodological development and independent research (strongly preferred)
 
-Formal application process through [UCSF portal](https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11221). In addition, please follow the instructions below.
+**Formal application process through [UCSF portal](https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11221). In addition, please follow the instructions below.**
 
 Please submit the following materials to
 <script type="text/javascript" language="javascript">
