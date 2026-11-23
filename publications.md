@@ -87,6 +87,13 @@ Narang, Addo, Bains, Firnberg, Tat, Hooft, Arrubla, Abed, Singh, Kamaleswaran, *
 <span class="pub-tag pub-cat-methods">Methods</span><span class="pub-tag pub-topic">High-dimensional statistics</span><span class="pub-tag pub-topic">Interpretability</span>
 </div>
 
+<div class="publication" data-categories="" data-topics="" markdown="1">
+**Use of AI-related CPT codes by patient, geographic, and payer characteristics in the U.s., 2021-2026**<br />
+Kim, Chang, *Feng*, Bedmutha, Poursoltan, Cao, Wellsjo, Floyd, Luo, Zhu, Boussina, Holland, Sitapati, Hallaj, Nemati, Gabriel, Khalessi, Longhurst, Singh and Ramsis<br />
+[\[medRxiv\]](https://www.medrxiv.org/content/10.64898/2026.11.09.26367689v1)<br />
+
+</div>
+
 </div>
 
 
